@@ -769,7 +769,7 @@ write.xlsx(
 ```{r final-table, echo=FALSE, purl=FALSE}
 
 sco_display_frame <- scoscore_frame |>
-  filter(scoScore >= 1) |>
+  filter(scoScore >= critical_threshold) |>
   select(
     corp_name,
     school_name,
