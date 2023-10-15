@@ -9,3 +9,11 @@ h1, h2, h3 {
 .figure-caption {
   font-family: Lato, Sans-Serif;
 }
+
+table {
+  font-family: "Fira Mono", Monospace;
+}
+
+caption {
+  font-family: Lato, Sans-Serif;
+}

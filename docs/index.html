@@ -6,7 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jeremy F Price">
+<meta name="author" content="Jeremy Price">
+<meta name="dcterms.date" content="2023-10-16">
 
 <title>School Context Opportunity Score (IUI 2030) - School Context Opportuntity Score</title>
 <style>
@@ -130,10 +131,74 @@ background: #990000;
       }
 </style>
 
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.30/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="assets/style.css">
+<meta name="citation_title" content="School Context Opportuntity Score">
+<meta name="citation_author" content="Jeremy Price">
+<meta name="citation_publication_date" content="2023-10-16">
+<meta name="citation_cover_date" content="2023-10-16">
+<meta name="citation_year" content="2023">
+<meta name="citation_online_date" content="2023-10-16">
+<meta name="citation_fulltext_html_url" content="https://jeremyfprice.github.io/scoscore-iui2030/">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=The igraph software package for complex network research;,citation_author=Gabor Csardi;,citation_author=Tamas Nepusz;,citation_publication_date=2006;,citation_cover_date=2006;,citation_year=2006;,citation_fulltext_html_url=https://igraph.org;,citation_volume=Complex Systems;,citation_journal_title=InterJournal;">
+<meta name="citation_reference" content="citation_title=R: A language and environment for statistical computing;,citation_author=R Core Team;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://www.R-project.org/;">
+<meta name="citation_reference" content="citation_title=AnthroTools: An r package for cross-cultural ethnographic data analysis. Cross-cultural research;,citation_author=B. G. Purzycki;,citation_author=A. Jamieson-Lane;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_fulltext_html_url=https://doi.org/10.1177/1069397116680352;,citation_volume=51;">
+<meta name="citation_reference" content="citation_title=Literate Programming;,citation_abstract=The author and his associates have been experimenting for the past several years with a programming language and documentation system called WEB. This paper presents WEB by example, and discusses why the new system appears to be an improvement over previous ones.;,citation_author=D. E. Knuth;,citation_publication_date=1984-01;,citation_cover_date=1984-01;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=The Computer Journal;">
+<meta name="citation_reference" content="citation_title=Tidygraph: A tidy API for graph manipulation;,citation_author=Thomas Lin Pedersen;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=tidygraph;">
+<meta name="citation_reference" content="citation_title=Ggraph: An implementation of grammar of graphics for graphs and networks;,citation_author=Thomas Lin Pedersen;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://CRAN.R-project.org/package=ggraph;">
+<meta name="citation_reference" content="citation_title=CINNA: An r/CRAN package to decipher central informative nodes in network analysis;,citation_author=Minoo Ashtiani;,citation_author=Mehdi Mirzaie;,citation_author=Mohieddin Jafari;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_fulltext_html_url=https://doi.org/10.1093/bioinformatics/bty819;,citation_issue=8;,citation_volume=35;,citation_journal_title=Bioinformatics;">
+<meta name="citation_reference" content="citation_title=Centiserve: Find graph centrality indices;,citation_author=Mahdi Jalili;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_fulltext_html_url=https://CRAN.R-project.org/package=centiserve;">
+<meta name="citation_reference" content="citation_title=The Freelisting Method;,citation_author=Marsha B. Quinlan;,citation_editor=Pranee Liamputtong;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;,citation_fulltext_html_url=http://link.springer.com/10.1007/978-981-10-2779-6_12-2;,citation_doi=10.1007/978-981-10-2779-6_12-2;,citation_isbn=978-981-10-2779-6;,citation_inbook_title=Handbook of Research Methods in Health Social Sciences;">
+<meta name="citation_reference" content="citation_title=Readr: Read rectangular text data;,citation_author=Hadley Wickham;,citation_author=Jim Hester;,citation_author=Jennifer Bryan;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=readr;">
+<meta name="citation_reference" content="citation_title=Rio: A swiss-army knife for data file i/o;,citation_author=Chung-hong Chan;,citation_author=Geoffrey CH Chan;,citation_author=Thomas J. Leeper;,citation_author=Jason Becker;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;">
+<meta name="citation_reference" content="citation_title=Glue: Interpreted string literals;,citation_author=Jim Hester;,citation_author=Jennifer Bryan;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://CRAN.R-project.org/package=glue;">
+<meta name="citation_reference" content="citation_title=Tidyr: Tidy messy data;,citation_author=Hadley Wickham;,citation_author=Davis Vaughan;,citation_author=Maximilian Girlich;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=tidyr;">
+<meta name="citation_reference" content="citation_title=Dplyr: A grammar of data manipulation;,citation_author=Hadley Wickham;,citation_author=Romain François;,citation_author=Lionel Henry;,citation_author=Kirill Müller;,citation_author=Davis Vaughan;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=dplyr;">
+<meta name="citation_reference" content="citation_title=Language-agnostic reproducible data analysis using literate programming;,citation_author=Boris Vassilev;,citation_author=Riku Louhimo;,citation_author=Elina Ikonen;,citation_author=Sampsa Hautaniemi;,citation_publication_date=2016;,citation_cover_date=2016;,citation_year=2016;,citation_issue=10;,citation_doi=10.1371/journal.pone.0164023;,citation_volume=11;,citation_journal_title=Plos one;">
+<meta name="citation_reference" content="citation_title=Facilitating Reproducibility and Collaboration with Literate Programming;,citation_author=Harrison Dekker;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;">
+<meta name="citation_reference" content="citation_title=Qualitative Analysis on Stage: Making the Research Process More Public;,citation_author=Vincent A. Anfara;,citation_author=Kathleen M. Brown;,citation_author=Terri L. Mangione;,citation_publication_date=2002;,citation_cover_date=2002;,citation_year=2002;,citation_fulltext_html_url=http://www.jstor.org/stable/3594403;,citation_issue=7;,citation_issn=0013-189X;,citation_volume=31;,citation_journal_title=Educational Researcher;">
+<meta name="citation_reference" content="citation_title=Advancing community-engaged research: Increasing trustworthiness within community-academic partnerships;,citation_author=C. Daniel Mullins;,citation_author=Sarah Tanveer;,citation_author=Gail Graham;,citation_author=Claudia Rose Baquet;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_publisher=Future Medicine;">
+<meta name="citation_reference" content="citation_title=Supporting ethical practice in community-engaged research with 4R: Respond, Record, Reflect, and Revise;,citation_author=Tommy Chou;,citation_author=Stacy L. Frazier;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_issue=5;,citation_doi=10.1080/10508422.2019.1645665;,citation_volume=30;,citation_journal_title=Ethics &amp;amp;amp; behavior;">
+<meta name="citation_reference" content="citation_title=Data sharing and community-engaged research;,citation_author=Maya Sabatello;,citation_author=Daphne O. Martschenko;,citation_author=Mildred K. Cho;,citation_author=Kyle B. Brothers;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_issue=6616;,citation_doi=10.1126/science.abq6851;,citation_volume=378;,citation_journal_title=Science;">
+<meta name="citation_reference" content="citation_title=First-year teachers’ support networks: Intentional professional networks and diverse professional allies;,citation_author=Kira J. Baker-Doyle;,citation_publication_date=2012;,citation_cover_date=2012;,citation_year=2012;,citation_issue=1;,citation_doi=10.1080/1547688X.2012.641870;,citation_volume=8;,citation_journal_title=The new educator;">
+<meta name="citation_reference" content="citation_title=The social side of teacher education: Implications of social network research for the design of professional development;,citation_author=Kira J. Baker-Doyle;,citation_author=Susan A. Yoon;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_doi=10.1016/j.ijer.2020.101563;,citation_volume=101;,citation_journal_title=International Journal of Educational Research;">
+<meta name="citation_reference" content="citation_title=“From complexity to construction to intersecting processes: Puzzles for theoretical and social inquiry”;,citation_author=Peter J. Taylor;,citation_publication_date=2018-09;,citation_cover_date=2018-09;,citation_year=2018;,citation_fulltext_html_url=https://www.sciencedirect.com/science/article/pii/S1476945X1730051X;,citation_doi=10.1016/j.ecocom.2017.06.006;,citation_issn=1476-945X;,citation_volume=35;,citation_journal_title=Ecological Complexity;,citation_series_title=Rosennean Complexity;">
+<meta name="citation_reference" content="citation_title=Unruly Complexity: Ecology, Interpretation, Engagement;,citation_author=Peter J. Taylor;,citation_publication_date=2010-12;,citation_cover_date=2010-12;,citation_year=2010;,citation_isbn=978-0-226-79039-8;">
+<meta name="citation_reference" content="citation_title=Epistemological Pluralism and the Revaluation of the Concrete;,citation_author=Sherry Turkle;,citation_author=Seymour Papert;,citation_publication_date=1992;,citation_cover_date=1992;,citation_year=1992;,citation_fulltext_html_url=http://www.papert.org/articles/EpistemologicalPluralism.html;">
+<meta name="citation_reference" content="citation_title=Ggthemes: Extra themes, scales and geoms for ’ggplot2’;,citation_author=Jeffrey B. Arnold;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_fulltext_html_url=https://CRAN.R-project.org/package=ggthemes;">
+<meta name="citation_reference" content="citation_title=Vistime: Pretty timelines in r;,citation_author=Sandro Raabe;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://CRAN.R-project.org/package=vistime;">
+<meta name="citation_reference" content="citation_title=Ggpubr: ’ggplot2’ based publication ready plots;,citation_author=Alboukadel Kassambara;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=ggpubr;">
+<meta name="citation_reference" content="citation_title=Ggcorrplot: Visualization of a correlation matrix using ’ggplot2’;,citation_author=Alboukadel Kassambara;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://CRAN.R-project.org/package=ggcorrplot;">
+<meta name="citation_reference" content="citation_title=Stringr: Simple, consistent wrappers for common string operations;,citation_author=Hadley Wickham;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://CRAN.R-project.org/package=stringr;">
+<meta name="citation_reference" content="citation_title=Here: A simpler way to find your files;,citation_author=Kirill Müller;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_fulltext_html_url=https://CRAN.R-project.org/package=here;">
+<meta name="citation_reference" content="citation_title=Openxlsx: Read, write and edit xlsx files;,citation_author=Philipp Schauberger;,citation_author=Alexander Walker;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=openxlsx;">
+<meta name="citation_reference" content="citation_title=Showtext: Using fonts more easily in r graphs;,citation_author=Yixuan Qiu;,citation_author=undefined software;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_fulltext_html_url=https://CRAN.R-project.org/package=showtext;">
+<meta name="citation_reference" content="citation_title=Performance of some resistant rules for outlier labeling;,citation_author=David C. Hoaglin;,citation_author=Boris Iglewicz;,citation_author=John W. Tukey;,citation_publication_date=1986;,citation_cover_date=1986;,citation_year=1986;,citation_issue=396;,citation_doi=10.1080/01621459.1986.10478363;,citation_volume=81;,citation_journal_title=Journal of the American Statistical Association;">
+<meta name="citation_reference" content="citation_title=Exploratory data analysis: Past, present and future;,citation_author=John W. Tukey;,citation_publication_date=1993;,citation_cover_date=1993;,citation_year=1993;,citation_technical_report_institution=PRINCETON UNIV NJ DEPT OF STATISTICS;">
+<meta name="citation_reference" content="citation_title=Laplacian centrality: A new centrality measure for weighted networks;,citation_author=Xingqin Qi;,citation_author=Eddie Fuller;,citation_author=Qin Wu;,citation_author=Yezhou Wu;,citation_author=Cun-Quan Zhang;,citation_publication_date=2012;,citation_cover_date=2012;,citation_year=2012;,citation_doi=10.1016/j.ins.2011.12.027;,citation_volume=194;,citation_journal_title=Information Sciences;">
+<meta name="citation_reference" content="citation_title=Leaders in Social Networks, the Delicious Case;,citation_author=Linyuan Lü;,citation_author=Yi-Cheng Zhang;,citation_author=Chi Ho Yeung;,citation_author=Tao Zhou;,citation_editor=Enrico Scalas;,citation_publication_date=2011-06;,citation_cover_date=2011-06;,citation_year=2011;,citation_fulltext_html_url=https://dx.plos.org/10.1371/journal.pone.0021202;,citation_issue=6;,citation_doi=10.1371/journal.pone.0021202;,citation_issn=1932-6203;,citation_volume=6;,citation_journal_title=PLoS ONE;">
+<meta name="citation_reference" content="citation_title=Efficient behavior of small-world networks;,citation_author=V. Latora;,citation_author=M. Marchiori;,citation_publication_date=2001-11;,citation_cover_date=2001-11;,citation_year=2001;,citation_issue=19;,citation_doi=10.1103/PhysRevLett.87.198701;,citation_issn=0031-9007;,citation_pmid=11690461;,citation_volume=87;,citation_journal_title=Physical Review Letters;">
+<meta name="citation_reference" content="citation_title=A New Measure of Centrality for Brain Networks;,citation_author=Karen E. Joyce;,citation_author=Paul J. Laurienti;,citation_author=Jonathan H. Burdette;,citation_author=Satoru Hayasaka;,citation_publication_date=2010-08;,citation_cover_date=2010-08;,citation_year=2010;,citation_fulltext_html_url=https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012200;,citation_issue=8;,citation_doi=10.1371/journal.pone.0012200;,citation_issn=1932-6203;,citation_volume=5;,citation_journal_title=PLOS ONE;">
+<meta name="citation_reference" content="citation_title=The centrality of groups and classes;,citation_author=Martin G. Everett;,citation_author=Stephen P. Borgatti;,citation_publication_date=1999;,citation_cover_date=1999;,citation_year=1999;,citation_issue=3;,citation_doi=10.1080/0022250X.1999.9990219;,citation_volume=23;,citation_journal_title=The Journal of mathematical sociology;">
+<meta name="citation_reference" content="citation_title=Centrality: Concepts and measures;,citation_author=Stephen P. Borgatti;,citation_author=Daniel J. Brass;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_doi=10.4324/9780203701942-2;,citation_journal_title=Social networks at work;">
+<meta name="citation_reference" content="citation_title=The Savage Mind;,citation_author=C Lévi-Strauss;,citation_publication_date=1968;,citation_cover_date=1968;,citation_year=1968;">
+<meta name="citation_reference" content="citation_title=Multilayer Networks: Tutorial Talk on &amp;amp;amp;quot;Multiplexity, Networks of Networks, and All That Jazz&amp;quot;;,citation_author=Mason A Porter;,citation_publication_date=2014;,citation_cover_date=2014;,citation_year=2014;,citation_fulltext_html_url=https://www.slideshare.net/masonporter/multilayer-tutorialnetsci2014slightlyupdated;">
+<meta name="citation_reference" content="citation_title=From social networks to knowledge graphs: A plea for interdisciplinary approaches;,citation_author=Jens Dörpinghaus;,citation_author=Sonja Klante;,citation_author=Martin Christian;,citation_author=Christof Meigen;,citation_author=Carsten Düing;,citation_publication_date=2022-01;,citation_cover_date=2022-01;,citation_year=2022;,citation_fulltext_html_url=https://www.sciencedirect.com/science/article/pii/S2590291122000912;,citation_issue=1;,citation_doi=10.1016/j.ssaho.2022.100337;,citation_issn=2590-2911;,citation_volume=6;,citation_journal_title=Social Sciences &amp;amp;amp; Humanities Open;">
+<meta name="citation_reference" content="citation_title=Communities in Networks;,citation_author=Mason A Porter;,citation_author=Jukka-Pekka Onnela;,citation_author=Peter J. Mucha;,citation_publication_date=2009-09;,citation_cover_date=2009-09;,citation_year=2009;,citation_fulltext_html_url=http://arxiv.org/abs/0902.3788;,citation_doi=10.48550/arXiv.0902.3788;,citation_publisher=arXiv;">
+<meta name="citation_reference" content="citation_title=Dialogic inquiry in life science conversations of family groups in a museum;,citation_author=Doris Ash;,citation_publication_date=2003;,citation_cover_date=2003;,citation_year=2003;,citation_fulltext_html_url=https://onlinelibrary.wiley.com/doi/abs/10.1002/tea.10069;,citation_issue=2;,citation_doi=10.1002/tea.10069;,citation_issn=1098-2736;,citation_volume=40;,citation_journal_title=Journal of Research in Science Teaching;">
 </head>
 
 <body>
@@ -153,7 +218,7 @@ background: #990000;
     <div class="quarto-title-meta-heading">Affiliation</div>
     
       <div class="quarto-title-meta-contents">
-      <p class="author"><a href="https://www.jeremyfprice.info/">Jeremy F Price</a> <a href="https://orcid.org/0000-0002-6506-3526" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+      <p class="author"><a href="https://www.jeremyfprice.info/">Jeremy Price</a> <a href="https://orcid.org/0000-0002-6506-3526" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
     </div>
       <div class="quarto-title-meta-contents">
           <p class="affiliation">
@@ -165,6 +230,12 @@ background: #990000;
   <div class="quarto-title-meta">
 
         
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 16, 2023</p>
+      </div>
+    </div>
     
       
     </div>
@@ -200,8 +271,8 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 \]</span></p>
 <p>where <span class="math inline">\(S_{O}\)</span> is the SCOscore, <span class="math inline">\(P_{urm}\)</span> is the proportion of underrepresented minority students, <span class="math inline">\(P_{frl}\)</span> is the proportion of students eligible for free or reduced lunch, and <span class="math inline">\(S_{ac}\)</span> is an academic achievement score for the school as a whole. The academic achievement score (<span class="math inline">\(S_{ac}\)</span>) accounts for 3rd grade ELA proficiency, 6th grade math proficiency, and graduation pathways completion rates.</p>
 </section>
-<section id="requirements" class="level1">
-<h1>Requirements</h1>
+<section id="requirements-and-getting-started" class="level1">
+<h1>Requirements and Getting Started</h1>
 <p>The SCOscore script and algorithm have been developed in the R Statistical Computing Language <span class="citation" data-cites="rCoreTeam2023r">(<a href="#ref-rCoreTeam2023r" role="doc-biblioref">R Core Team 2023</a>)</span>. As such, R and the <abbr title="Integrated Development Environment">IDE</abbr> RStudio should be installed. Instructions for Installing R and RStudio can be found on the <a href="https://rstudio-education.github.io/hopr/starting.html">Installing R and RStudio</a> page of the online book <em><a href="https://rstudio-education.github.io/hopr/">Hands-On Programming with R</a></em>.</p>
 <p>All necessary files are available as a GitHub <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories">repository</a>, <a href="https://github.com/jeremyfprice/scoscore-iui2030">scoscore-iui2030</a>. GitHub provides a <a href="https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives">tutorial on downloading repositories</a>.</p>
 <p>Once the repository is downloaded, the files are part of a <code>renv</code> reproducible environment. The <code>renv</code> package needs to be installed with the following command in the RStudio Console:</p>
@@ -213,6 +284,12 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">restore</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Once the command is given, all libraries and packages associated with this project will be installed in the local environment.</p>
+<p>The script itself can be initiated either by:</p>
+<ol type="1">
+<li>Changing the Constants (see below) to fit the need; and</li>
+<li>Clicking on the [-&gt;Render] button for <code>index.qmd</code> or [-&gt;Run] for <code>process-scoscore.R</code>.</li>
+</ol>
+<p>The output will be an Excel <code>.xlsx</code> file in the <code>output</code> folder named <code>*-in-scoscore-schools.xlsx</code> where <code>*</code> represents the focus year.</p>
 <section id="file-structure" class="level2">
 <h2 class="anchored" data-anchor-id="file-structure">File Structure</h2>
 <p>The <code>scoscore-iui2030</code> directory is structured in the following manner:</p>
@@ -226,35 +303,34 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 ┣ CITATION.cff            &lt;- Machine-readable citation format
 ┣ CODE_OF_CONDUCT.md      &lt;- Code of Conduct for project contributors
 ┣ data/                   &lt;- Directory for all input data
-┃ ┗ *-in-school-corp-locale.csv
-┃ ┃                       &lt;- Urban centric locale data by year
-┃ ┗ *-in-school-demographics.csv
-┃ ┃                       &lt;- School demographic data by year
-┃ ┗ *-in-school-gcr.csv   &lt;- School graduate completion rate data by year
-┃ ┗ *-in-school-ilearn6.csv
-┃ ┃                       &lt;- School ILEARN-6 math data by year
-┃ ┗ *-in-school-iread3.csv
-┃                         &lt;- School IREAD-3 data by year
+┃ ┗ *-in-school-corp-locale.csv  &lt;- Urban centric locale data by year
+┃ ┗ *-in-school-demographics.csv &lt;- School demographic data by year
+┃ ┗ *-in-school-gcr.csv          &lt;- School graduate completion rate data by year
+┃ ┗ *-in-school-ilearn6.csv      &lt;- School ILEARN-6 math data by year
+┃ ┗ *-in-school-iread3.csv       &lt;- School IREAD-3 data by year
 ┣ docs/                   &lt;- Directory for the rendered website
 ┣ index.qmd               &lt;- This file, the documentation in QMD format
 ┣ LICENSE                 &lt;- License (MIT) for project
 ┣ output/                 &lt;- Directory for collecting output files
-┃ ┗ *plots/*-in-scoscore-schools.xlsx
-┃                         &lt;- Excel SCOscore output files by year
+┃ ┗ *-in-scoscore-schools.xlsx   &lt;- Excel SCOscore output files by year
 ┣ R/                      &lt;- Directory for storing R scripts
 ┃ ┗ process-scoscore.R    &lt;- R script distilled from this file
+┣ README.md               &lt;- General overview of the project
 ┣ renv/                   &lt;- renv directory
 ┣ renv.lock               &lt;- renv lockfile
 ┗ scoscore-iui2023.Rproj  &lt;- R Project file</code></pre>
 </section>
 <section id="data-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="data-preparation">Data Preparation</h2>
-<p>Blah.</p>
+<p>All “raw” data files are available through the IDOE <a href="https://www.in.gov/doe/it/data-center-and-reports/">Data Center &amp; Reports</a> page. These files do need some adjustments to standardize them and they need to be saved as <code>.csv</code>, not <code>.xlsx</code> files.</p>
+<p>All of these files represent key metrics in the IDOE’s <a href="https://indianagps.doe.in.gov/#skipOverview">Graduates Prepared to Succeed</a> reporting system.</p>
 <section id="iread-3-test-scores" class="level3">
 <h3 class="anchored" data-anchor-id="iread-3-test-scores">IREAD-3 Test Scores</h3>
-<p>Blah.</p>
+<p>The IREAD-3 data can be found under the <strong><a href="https://www.in.gov/doe/it/data-center-and-reports/#:~:text=IREAD%2D3%20Assessment%20Results">IREAD-3 Assessment Results</a></strong> heading. The IREAD-3 Corporation and School Results file for the appropriate year should be downloaded and opened with Microsoft Excel. For the purposes of this process, only the <code>School</code> worksheet is required.</p>
+<p>Any extraneous rows, such as titles, explainations, or notes, should be removed. Once the extra rows have been removed, the <code>IREAD PASS N</code> and <code>IREAD TEST N</code> columns should be removed.</p>
+<p>The remaining columns should be renamed (all lowercase, with underscores <code>_</code> in appropriate places) in the following manner:</p>
 <table class="table">
-<caption>Graduation Rates spreadsheet format.</caption>
+<caption>Required IREAD-3 spreadsheet structure</caption>
 <thead>
 <tr class="header">
 <th>corp_id</th>
@@ -274,12 +350,15 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 </tr>
 </tbody>
 </table>
+<p>Once that has been completed, the <code>School</code> worksheet should be saved in the <code>data</code> folder using the following naming convention: <code>YYYY-in-school-iread3.csv</code> where <code>YYYY</code> represents the year of the data.</p>
 </section>
 <section id="ilearn-6-math-scores" class="level3">
 <h3 class="anchored" data-anchor-id="ilearn-6-math-scores">ILEARN-6 Math Scores</h3>
-<p>Blah.</p>
+<p>The ILEARN-6 Math data can be found under the <strong><a href="https://www.in.gov/doe/it/data-center-and-reports/#:~:text=ILEARN%20Assessment%20Results">ILEARN Assessment Results</a></strong> heading. The ILEARN Grade 3-8 School Results file for the appropriate year should be downloaded and opened with Microsoft Excel. For the purposes of this process, only the <code>Math</code> worksheet is required.</p>
+<p>Any extraneous rows, such as titles, explainations, or notes, should be removed. Once the extra rows have been removed, only 6th grade data is required, in particular the 6th grade <code>Math Proficient %</code> column. All other grades and indicators should be removed.</p>
+<p>The remaining columns should be renamed (all lowercase, with underscores <code>_</code> in appropriate places) in the following manner:</p>
 <table class="table">
-<caption>Graduation Rates spreadsheet format.</caption>
+<caption>Required ILEARN-6 math spreadsheet structure</caption>
 <thead>
 <tr class="header">
 <th>corp_id</th>
@@ -299,11 +378,15 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 </tr>
 </tbody>
 </table>
+<p>Once that has been completed, the <code>Math</code> worksheet should be saved in the <code>data</code> folder using the following naming convention: <code>YYYY-in-school-ilearn6.csv</code> where <code>YYYY</code> represents the year of the data.</p>
 </section>
 <section id="high-school-graduation-rates" class="level3">
 <h3 class="anchored" data-anchor-id="high-school-graduation-rates">High School Graduation Rates</h3>
+<p>The high school graduation pathways completion data can be found under the <strong><a href="https://www.in.gov/doe/it/data-center-and-reports/#:~:text=Graduation%20%26%20College%20/Career%20Readiness">Graduation &amp; College/Career Readiness</a></strong> heading. The State Graduation Rate Data file for the appropriate year should be downloaded and opened with Microsoft Excel. For the purposes of this process, only the <code>School Pub Disagg</code> worksheet is required.</p>
+<p>Any extraneous rows, such as titles, explainations, or notes, should be removed. Once the extra rows have been removed, only data under the <code>Total</code> heading is required, in particular the <code>Graduation Rate</code> column. All other indicators should be removed.</p>
+<p>The remaining columns should be renamed (all lowercase, with underscores <code>_</code> in appropriate places) in the following manner:</p>
 <table class="table">
-<caption>Graduation Rates spreadsheet format.</caption>
+<caption>Required Graduation Rates spreadsheet structure</caption>
 <thead>
 <tr class="header">
 <th>corp_id</th>
@@ -323,6 +406,7 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 </tr>
 </tbody>
 </table>
+<p>Once that has been completed, the <code>School Pub Disagg</code> worksheet should be saved in the <code>data</code> folder using the following naming convention: <code>YYYY-in-school-gcr.csv</code> where <code>YYYY</code> represents the year of the data.</p>
 </section>
 </section>
 </section>
@@ -337,6 +421,7 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 <li><code>here</code> <span class="citation" data-cites="muller2020here">(<a href="#ref-muller2020here" role="doc-biblioref">Müller 2020</a>)</span> provides a simple way to find files in folders;</li>
 <li><code>openxlsx</code> <span class="citation" data-cites="schauberger2023openxlsx">(<a href="#ref-schauberger2023openxlsx" role="doc-biblioref">Schauberger and Walker 2023</a>)</span> provides R with the functionality to write and read Microsoft Excel (<code>.xlsx</code>) files;</li>
 <li><code>glue</code> <span class="citation" data-cites="hester2022glue">(<a href="#ref-hester2022glue" role="doc-biblioref">Hester and Bryan 2022</a>)</span>, <code>tidyr</code> <span class="citation" data-cites="wickham2023tidyr">(<a href="#ref-wickham2023tidyr" role="doc-biblioref">Wickham, Vaughan, and Girlich 2023</a>)</span>, <code>dplyr</code> <span class="citation" data-cites="wickham2023dplyr">(<a href="#ref-wickham2023dplyr" role="doc-biblioref">Wickham et al. 2023</a>)</span>, and <code>stringr</code> <span class="citation" data-cites="wickham2022stringr">(<a href="#ref-wickham2022stringr" role="doc-biblioref">Wickham 2022</a>)</span> are used to process and clean data;</li>
+<li><code>DT</code> provides the ability to display the web-based table at the end of this document;</li>
 <li><code>showtext</code> <span class="citation" data-cites="qiu2023showtext">(<a href="#ref-qiu2023showtext" role="doc-biblioref">Qiu and software 2023</a>)</span> allows Google Fonts to be loaded and displayed. <code>curl</code> is included to ensure that <code>showtext</code> can run within a <code>renv</code> reproducible environment.</li>
 </ul>
 <div class="cell">
@@ -348,7 +433,8 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(curl)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(showtext)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(showtext)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DT)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="set-constants" class="level2">
@@ -619,70 +705,102 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 <section id="calculate-scoscore" class="level2">
 <h2 class="anchored" data-anchor-id="calculate-scoscore">Calculate SCOscore</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>scoscore_frame <span class="ot">&lt;-</span> locale_frame <span class="sc">|&gt;</span></span>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>scoscore_demographics <span class="ot">&lt;-</span> locale_frame <span class="sc">|&gt;</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    demographics_frame,</span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
 <span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    iread_frame,</span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
-<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
-<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    ilearn_frame,</span>
-<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
-<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
-<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    grad_frame,</span>
-<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
-<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(corp_name)) <span class="sc">|&gt;</span></span>
-<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">iread_rate_adj =</span> <span class="fu">as.numeric</span>(<span class="fu">if_else</span>(</span>
-<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>    iread_rate <span class="sc">&lt;</span> state_3rd_proficiency,</span>
-<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    (state_3rd_proficiency <span class="sc">-</span> iread_rate <span class="sc">+</span> <span class="dv">1</span>),</span>
-<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span></span>
-<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>  ))) <span class="sc">|&gt;</span></span>
-<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">ilearn_rate_adj =</span> <span class="fu">as.numeric</span>(<span class="fu">if_else</span>(</span>
-<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>    ilearn_rate <span class="sc">&lt;</span> state_6th_proficiency,</span>
-<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>    (state_6th_proficiency <span class="sc">-</span> ilearn_rate <span class="sc">+</span> <span class="dv">1</span>),</span>
-<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span></span>
-<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>  ))) <span class="sc">|&gt;</span></span>
-<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">grad_rate_adj =</span> <span class="fu">as.numeric</span>(<span class="fu">if_else</span>(</span>
-<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    grad_rate <span class="sc">&lt;</span> state_gpc,</span>
-<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>    (state_gpc <span class="sc">-</span> grad_rate <span class="sc">+</span> <span class="dv">1</span>),</span>
-<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span></span>
-<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>  ))) <span class="sc">|&gt;</span></span>
-<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rowwise</span>() <span class="sc">|&gt;</span></span>
-<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">adj_academic =</span> <span class="fu">round</span>(</span>
-<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mean</span>(</span>
-<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a>        <span class="fu">c</span>(iread_rate_adj, ilearn_rate_adj, grad_rate_adj),</span>
-<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>        <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
-<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
-<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="fu">contains</span>(<span class="fu">c</span>(</span>
-<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>      <span class="st">"iread"</span>,</span>
-<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ilearn"</span>,</span>
-<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a>      <span class="st">"grad"</span>))) <span class="sc">|&gt;</span></span>
-<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">scoScore =</span> (</span>
-<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a>      ((urm_percent <span class="sc">*</span> <span class="fl">1.5</span>) <span class="sc">+</span> (frl_percent <span class="sc">*</span> <span class="fl">1.5</span>) <span class="sc">+</span> (adj_academic)) <span class="sc">/</span> <span class="dv">3</span></span>
-<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rounded_up =</span> <span class="fu">if_else</span>(</span>
-<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>    scoScore <span class="sc">&lt;</span> critical_threshold <span class="sc">&amp;</span> scoScore <span class="sc">&gt;=</span> round_threshold,</span>
-<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a>    <span class="cn">TRUE</span>,</span>
-<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a>    <span class="cn">FALSE</span></span>
-<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
-<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">scoScore =</span> <span class="fu">if_else</span>(</span>
-<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a>    scoScore <span class="sc">&lt;</span> critical_threshold <span class="sc">&amp;</span> scoScore <span class="sc">&gt;=</span> round_threshold,</span>
-<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,</span>
-<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a>    scoScore</span>
-<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
-<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>() <span class="sc">|&gt;</span></span>
-<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">counter_factual =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">".y"</span>))</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>scoscore_iread <span class="ot">&lt;-</span> scoscore_demographics <span class="sc">|&gt;</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>    iread_frame,</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">".y"</span>))</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>scoscore_ilearn <span class="ot">&lt;-</span> scoscore_iread <span class="sc">|&gt;</span></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    ilearn_frame,</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">corp_name =</span> <span class="fu">if_else</span>(</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">is.na</span>(corp_name),</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    corp_name.y,</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    corp_name</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">school_name =</span> <span class="fu">if_else</span>(</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>    <span class="fu">is.na</span>(school_name),</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>    school_name.y,</span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>    school_name</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">".y"</span>))</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>scoscore_grad <span class="ot">&lt;-</span> scoscore_ilearn <span class="sc">|&gt;</span></span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">full_join</span>(</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>    grad_frame,</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"corp_id"</span>, <span class="st">"school_id"</span>),</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">suffix=</span><span class="fu">c</span>(<span class="st">""</span>,<span class="st">".y"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">corp_name =</span> <span class="fu">if_else</span>(</span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>    <span class="fu">is.na</span>(corp_name),</span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a>    corp_name.y,</span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>    corp_name</span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">school_name =</span> <span class="fu">if_else</span>(</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">is.na</span>(school_name),</span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a>    school_name.y,</span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>    school_name</span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">ends_with</span>(<span class="st">".y"</span>))</span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>scoscore_frame <span class="ot">&lt;-</span> scoscore_grad <span class="sc">|&gt;</span></span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(corp_name)) <span class="sc">|&gt;</span></span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(urm_percent)) <span class="sc">|&gt;</span></span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(frl_percent)) <span class="sc">|&gt;</span></span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">iread_rate_adj =</span> <span class="fu">as.numeric</span>(<span class="fu">if_else</span>(</span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>    iread_rate <span class="sc">&lt;</span> state_3rd_proficiency,</span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a>    (state_3rd_proficiency <span class="sc">-</span> iread_rate <span class="sc">+</span> <span class="dv">1</span>),</span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span></span>
+<span id="cb14-57"><a href="#cb14-57" aria-hidden="true" tabindex="-1"></a>  ))) <span class="sc">|&gt;</span></span>
+<span id="cb14-58"><a href="#cb14-58" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">ilearn_rate_adj =</span> <span class="fu">as.numeric</span>(<span class="fu">if_else</span>(</span>
+<span id="cb14-59"><a href="#cb14-59" aria-hidden="true" tabindex="-1"></a>    ilearn_rate <span class="sc">&lt;</span> state_6th_proficiency,</span>
+<span id="cb14-60"><a href="#cb14-60" aria-hidden="true" tabindex="-1"></a>    (state_6th_proficiency <span class="sc">-</span> ilearn_rate <span class="sc">+</span> <span class="dv">1</span>),</span>
+<span id="cb14-61"><a href="#cb14-61" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span></span>
+<span id="cb14-62"><a href="#cb14-62" aria-hidden="true" tabindex="-1"></a>  ))) <span class="sc">|&gt;</span></span>
+<span id="cb14-63"><a href="#cb14-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">grad_rate_adj =</span> <span class="fu">as.numeric</span>(<span class="fu">if_else</span>(</span>
+<span id="cb14-64"><a href="#cb14-64" aria-hidden="true" tabindex="-1"></a>    grad_rate <span class="sc">&lt;</span> state_gpc,</span>
+<span id="cb14-65"><a href="#cb14-65" aria-hidden="true" tabindex="-1"></a>    (state_gpc <span class="sc">-</span> grad_rate <span class="sc">+</span> <span class="dv">1</span>),</span>
+<span id="cb14-66"><a href="#cb14-66" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span></span>
+<span id="cb14-67"><a href="#cb14-67" aria-hidden="true" tabindex="-1"></a>  ))) <span class="sc">|&gt;</span></span>
+<span id="cb14-68"><a href="#cb14-68" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rowwise</span>() <span class="sc">|&gt;</span></span>
+<span id="cb14-69"><a href="#cb14-69" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb14-70"><a href="#cb14-70" aria-hidden="true" tabindex="-1"></a>    <span class="at">adj_academic =</span> <span class="fu">round</span>(</span>
+<span id="cb14-71"><a href="#cb14-71" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mean</span>(</span>
+<span id="cb14-72"><a href="#cb14-72" aria-hidden="true" tabindex="-1"></a>        <span class="fu">c</span>(iread_rate_adj, ilearn_rate_adj, grad_rate_adj),</span>
+<span id="cb14-73"><a href="#cb14-73" aria-hidden="true" tabindex="-1"></a>        <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb14-74"><a href="#cb14-74" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb14-75"><a href="#cb14-75" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb14-76"><a href="#cb14-76" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb14-77"><a href="#cb14-77" aria-hidden="true" tabindex="-1"></a>    <span class="sc">-</span><span class="fu">contains</span>(<span class="fu">c</span>(</span>
+<span id="cb14-78"><a href="#cb14-78" aria-hidden="true" tabindex="-1"></a>      <span class="st">"iread"</span>,</span>
+<span id="cb14-79"><a href="#cb14-79" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ilearn"</span>,</span>
+<span id="cb14-80"><a href="#cb14-80" aria-hidden="true" tabindex="-1"></a>      <span class="st">"grad"</span>))) <span class="sc">|&gt;</span></span>
+<span id="cb14-81"><a href="#cb14-81" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb14-82"><a href="#cb14-82" aria-hidden="true" tabindex="-1"></a>    <span class="at">scoScore =</span> (</span>
+<span id="cb14-83"><a href="#cb14-83" aria-hidden="true" tabindex="-1"></a>      ((urm_percent <span class="sc">*</span> <span class="fl">1.5</span>) <span class="sc">+</span> (frl_percent <span class="sc">*</span> <span class="fl">1.5</span>) <span class="sc">+</span> (adj_academic)) <span class="sc">/</span> <span class="dv">3</span></span>
+<span id="cb14-84"><a href="#cb14-84" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb14-85"><a href="#cb14-85" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb14-86"><a href="#cb14-86" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rounded_up =</span> <span class="fu">if_else</span>(</span>
+<span id="cb14-87"><a href="#cb14-87" aria-hidden="true" tabindex="-1"></a>    scoScore <span class="sc">&lt;</span> critical_threshold <span class="sc">&amp;</span> scoScore <span class="sc">&gt;=</span> round_threshold,</span>
+<span id="cb14-88"><a href="#cb14-88" aria-hidden="true" tabindex="-1"></a>    <span class="cn">TRUE</span>,</span>
+<span id="cb14-89"><a href="#cb14-89" aria-hidden="true" tabindex="-1"></a>    <span class="cn">FALSE</span></span>
+<span id="cb14-90"><a href="#cb14-90" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb14-91"><a href="#cb14-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">scoScore =</span> <span class="fu">if_else</span>(</span>
+<span id="cb14-92"><a href="#cb14-92" aria-hidden="true" tabindex="-1"></a>    scoScore <span class="sc">&lt;</span> critical_threshold <span class="sc">&amp;</span> scoScore <span class="sc">&gt;=</span> round_threshold,</span>
+<span id="cb14-93"><a href="#cb14-93" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,</span>
+<span id="cb14-94"><a href="#cb14-94" aria-hidden="true" tabindex="-1"></a>    scoScore</span>
+<span id="cb14-95"><a href="#cb14-95" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">|&gt;</span></span>
+<span id="cb14-96"><a href="#cb14-96" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">counter_factual =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Conduct a counterfactual analysis to ensure fairness for school corporations. If a school corporation has an adjusted academic score <strong>above</strong> mean academic score + 1 standard deviation then adjust the non-white and free and reduced lunch percents to the state average if these are <strong>lower</strong> than the state mean. This gives some school corporations a little “bump” so that it cannot be said that any group is given an “unfair” advantage. If the newly calculated SCOscore is then &gt;=1, then keep that counterfactual score.</p>
 <div class="cell">
@@ -786,6 +904,16 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
 <span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+</section>
+<section id="the-end-result" class="level1">
+<h1>The End Result</h1>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4fef16bd7f17d1c3b56b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4fef16bd7f17d1c3b56b">{"x":{"filter":"none","vertical":false,"data":[["Gary Community School Corp","Gary Community School Corp","South Bend Community School Corp","South Bend Community School Corp","Indianapolis Public Schools","Indianapolis Public Schools","Gary Community School Corp","Fort Wayne Community Schools","Indianapolis Public Schools","MSD Lawrence Township","School City of East Chicago","Fort Wayne Community Schools","Fort Wayne Community Schools","South Bend Community School Corp","Gary Community School Corp","Gary Community School Corp","South Bend Community School Corp","Indianapolis Public Schools","Indianapolis Public Schools","Gary Community School Corp","South Bend Community School Corp","South Bend Community School Corp","Indianapolis Public Schools","Elkhart Community Schools","South Bend Community School Corp","Indianapolis Public Schools","East Allen County Schools","Indianapolis Public Schools","Indianapolis Public Schools","South Bend Community School Corp","Gary Community School Corp","School City of East Chicago","MSD Lawrence Township","MSD Lawrence Township","MSD Lawrence Township","Indianapolis Public Schools","School City of Hammond","Indianapolis Public Schools","MSD Pike Township","Gary Community School Corp","Indianapolis Public Schools","School City of East Chicago","Evansville Vanderburgh School Corp","School City of Hammond","Indianapolis Public Schools","Anderson Community School Corp","Indianapolis Public Schools","Indianapolis Public Schools","School City of East Chicago","MSD Wayne Township","School City of East Chicago","MSD Pike Township","South Bend Community School Corp","Perry Township Schools","MSD Wayne Township","MSD Lawrence Township","MSD Warren Township","Perry Township Schools","MSD Warren Township","Fort Wayne Community Schools","Gary Community School Corp","Merrillville Community School Corp","Seymour Community Schools","South Bend Community School Corp","Indianapolis Public Schools","South Bend Community School Corp","Fort Wayne Community Schools","Elkhart Community Schools","Indianapolis Public Schools","Concord Community Schools","Indianapolis Public Schools","School City of Hammond","MSD Warren Township","Elkhart Community Schools","South Bend Community School Corp","Merrillville Community School Corp","Fort Wayne Community Schools","Indianapolis Public Schools","Indianapolis Public Schools","Lake Ridge New Tech Schools","Evansville Vanderburgh School Corp","MSD Warren Township","School City of Hammond","Evansville Vanderburgh School Corp","South Bend Community School Corp","Fort Wayne Community Schools","MSD Pike Township","Indianapolis Public Schools","Michigan City Area Schools","School City of Hammond","School City of Hammond","MSD Pike Township","Indianapolis Public Schools","School City of Hammond","MSD Pike Township","MSD Wayne Township","School City of Hammond","MSD Wayne Township","Evansville Vanderburgh School Corp","MSD Warren Township","Fort Wayne Community Schools","School City of Hammond","South Bend Community School Corp","Fort Wayne Community Schools","School City of Hammond","School City of Hammond","Muncie Community Schools","Indianapolis Public Schools","MSD Pike Township","South Bend Community School Corp","MSD Wayne Township","Indianapolis Public Schools","School City of Hammond","Lake Ridge New Tech Schools","MSD Warren Township","Elkhart Community Schools","MSD Pike Township","MSD Pike Township","Perry Township Schools","MSD Lawrence Township","School City of Hammond","MSD Warren Township","MSD Wayne Township","School City of Hammond","MSD Pike Township","Fort Wayne Community Schools","Indianapolis Public Schools","Perry Township Schools","Perry Township Schools","School City of Whiting","River Forest Community Sch Corp","Lafayette School Corporation","MSD Warren Township","Indianapolis Public Schools","Merrillville Community School Corp","Greater Clark County Schools","Indianapolis Public Schools","Kokomo School Corporation","Fort Wayne Community Schools","Goshen Community Schools","Lake Ridge New Tech Schools","MSD Warren Township","Indianapolis Public Schools","Indianapolis Public Schools","MSD Washington Township","MSD Washington Township","MSD Washington Township","MSD Pike Township","Fort Wayne Community Schools","MSD Washington Township","Evansville Vanderburgh School Corp","Fort Wayne Community Schools","MSD Wayne Township","MSD Washington Township","Indianapolis Public Schools","Merrillville Community School Corp","South Bend Community School Corp","School City of Mishawaka","Evansville Vanderburgh School Corp","Logansport Community Sch Corp","Evansville Vanderburgh School Corp","Fort Wayne Community Schools","MSD Washington Township","Lake Station Community Schools","MSD Wayne Township","Indianapolis Public Schools","Indianapolis Public Schools","MSD Warren Township","MSD Warren Township","Elkhart Community Schools","Richmond Community Schools","Richmond Community Schools","Goshen Community Schools","New Albany-Floyd Co Con Sch","Merrillville Community School Corp","MSD Wayne Township","Indianapolis Public Schools","River Forest Community Sch Corp","Michigan City Area Schools","MSD Warren Township","River Forest Community Sch Corp","Marion Community Schools","Fort Wayne Community Schools","MSD Pike Township","School City of Whiting","MSD Lawrence Township","Fort Wayne Community Schools","Fort Wayne Community Schools","Michigan City Area Schools","Anderson Community School Corp","Fort Wayne Community Schools","Michigan City Area Schools","South Bend Community School Corp","Anderson Community School Corp","MSD Warren Township","MSD Lawrence Township","North White School Corp","MSD Wayne Township","Greater Clark County Schools","Elkhart Community Schools","Evansville Vanderburgh School Corp","Evansville Vanderburgh School Corp","South Bend Community School Corp","Logansport Community Sch Corp","Muncie Community Schools","Fort Wayne Community Schools","Fort Wayne Community Schools","South Bend Community School Corp","Marion Community Schools","Evansville Vanderburgh School Corp","Perry Township Schools","Evansville Vanderburgh School Corp","Community Schools of Frankfort","Fort Wayne Community Schools","Fort Wayne Community Schools","Muncie Community Schools","Marion Community Schools","Perry Township Schools","MSD Decatur Township","Fort Wayne Community Schools","Evansville Vanderburgh School Corp","North White School Corp","Elkhart Community Schools","Richmond Community Schools","Lafayette School Corporation","Anderson Community School Corp","Perry Township Schools","Merrillville Community School Corp","MSD Wayne Township","Michigan City Area Schools","Logansport Community Sch Corp","Fort Wayne Community Schools","South Bend Community School Corp","Fort Wayne Community Schools","Evansville Vanderburgh School Corp","Fort Wayne Community Schools","Goshen Community Schools","Muncie Community Schools","Kokomo School Corporation","Concord Community Schools","South Bend Community School Corp","Portage Township Schools","Logansport Community Sch Corp","Goshen Community Schools","Kokomo School Corporation","School City of Mishawaka","Elkhart Community Schools","Vigo County School Corp","South Bend Community School Corp","Kokomo School Corporation","Vigo County School Corp","Anderson Community School Corp","Evansville Vanderburgh School Corp","School City of Mishawaka","Seymour Community Schools","Vigo County School Corp","Anderson Community School Corp","Elkhart Community Schools","Bartholomew Con School Corp","Anderson Community School Corp","Vigo County School Corp","Fort Wayne Community Schools","Indianapolis Public Schools","Fort Wayne Community Schools","New Albany-Floyd Co Con Sch","Fort Wayne Community Schools","Lafayette School Corporation","Logansport Community Sch Corp","Kokomo School Corporation","Michigan City Area Schools","Fort Wayne Community Schools","Portage Township Schools","Elkhart Community Schools","Greater Clark County Schools","Taylor Community School Corp","MSD Decatur Township","Greater Clark County Schools","Evansville Vanderburgh School Corp","Goshen Community Schools","Fort Wayne Community Schools","West Noble School Corporation"],["Gary Virtual Academy","Beveridge Elementary School","Coquillard Elementary School","Harrison Elementary School","James Whitcomb Riley School 43","Arlington Woods School 99","Gary Middle School","Merle J Abbett Elementary School","Charles Warren Fairbanks Sch 105","Brook Park Elementary School","Abraham Lincoln Elementary School","Levan R Scott Academy","Adams Elementary School","Wilson Elementary School","Bailly Middle School","Banneker Elementary at Marquette","Madison S.T.E.A.M. Academy","James Russell Lowell School 51","Clarence Farrington School 61","Daniel Hale Williams Elem Sch","Muessel Elementary School","Navarre Middle School","Carl Wilde School 79","Mary Beck Elementary School","McKinley Elementary School","Floro Torrence School 83","Prince Chapman Academy","George S Buck School 94","Lew Wallace School 107","Dickinson Fine Arts Academy","Glen Park Acad for Excel in Lrn","George Washington Elementary Sch","Winding Ridge Elementary School","Harrison Hill Elementary School","Indian Creek Elementary School","Meredith Nicholson School 96","Washington Irving Elementary Sch","Thomas D Gregg School 15","Guion Creek Middle School","Frankie Woods McCullough Academy","Robert Lee Frost School 106","William McKinley Elementary School","Glenwood Leadership Academy","Annie Burns-Hicks Elementary School","Jonathan Jennings School 109","Anderson Elementary School","Ralph Waldo Emerson School 58","Anna Brochhausen School 88","East Chicago Central High School","North Wayne Elementary School","Benjamin Harrison Elementary Sch","Lincoln Middle School","Monroe Elementary School","Winchester Village Elementary","Garden City Elementary School","Sunnyside Elementary School","Stonybrook Intermediate &amp; Middle","Clinton Young Elementary School","Lakeside Elementary School","Fairfield Elementary School","West Side Leadership Academy","Edgar L Miller Elementary School","Margaret R Brown Elementary School","Edison Middle School","Ernie Pyle School 90","Jackson Middle School","South Wayne Elementary School","Beardsley Elementary School","Edison School of the Arts 47","Concord West Side Elem School","Brookside School 54","Lew Wallace Elementary School","Warren Online Academy","Roosevelt STEAM Academy","Rise Up Academy at Eggleston","Henry P Fieler Elementary School","Study Elementary School","Crispus Attucks High School","Paul I Miller School 114","Lake Ridge New Tech Middle School","Harwood Career Prep High School","Pleasant Run Elementary School","Abraham Lincoln Elementary School","Lodge Community School","Washington High School","Miami Middle School","Central Elementary School","Francis W Parker School 56","Lake Hills Elementary School","Warren G Harding Elementary School","Morton Senior High School","Eastbrook Elementary School","Frederick Douglass School 19","Frank O'Bannon Elementary School","College Park Elementary School","Rhoades Elementary School","Hammond Central High School","Chapelwood Elementary School","Lincoln School","Creston Intermediate &amp; Middle Schl","Harrison Hill Elementary School","Thomas Jefferson Elementary School","Nuner Fine Arts Academy","Kekionga Middle School","Joseph Hess Elementary School","Kenwood Elementary School","Longfellow Elementary School","Daniel Webster School 46","Guion Creek Elementary School","Lincoln Elementary School","Westlake Elementary School","Arsenal Technical High School","Morton Elementary School","Longfellow New Tech Elementary Sch","Brookview Elementary School","Mary Daly Elementary School","Snacks Crossing Elementary School","New Augusta Public Academy - South","William Henry Burkhart Elementary","Skiles Test Elementary School","Benjamin Franklin Elementary Sch","Sunny Heights Elementary School","Chapel Glen Elementary School","Thomas A Edison Elementary School","Deer Run Elementary","Lane Middle School","George Washington High School","Abraham Lincoln Elementary School","Southport Elementary School","Whiting Middle School","River Forest Middle School","Miami Elementary School","Eastridge Elementary School","William Penn School 49","Merrillville Intermediate School","Parkwood Elementary School","Impact Academy 1","Elwood Haynes Elementary School","Northcrest Elementary School","West Goshen Elementary School","Calumet New Tech High School","Hawthorne Elementary School","Theodore Potter School 74","Raymond F Brandes School 65","Greenbriar Elementary School","Northview Middle School","Willow Lake Elementary School","New Augusta Public Academy - North","Brentwood Elementary School","Westlane Middle School","Dexter Elementary School","Portage Middle School","Bridgeport Elementary School","Nora Elementary School","Cold Spring School","Homer Iddings Elementary School","Warren Elementary School","Emmons Elementary School","Caze Elementary School","Columbia Elementary School","McGary Middle School","South Side High School","Spring Mill Elementary School","Virgil I Bailey Elementary School","Maplewood Elementary School","Shortridge High School","Eleanor Skillen School 34","Warren Central High School","Raymond Park Intermediate &amp; Middle","Elkhart Alternative Education","Starr Elementary School","Vaile Elementary School","Chandler Elementary School","Fairmont Elementary School","Jonas E Salk Elementary School","McClelland Elementary School","Christian Park School 82","John I Meister Elementary School","Edgewood Elementary School","Grassy Creek Elementary School","River Forest High School","Frances Slocum Elem School","Bloomingdale Elementary School","Eagle Creek Elementary School","Whiting High School","Crestview Elementary School","Forest Park Elementary School","Lakeside Middle School","Pine Elementary School","Tenth Street Elementary School","Indian Village Elementary School","Marsh Elementary School","Marquette Montessori Academy","Anderson Intermediate School","Liberty Park Elementary School","Oaklandon Elementary School","North White Elementary School","Ben Davis High School","Franklin Square Elementary School","Monger Elementary School","Evans School","Fairlawn Elementary School","Clay High School","Columbia 6th Grade Academy","South View Elementary School","J Wilbur Haley Elementary School","Lindley Elementary School","Darden Elementary School","Allen Elementary School","Delaware Elementary School","Homecroft Elementary School","Cedar Hall Community School","Frankfort Middle School","Shawnee Middle School","Maplewood Elementary School","Southside Middle School","Justice Thurgood Marshall Intrmd","Mary Bryan Elementary School","Lynwood Elementary","Washington Elementary School","Academy for Innovative Studies","North White Middle School","Woodland Elementary School","Fairview Elementary School","Lafayette Sunnyside Intermediate","Valley Grove Elementary School","Glenns Valley Elementary School","John Wood Elementary School","Stout Field Elementary School","Joy Elementary School","Fairview Elementary School","Lincoln Elementary School","Clay International Academy","Northwood Middle School","Benjamin Bosse High School","Franke Park Elementary School","Goshen Intermediate School","Grissom Elementary School","Sycamore Elementary School","Concord South Side Elementary Sch","Riley High School","Central Elementary School","Franklin Elementary School","Model Elementary School","Bon Air Middle School","Lasalle Elementary School","Osolo Elementary School","Sarah Scott Middle School","Jefferson Traditional School","Pettit Park School","Booker T Washington Alt Sch","Edgewood Elementary School","Harper Elementary School","Liberty Elementary School","Seymour-Jackson Elementary School","Benjamin Franklin Elem School","Anderson High School","Bristol Elementary School","Clifty Creek Elementary School","Erskine Elementary School","Farrington Grove Elementary School","Fort Wayne Virtual Academy","George Washington Carver School 87","Glenwood Park Elementary School","Green Valley Elementary School","Jeff H Towles Intermediate School","Jefferson High School","Landis Elementary School","Maple Crest Middle School","Michigan City High School","North Side High School","Paul Saylor Elementary School","Pinewood Elementary School","River Valley Middle School","Taylor Middle School","Valley Mills Elementary School","W E Wilson Elementary","Washington Middle School","Waterford Elementary School","Waynedale Elementary School","West Noble Elementary School"],[0.994,0.987,0.927,0.9340000000000001,0.964,0.955,0.994,0.958,0.978,0.948,0.979,0.958,0.841,0.837,0.987,0.973,0.877,0.966,0.955,0.989,0.867,0.913,0.957,0.878,0.848,0.959,0.9320000000000001,0.9389999999999999,0.974,0.893,0.971,0.976,0.965,0.917,0.9,0.975,0.9409999999999999,0.878,0.976,0.993,0.9399999999999999,0.98,0.779,0.985,0.955,0.778,0.846,0.909,0.988,0.969,0.949,0.954,0.758,0.824,0.843,0.948,0.929,0.726,0.924,0.839,0.988,0.9,0.737,0.782,0.923,0.79,0.754,0.821,0.856,0.857,0.873,0.955,0.768,0.859,0.824,0.908,0.743,0.969,0.749,0.679,0.432,0.886,0.879,0.772,0.894,0.787,0.953,0.905,0.762,0.841,0.884,0.9389999999999999,0.764,0.871,0.963,0.76,0.9409999999999999,0.873,0.733,0.886,0.833,0.852,0.678,0.777,0.865,0.917,0.738,0.681,0.948,0.794,0.882,0.924,0.905,0.665,0.902,0.723,0.952,0.945,0.774,0.86,0.869,0.958,0.764,0.878,0.969,0.761,0.888,0.712,0.744,0.8070000000000001,0.641,0.723,0.865,0.731,0.908,0.6870000000000001,0.837,0.576,0.761,0.632,0.748,0.729,0.85,0.673,0.8159999999999999,0.806,0.84,0.886,0.721,0.827,0.61,0.713,0.8159999999999999,0.783,0.777,0.869,0.611,0.536,0.721,0.623,0.595,0.8159999999999999,0.838,0.633,0.615,0.84,0.539,0.851,0.755,0.549,0.481,0.464,0.63,0.68,0.857,0.76,0.533,0.65,0.675,0.825,0.675,0.65,0.627,0.868,0.798,0.786,0.626,0.651,0.546,0.481,0.645,0.588,0.658,0.515,0.772,0.735,0.52,0.788,0.552,0.864,0.445,0.472,0.67,0.591,0.427,0.65,0.713,0.611,0.536,0.506,0.585,0.442,0.593,0.639,0.613,0.379,0.548,0.6919999999999999,0.542,0.605,0.583,0.527,0.61,0.334,0.581,0.465,0.643,0.743,0.482,0.602,0.586,0.673,0.604,0.612,0.671,0.553,0.651,0.369,0.554,0.615,0.6850000000000001,0.525,0.54,0.641,0.423,0.446,0.535,0.365,0.612,0.382,0.328,0.522,0.481,0.436,0.52,0.341,0.501,0.404,0.458,0.456,0.322,0.589,0.725,0.583,0.486,0.624,0.577,0.596,0.441,0.589,0.628,0.524,0.5679999999999999,0.6,0.351,0.459,0.58,0.578,0.605,0.5590000000000001,0.602],[0.751,0.823,0.845,0.872,0.858,0.845,0.84,0.863,0.767,0.867,0.8179999999999999,0.866,0.9,0.856,0.8149999999999999,0.783,0.924,0.796,0.794,0.771,0.8129999999999999,0.821,0.758,0.888,0.856,0.838,0.859,0.747,0.738,0.831,0.752,0.771,0.806,0.844,0.835,0.793,0.766,0.847,0.746,0.727,0.806,0.768,0.863,0.709,0.761,0.889,0.8070000000000001,0.791,0.749,0.752,0.803,0.7,0.88,0.848,0.803,0.759,0.734,0.857,0.739,0.876,0.79,0.783,0.845,0.803,0.781,0.803,0.876,0.731,0.802,0.778,0.767,0.645,0.739,0.824,0.647,0.781,0.87,0.761,0.869,0.878,0.74,0.722,0.727,0.832,0.771,0.803,0.698,0.755,0.859,0.74,0.675,0.694,0.8,0.697,0.637,0.827,0.711,0.736,0.797,0.702,0.765,0.736,0.891,0.799,0.664,0.696,0.858,0.794,0.681,0.786,0.657,0.721,0.616,0.825,0.676,0.785,0.53,0.635,0.835,0.652,0.604,0.679,0.738,0.65,0.656,0.744,0.669,0.792,0.782,0.759,0.865,0.856,0.756,0.776,0.713,0.871,0.209,0.823,0.706,0.826,0.856,0.746,0.626,0.827,0.72,0.699,0.747,0.597,0.803,0.671,0.8080000000000001,0.789,0.635,0.704,0.601,0.674,0.8120000000000001,0.876,0.706,0.79,0.778,0.732,0.698,0.841,0.763,0.681,0.802,0.669,0.675,0.753,0.92,0.921,0.8169999999999999,0.793,0.641,0.719,0.8129999999999999,0.853,0.771,0.605,0.829,0.799,0.8070000000000001,0.58,0.642,0.66,0.749,0.775,0.8110000000000001,0.883,0.742,0.837,0.681,0.8169999999999999,0.676,0.66,0.82,0.653,0.749,0.878,0.832,0.704,0.635,0.726,0.908,0.653,0.6929999999999999,0.772,0.835,0.882,0.786,0.914,0.824,0.652,0.742,0.842,0.785,0.712,0.778,0.735,0.5629999999999999,0.756,0.669,0.899,0.768,0.841,0.702,0.581,0.826,0.739,0.717,0.713,0.655,0.697,0.702,0.783,0.6889999999999999,0.838,0.678,0.644,0.659,0.713,0.71,0.661,0.83,0.803,0.755,0.859,0.626,0.788,0.791,0.758,0.706,0.787,0.68,0.9409999999999999,0.755,0.708,0.733,0.8100000000000001,0.9,0.5639999999999999,0.52,0.626,0.779,0.581,0.6899999999999999,0.627,0.739,0.71,0.655,0.747,0.644,0.665,0.76,0.777,0.672,0.6830000000000001,0.653,0.742,0.652],[1.602,1.501,1.51,1.422,1.381,1.404,1.341,1.355,1.44,1.327,1.35,1.308,1.427,1.487,1.321,1.369,1.293,1.334,1.346,1.322,1.427,1.341,1.35,1.272,1.364,1.216,1.222,1.378,1.33,1.294,1.292,1.252,1.211,1.224,1.262,1.212,1.297,1.267,1.269,1.263,1.222,1.216,1.364,1.283,1.248,1.316,1.336,1.261,1.204,1.222,1.172,1.313,1.335,1.284,1.309,1.212,1.271,1.378,1.255,1.175,1.07,1.195,1.334,1.319,1.129,1.295,1.237,1.336,1.176,1.207,1.195,1.249,1.39,1.113,1.426,1.095,1.209,1.033,1.196,1.286,1.861,1.208,1.206,1.208,1.118,1.227,1.132,1.118,1.173,1.235,1.259,1.142,1.248,1.239,1.189,1.207,1.106,1.168,1.286,1.188,1.172,1.186,1.208,1.194,1.262,1.136,1.156,1.335,1.104,1.172,1.234,1.062,1.242,1.288,1.146,1.241,1.275,1.124,1.082,1.225,1.272,1.026,1.226,1.187,1.038,1.222,1.137,1.209,1.173,1.107,1.193,1.081,1.014,1.188,1.012,1.102,1.864,1.326,1.227,1.235,1.011,1.2,1.2,1.152,1.095,1.141,1.014,1.17,1.105,1.142,1.249,1.121,1.188,1.134,1.297,1.047,1.225,1.24,1.207,1.223,1.28,1.004,1.022,1.116,1.253,1.036,1.302,1.035,1.162,1.341,1.194,1.216,1.122,1.078,1.042,1.061,1.248,1.012,1.091,1.115,1,1.073,1.091,1.066,1.077,1.063,1.17,1.082,1.186,1.178,1.134,1.072,1.193,1.199,1.025,1.102,1.173,1.015,1.226,0.555,1.25,1.402,1.204,1.188,1.159,1.202,1.047,1.075,1.092,1.066,1.091,1.111,1.014,1.198,1.098,1.301,1.13,1.021,1.14,1.106,1.392,1.179,1.187,1.249,1.075,1.14,1.078,1.109,1.133,1.078,1.133,1.002,1.188,1.116,1.01,1.059,1.05,1.249,1.213,1.164,1.028,1.177,1.161,1.08,1.148,1.15,1.088,1.186,1.159,1.264,1.336,1.094,1.229,1.172,1.206,1.079,1.05,1.258,1.162,1.038,1.149,1.255,1.062,1.104,1.014,1.132,1.075,1.082,1.217,1.027,1.009,1.045,1.138,1.03,1.265,1.073,1.043,1.091,1.06,1.001,1.034],[1.407,1.405,1.39,1.377,1.371,1.368,1.364,1.362,1.352,1.35,1.349,1.348,1.346,1.342,1.341,1.334,1.331,1.326,1.323,1.321,1.316,1.314,1.307,1.307,1.307,1.304,1.303,1.302,1.299,1.293,1.292,1.291,1.289,1.288,1.288,1.288,1.286,1.285,1.284,1.281,1.28,1.279,1.276,1.274,1.274,1.272,1.272,1.27,1.27,1.268,1.267,1.265,1.264,1.264,1.259,1.257,1.255,1.251,1.25,1.249,1.246,1.24,1.236,1.232,1.229,1.228,1.227,1.221,1.221,1.22,1.219,1.216,1.216,1.213,1.211,1.21,1.21,1.209,1.208,1.207,1.206,1.206,1.205,1.205,1.205,1.204,1.203,1.203,1.202,1.202,1.199,1.198,1.198,1.197,1.196,1.196,1.195,1.194,1.193,1.19,1.19,1.189,1.188,1.186,1.185,1.185,1.183,1.182,1.182,1.181,1.181,1.177,1.175,1.174,1.171,1.167,1.166,1.165,1.165,1.164,1.161,1.161,1.16,1.16,1.159,1.159,1.158,1.155,1.154,1.152,1.151,1.15,1.149,1.149,1.148,1.146,1.145,1.142,1.142,1.14,1.139,1.138,1.138,1.134,1.133,1.133,1.132,1.131,1.13,1.13,1.125,1.125,1.122,1.122,1.121,1.121,1.12,1.119,1.116,1.114,1.113,1.109,1.109,1.109,1.106,1.106,1.105,1.105,1.102,1.098,1.098,1.098,1.097,1.096,1.096,1.093,1.089,1.089,1.087,1.086,1.085,1.082,1.08,1.08,1.079,1.077,1.077,1.074,1.074,1.074,1.072,1.07,1.067,1.066,1.066,1.065,1.061,1.059,1.059,1.056,1.055,1.055,1.054,1.054,1.054,1.052,1.052,1.05,1.049,1.049,1.049,1.048,1.047,1.045,1.044,1.044,1.043,1.042,1.04,1.039,1.037,1.035,1.035,1.033,1.033,1.033,1.032,1.032,1.032,1.03,1.029,1.027,1.026,1.026,1.023,1.021,1.02,1.02,1.02,1.018,1.015,1.012,1.012,1.011,1.009,1.008,1.008,1.007,1.006,1.006,1.005,1.005,1.003,1.002,1.002,1.001,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Corporation<\/th>\n      <th>School<\/th>\n      <th>%URM<\/th>\n      <th>%FRL<\/th>\n      <th>AcScore<\/th>\n      <th>SCOscore<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[2,3,4,5]}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'font-size':'90%'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 </section>
@@ -811,12 +939,13 @@ S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\r
  ctype    en_US.UTF-8
  tz       America/Indiana/Indianapolis
  date     2023-10-15
- pandoc   3.1.8 @ /opt/homebrew/bin/ (via rmarkdown)
+ pandoc   3.1.1 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  ! package    * version date (UTC) lib source
  P curl       * 5.1.0   2023-10-02 [?] RSPM (R 4.3.0)
  P dplyr      * 1.1.3   2023-09-03 [?] RSPM (R 4.3.0)
+ P DT         * 0.30    2023-10-05 [?] RSPM (R 4.3.0)
  P glue       * 1.6.2   2022-02-24 [?] CRAN (R 4.3.0)
  P here       * 1.0.1   2020-12-13 [?] RSPM (R 4.3.0)
  P openxlsx   * 4.2.5.2 2023-02-06 [?] RSPM (R 4.3.0)
@@ -884,7 +1013,17 @@ Wickham, Hadley, Jim Hester, and Jennifer Bryan. 2023. <em>Readr: Read Rectangul
 <div id="ref-wickham2023tidyr" class="csl-entry" role="listitem">
 Wickham, Hadley, Davis Vaughan, and Maximilian Girlich. 2023. <em>Tidyr: Tidy Messy Data</em>. <a href="https://CRAN.R-project.org/package=tidyr">https://CRAN.R-project.org/package=tidyr</a>.
 </div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section></div></main> <!-- /main -->
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{price2023,
+  author = {Price, Jeremy},
+  title = {School {Context} {Opportuntity} {Score}},
+  date = {2023-10-16},
+  url = {https://jeremyfprice.github.io/scoscore-iui2030/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-price2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Price, Jeremy. 2023. <span>“School Context Opportuntity Score.”</span>
+October 16, 2023. <a href="https://jeremyfprice.github.io/scoscore-iui2030/">https://jeremyfprice.github.io/scoscore-iui2030/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

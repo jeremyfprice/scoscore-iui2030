@@ -2,7 +2,7 @@
 title: "School Context Opportuntity Score"
 subtitle: "Documentation for the Indiana University Indianapolis 2030 Strategic Planning Process"
 author:
-  - name: Jeremy F Price
+  - name: Jeremy Price
     url: https://www.jeremyfprice.info/
     affiliation: IU Indianapolis School of Education
     affiliation_url: https://education.iupui.edu/
@@ -26,9 +26,12 @@ tbl-cap-location: margin
 link-external-icon: false
 link-external-newwindow: true
 bibliography: assets/references.bib
-citation_url: https://jeremyfprice.github.io/scoscore-iui2030/
+citation:
+  url: https://jeremyfprice.github.io/scoscore-iui2030/
 repo-url: https://github.com/jeremyfprice/scoscore-iui2030
 css: assets/style.css
+google-scholar: true
+date: 10/16/2023
 ---
 
 # Introduction
@@ -64,7 +67,7 @@ whole. The academic achievement score ($S_{ac}$) accounts for 3rd grade ELA
 proficiency, 6th grade math proficiency, and graduation pathways completion
 rates.
 
-# Requirements
+# Requirements and Getting Started
 
 The SCOscore script and algorithm have been developed in the R Statistical
 Computing Language [@rCoreTeam2023r]. As such, R and the
@@ -94,6 +97,13 @@ renv::restore()
 
 Once the command is given, all libraries and packages associated with this project will be installed in the local environment.
 
+The script itself can be initiated either by:
+
+  1. Changing the Constants (see below) to fit the need; and
+  2. Clicking on the [->Render] button for `index.qmd` or [->Run] for `process-scoscore.R`.
+
+The output will be an Excel `.xlsx` file in the `output` folder named `*-in-scoscore-schools.xlsx` where `*` represents the focus year.
+
 ## File Structure
 
 The `scoscore-iui2030` directory is structured in the following manner:
@@ -109,21 +119,16 @@ scoscore-iui2030/
 ┣ CITATION.cff            <- Machine-readable citation format
 ┣ CODE_OF_CONDUCT.md      <- Code of Conduct for project contributors
 ┣ data/                   <- Directory for all input data
-┃ ┗ *-in-school-corp-locale.csv
-┃ ┃                       <- Urban centric locale data by year
-┃ ┗ *-in-school-demographics.csv
-┃ ┃                       <- School demographic data by year
-┃ ┗ *-in-school-gcr.csv   <- School graduate completion rate data by year
-┃ ┗ *-in-school-ilearn6.csv
-┃ ┃                       <- School ILEARN-6 math data by year
-┃ ┗ *-in-school-iread3.csv
-┃                         <- School IREAD-3 data by year
+┃ ┗ *-in-school-corp-locale.csv  <- Urban centric locale data by year
+┃ ┗ *-in-school-demographics.csv <- School demographic data by year
+┃ ┗ *-in-school-gcr.csv          <- School graduate completion rate data by year
+┃ ┗ *-in-school-ilearn6.csv      <- School ILEARN-6 math data by year
+┃ ┗ *-in-school-iread3.csv       <- School IREAD-3 data by year
 ┣ docs/                   <- Directory for the rendered website
 ┣ index.qmd               <- This file, the documentation in QMD format
 ┣ LICENSE                 <- License (MIT) for project
 ┣ output/                 <- Directory for collecting output files
-┃ ┗ *-in-scoscore-schools.xlsx
-┃                         <- Excel SCOscore output files by year
+┃ ┗ *-in-scoscore-schools.xlsx   <- Excel SCOscore output files by year
 ┣ R/                      <- Directory for storing R scripts
 ┃ ┗ process-scoscore.R    <- R script distilled from this file
 ┣ README.md               <- General overview of the project
@@ -134,32 +139,54 @@ scoscore-iui2030/
 
 ## Data Preparation
 
-Blah.
+All "raw" data files are available through the IDOE [Data Center & Reports](https://www.in.gov/doe/it/data-center-and-reports/) page. These files do need some adjustments to standardize them and they need to be saved as `.csv`, not `.xlsx` files.
+
+All of these files represent key metrics in the IDOE's [Graduates Prepared to Succeed](https://indianagps.doe.in.gov/#skipOverview) reporting system.
 
 ### IREAD-3 Test Scores
 
-Blah.
+The IREAD-3 data can be found under the **[IREAD-3 Assessment Results](https://www.in.gov/doe/it/data-center-and-reports/#:~:text=IREAD%2D3%20Assessment%20Results)** heading. The IREAD-3 Corporation and School Results file for the appropriate year should be downloaded and opened with Microsoft Excel. For the purposes of this process, only the `School` worksheet is required.
+
+Any extraneous rows, such as titles, explainations, or notes, should be removed. Once the extra rows have been removed, the `IREAD PASS N` and `IREAD TEST N` columns should be removed.
+
+The remaining columns should be renamed (all lowercase, with underscores `_` in appropriate places) in the following manner:
 
 | corp_id | corp_name | school_id | school_name | iread_rate |
 |---------|-----------|-----------|-------------|-----------|
 | number  | text      | number    | text        | percent   |
-: Graduation Rates spreadsheet format.
+: Required IREAD-3 spreadsheet structure
+
+Once that has been completed, the `School` worksheet should be saved in the `data` folder using the following naming convention: `YYYY-in-school-iread3.csv` where `YYYY` represents the year of the data.
 
 ### ILEARN-6 Math Scores
 
-Blah.
+The ILEARN-6 Math data can be found under the **[ILEARN Assessment Results](https://www.in.gov/doe/it/data-center-and-reports/#:~:text=ILEARN%20Assessment%20Results)** heading. The ILEARN Grade 3-8 School Results file for the appropriate year should be downloaded and opened with Microsoft Excel. For the purposes of this process, only the `Math` worksheet is required.
+
+Any extraneous rows, such as titles, explainations, or notes, should be removed. Once the extra rows have been removed, only 6th grade data is required, in particular the 6th grade `Math Proficient %` column. All other grades and indicators should be removed.
+
+The remaining columns should be renamed (all lowercase, with underscores `_` in appropriate places) in the following manner:
 
 | corp_id | corp_name | school_id | school_name | ilearn_rate |
 |---------|-----------|-----------|-------------|-----------|
 | number  | text      | number    | text        | percent   |
-: Graduation Rates spreadsheet format.
+: Required ILEARN-6 math spreadsheet structure
+
+Once that has been completed, the `Math` worksheet should be saved in the `data` folder using the following naming convention: `YYYY-in-school-ilearn6.csv` where `YYYY` represents the year of the data.
 
 ### High School Graduation Rates
+
+The high school graduation pathways completion data can be found under the **[Graduation & College/Career Readiness](https://www.in.gov/doe/it/data-center-and-reports/#:~:text=Graduation%20%26%20College%20/Career%20Readiness)** heading. The State Graduation Rate Data file for the appropriate year should be downloaded and opened with Microsoft Excel. For the purposes of this process, only the `School Pub Disagg` worksheet is required.
+
+Any extraneous rows, such as titles, explainations, or notes, should be removed. Once the extra rows have been removed, only data under the `Total` heading is required, in particular the `Graduation Rate` column. All other indicators should be removed.
+
+The remaining columns should be renamed (all lowercase, with underscores `_` in appropriate places) in the following manner:
 
 | corp_id | corp_name | school_id | school_name | grad_rate |
 |---------|-----------|-----------|-------------|-----------|
 | number  | text      | number    | text        | percent   |
-: Graduation Rates spreadsheet format.
+: Required Graduation Rates spreadsheet structure
+
+Once that has been completed, the `School Pub Disagg` worksheet should be saved in the `data` folder using the following naming convention: `YYYY-in-school-gcr.csv` where `YYYY` represents the year of the data.
 
 # Literate Code
 
@@ -192,6 +219,7 @@ base R programming language. The following libraries are utilized:
   - `glue` [@hester2022glue], `tidyr` [@wickham2023tidyr], `dplyr`
     [@wickham2023dplyr], and `stringr` [@wickham2022stringr] are used to
     process and clean data;
+  - `DT` provides the ability to display the web-based table at the end of this document;
   - `showtext` [@qiu2023showtext] allows Google Fonts to be loaded and
     displayed. `curl` is included to ensure that `showtext` can run within a `renv`
     reproducible environment.
@@ -206,6 +234,7 @@ library(dplyr)
 library(stringr)
 library(curl)
 library(showtext)
+library(DT)
 ```
 
 ```{r load-fonts, echo = FALSE, include=FALSE, purl=FALSE}
@@ -525,25 +554,58 @@ grad_mean <- round(mean(grad_frame$grad_rate), 3)
 ## Calculate SCOscore
 
 ```{r calculate-scoscore, message=FALSE, warning=FALSE}
-scoscore_frame <- locale_frame |>
+scoscore_demographics <- locale_frame |>
   full_join(
     demographics_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
+  select(-ends_with(".y"))
+
+scoscore_iread <- scoscore_demographics |>
   full_join(
     iread_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
+  select(-ends_with(".y"))
+
+scoscore_ilearn <- scoscore_iread |>
   full_join(
     ilearn_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
+  mutate(corp_name = if_else(
+    is.na(corp_name),
+    corp_name.y,
+    corp_name
+  )) |>
+  mutate(school_name = if_else(
+    is.na(school_name),
+    school_name.y,
+    school_name
+  )) |>
+  select(-ends_with(".y"))
+
+scoscore_grad <- scoscore_ilearn |>
   full_join(
     grad_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
-  select(-ends_with(".y")) |>
+  mutate(corp_name = if_else(
+    is.na(corp_name),
+    corp_name.y,
+    corp_name
+  )) |>
+  mutate(school_name = if_else(
+    is.na(school_name),
+    school_name.y,
+    school_name
+  )) |>
+  select(-ends_with(".y"))
+
+scoscore_frame <- scoscore_grad |>
   filter(!is.na(corp_name)) |>
+  filter(!is.na(urm_percent)) |>
+  filter(!is.na(frl_percent)) |>
   mutate(iread_rate_adj = as.numeric(if_else(
     iread_rate < state_3rd_proficiency,
     (state_3rd_proficiency - iread_rate + 1),
@@ -587,7 +649,6 @@ scoscore_frame <- locale_frame |>
     1,
     scoScore
   )) |>
-  na.omit() |>
   mutate(counter_factual = FALSE)
 ```
 
@@ -701,6 +762,44 @@ write.xlsx(
   ),
   colNames = TRUE
 )
+```
+
+# The End Result
+
+```{r final-table, echo=FALSE, purl=FALSE}
+
+sco_display_frame <- scoscore_frame |>
+  filter(scoScore >= 1) |>
+  select(
+    corp_name,
+    school_name,
+    urm_percent,
+    frl_percent,
+    adj_academic,
+    scoScore) |>
+  mutate(urm_percent = round(urm_percent, 3)) |>
+  mutate(frl_percent = round(frl_percent, 3)) |>
+  mutate(adj_academic = round(adj_academic, 3)) |>
+  mutate(scoScore = round(scoScore, 3)) |>
+  arrange(desc(scoScore), school_name, corp_name) |>
+  na.omit()
+
+datatable(
+  sco_display_frame,
+  rownames = FALSE,
+  colnames = c(
+    "Corporation",
+    "School",
+    "%URM",
+    "%FRL",
+    "AcScore",
+    "SCOscore"
+    ),
+  options = list(
+  pageLength = 5)
+  ) |>
+  formatStyle(columns = c(2), fontSize = "90%")
+
 ```
 
 ## Land Acknowledgement {.appendix}
