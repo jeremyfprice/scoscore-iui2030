@@ -1,0 +1,685 @@
+---
+title: "School Context Opportuntity Score"
+subtitle: "Documentation for the Indiana University Indianapolis 2030 Strategic Planning Process"
+author:
+  - name: Jeremy F Price
+    url: https://www.jeremyfprice.info/
+    affiliation: IU Indianapolis School of Education
+    affiliation_url: https://education.iupui.edu/
+    orcid: 0000-0002-6506-3526
+title-block-banner: "#990000"
+title-block-banner-color: "#EDEBEB"
+license: "CC BY-SA"
+code-annotations: false
+code-link: true
+code-line-numbers: false
+code-block-bg: true
+format: html
+highlight-style: a11y
+monofont: "Fira Code"
+mainfont: "Merriweather"
+sansfont: "Lato"
+code-overflow: wrap
+reference-location: margin
+cap-location: margin
+tbl-cap-location: margin
+link-external-icon: false
+link-external-newwindow: true
+bibliography: references.bib
+citation_url: https://jeremyfprice.github.io/scoscore-iui2030/
+css: assets/style.css
+---
+
+# Introduction
+
+::: {.column-margin}
+![Service to Our State and Beyond](assets/service-logo.svg)
+:::
+
+The School Context Opportunity Score (SCOscore) is a measure of potentiality for
+learners in a school community. It is a composite score that combines multiple
+factors, particularly structural factors such as race and SES, as well as
+performance factors such as test scores and graduation pathway completion rates,
+to provide a more holistic view of school corporations.
+
+The SCOscore was developed as method for identifying and prioritizing P-12
+schools and school corporations for the [Indiana University Indianapolis 2030
+Strategic Plan](https://strategicplan.iupui.edu/). Specifically, SCOscore was
+developed for
+[Goal 2](https://strategicplan.iupui.edu/Pillars-Goals-Champions/service-to-state-and-beyond#:~:text=Goal%202%3A%20Engage%20State%20P%2D12%20to%20Strengthen%20Education%20and%20Educational%20Pipelines%20in%20Indiana)
+of the Service to Our State and Beyond Pillar: **Engage State P-12 to Strengthen
+Education and Educational Pipelines in Indiana.**
+
+The SCOscore of a school corporation is calculated through the following:
+
+$$
+S_{O} = \frac{\left[\left(P_{urm} \times 1.5\right) + \left(P_{frl} \times 1.5\right) + S_{ac}\right]}{3}
+$$
+
+where $S_{O}$ is the SCOscore, $P_{urm}$ is the proportion of underrepresented
+minority students, $P_{frl}$ is the proportion of students eligible for free or
+reduced lunch, and $S_{ac}$ is an academic achievement score for the school as a
+whole. The academic achievement score ($S_{ac}$) accounts for 3rd grade ELA
+proficiency, 6th grade math proficiency, and graduation pathways completion
+rates.
+
+# Requirements
+
+The SCOscore script and algorithm have been developed in the R Statistical Computing Language [@rCoreTeam2023r]. As such, R and the <abbr title="Integrated Development Environment">IDE</abbr> RStudio should be installed. Instructions for Installing R and RStudio can be found on the [Installing R and RStudio](https://rstudio-education.github.io/hopr/starting.html) page of the online book *[Hands-On Programming with R](https://rstudio-education.github.io/hopr/)*.
+
+## File Structure
+
+```
+fafi-sna/
+┣ assets/                   <- Directory for storing auxiliary files
+┃ ┗ fafi-sna-references.bib <- Bibliography for this project in BibTeX format
+┃ ┗ theme.css               <- Cascading style sheet for the project
+┃ ┗ fafi-sna-logo.png       <- Project logo
+┃ ┗ credit.xml              <- Author contributions in a JATS XML file
+┣ docs/                     <- Directory for the rendered literate programming file
+┃ ┗ index.html              <- Rendered version of the literate programming file
+┣ index_cache/              <- Directory used to serve the rendered literate programming file
+┣ index_files/              <- Directory used to serve the rendered literate programming file
+┣ output/                   <- Target directory for collecting R output files
+┃ ┗ plots/                  <- Directory for storing plots in PDF and PNG formats
+┃ ┗ csv/                    <- Directory for storing CSV files
+┣ R                         <- Directory for storing R scripts
+┃ ┗ fafi-sna.R              <- R script distilled from the literate programming file
+┣ .gitignore                <- Files and directories to be ignored by Git
+┣ .nojekyll                 <- File to tell Github to not use Jekyll
+┣ _footer.html              <- The footer for the rendered literate programming file
+┣ _site.yml                 <- Configuration file for the rendered literate programming file
+┣ CODE_OF_CONDUCT.md        <- Code of Conduct for project contributors
+┣ LICENSE                   <- License (MIT) for project
+┣ README.md                 <- This file, a general overview of this project
+┗ index.Rmd                 <- Literate programming file for the project analysis
+```
+
+## Data Preparation
+
+Blah.
+
+### IREAD-3 Test Scores
+
+Blah.
+
+| corp_id | corp_name | school_id | school_name | iread_rate |
+|---------|-----------|-----------|-------------|-----------|
+| number  | text      | number    | text        | percent   |
+: Graduation Rates spreadsheet format.
+
+### ILEARN-6 Math Scores
+
+Blah.
+
+| corp_id | corp_name | school_id | school_name | ilearn_rate |
+|---------|-----------|-----------|-------------|-----------|
+| number  | text      | number    | text        | percent   |
+: Graduation Rates spreadsheet format.
+
+### High School Graduation Rates
+
+| corp_id | corp_name | school_id | school_name | grad_rate |
+|---------|-----------|-----------|-------------|-----------|
+| number  | text      | number    | text        | percent   |
+: Graduation Rates spreadsheet format.
+
+# Literate Code
+
+Computer scientist Don @knuthLiterateProgramming1984 first coined the term
+"literate programming" to describe a form of programming that is created as a
+human-readable narrative. It has been taken up as a format that is rich in
+comments and documentation to illustrate and illuminate the choices and
+decisions that were made in the act of programming. Literate code is also an
+essential aspect of research to promote reproducibility of analysis
+[@dekkerFacilitatingReproducibilityCollaboration2018;
+@vassilevLanguageagnosticReproducibleData2016]. In this case, as a
+community-engaged study, we are more interested in exemplifying trust,
+transparency, and accountability [@chouSupportingEthicalPractice2020;
+@mullinsAdvancingCommunityengagedResearch2020;
+@sabatelloDataSharingCommunityengaged2022a], literate code provides a clear
+window for community members and participants into the inner processes of data
+analysis and visualization methodologies.
+
+## Load Libraries
+
+Libraries are packages that are loaded in to extend the functionality to the
+base R programming language. The following libraries are utilized:
+
+  - `readr` [@wickham2023readr] allows for efficient and straightforward
+    reading and writing of local <abbr title="Comma-Separated Values">CSV</abbr>
+    files;
+  - `here` [@muller2020here] provides a simple way to find files in folders;
+  - `openxlsx` [@schauberger2023openxlsx] provides R with the functionality to
+    write and read Microsoft Excel (`.xlsx`) files;
+  - `glue` [@hester2022glue], `tidyr` [@wickham2023tidyr], `dplyr`
+    [@wickham2023dplyr], and `stringr` [@wickham2022stringr] are used to
+    process and clean data;
+  - `showtext` [@qiu2023showtext] allows Google Fonts to be loaded and
+    displayed.
+
+```{r load-libraries, message = FALSE, warning = FALSE}
+library(readr)
+library(here)
+library(openxlsx)
+library(glue)
+library(tidyr)
+library(dplyr)
+library(stringr)
+library(showtext)
+```
+
+```{r load-fonts, echo = FALSE, include=FALSE, purl=FALSE}
+font_add_google("Fira Code", "firacode", regular.wt = 700)
+font_add_google("Merriweather", "merriweather", regular.wt = 700)
+font_add_google("Lato", "lato", regular.wt = 700)
+```
+
+## Set Constants
+
+Constants are values that are used across the entire R script. The following
+constants are set for later use:
+
+  - `critical_threshold` is the SCOscore value at which schools become
+    prioritized for partnership and attention, for IU Indianapolis it is set
+    at 1.;
+  - `focus_year` is the year for the generation of the SCOscores;
+  - `round_threshold` is the SCOscore value at which SCOscores are rounded up
+    to 1, for IU Indianapolis it is set at 0.970.
+  - `state_3rd_proficiency` is the statewide mean for the focus year of 3rd
+    graders showing proficiency on the IREAD-3 standardized exam;
+  - `state_6th_proficiency` is the statewide mean for the focus year of 6th
+    graders meeting their growth targets on the math ILEARN standardized exam;
+  - `state_gpc` is the statewide mean for the focus year of 12th graders who
+    complete graduation requirements.
+
+```{r set-constants, message=FALSE, warning=FALSE}
+critical_threshold <- 1.000
+focus_year <- 2023
+round_threshold <- 0.970
+state_3rd_proficiency <- 0.816
+state_6th_proficiency <- 0.341
+state_gpc <- 0.864
+```
+
+These metrics are determined by the state on an annual basis and can be obtained
+from the Indiana Department of Education's [Indiana Graduates Prepared to
+Succeed](https://indianagps.doe.in.gov/#skipOverview) website.
+
+**They should be updated each year.**
+
+## Define Functions
+
+Functions provide "shortcodes" for repeating calculations or analyses multiple
+times with different variables, datasets, or networks.
+
+The `prune_frame` function removes any rows with missing values (`NA`). This
+function also filters out private, charter, and other schools that are not
+required to submit data to the Indiana Department of Education, nor are they
+accountable to the communities they serve.
+
+```{r function-prune-frame, message=FALSE, warning=FALSE}
+prune_frame <- function(working_frame) {
+  working_frame |>
+    # Remove NA's
+    na.omit() |>
+    # Keep only public schools
+    filter(corp_id %in% crosswalk_frame$corp_id)
+}
+```
+
+The `set_numeric_ids` function sets the School Corporation ID and School ID
+columns as numeric for consistency, so that all IDs in all dataframes are set
+consistently.
+
+```{r function-set-numeric-ids, message=FALSE, warning=FALSE}
+set_numeric_ids <- function(working_frame) {
+  working_frame |>
+    # Set the School Corporation ID column to numeric
+    mutate(
+      corp_id = as.numeric(corp_id)
+    ) |>
+    # Set the School ID column to numeric
+    mutate(
+      school_id = as.numeric(school_id)
+    )
+}
+```
+
+## Read and Process Data Files
+
+The data files need to be read in to R and processed in a consistent manner so
+that School Context Opportunity Scores can be calculated successfully.
+
+### LEA ID-School Corporation ID Crosswalk
+
+The Urban Centric Locale data is set by the Federal, rather than the Indiana,
+Department of Education. The Federal
+<abbr title="Department of Education">DOE</abbr> utilizes a standardized
+<abbr title="Local Educational Authority">LEA</abbr> ID while the
+<abbr title="Indiana Department of Education">IDOE</abbr> utilizes their own
+School Corporation ID.
+
+This code block creates a
+[crosswalk](https://guides.lib.utexas.edu/metadata-basics/crosswalks) to bridge
+the DOE's LEA ID and the IDOE's School Corporation ID.
+
+```{r federal-idoe-crosswalk, message=FALSE, warning=FALSE}
+#   ____________________________________________________________________________
+#   Create Federal-IDOE Crosswalk                                           ####
+##  ............................................................................
+##  Load Locale File                                                        ####
+##  The Locale File is directly from a Federal DOE database and includes
+##  the Federal LEA ID codes, rather than the Indiana DOE School
+##  Corporation codes. lea_name is renamed to corp_name for consistency.
+locale_frame <- read_csv(
+  here(
+    "data",
+    glue("{focus_year}-in-school-corp-locale.csv")
+  )
+) |>
+  rename(corp_name = lea_name)
+
+##  ............................................................................
+##  Load IREAD File                                                         ####
+##  The IREAD File contains, on the otherhand, the Indiana DOE School
+##  Corporation codes, but not the Federal DOE LEA codes.
+iread_frame <- read_csv(
+  here(
+    "data",
+    glue("{focus_year}-in-school-iread3.csv")
+  )
+)
+
+##  ............................................................................
+##  Create Crosswalk Frame                                                  ####
+##  The two dataframes are joined together by matching the School
+##  Corporation name so that the IDOE and USDOE codes match. This can be
+##  used to allow different sources of data sets to align with one another.
+crosswalk_frame <- iread_frame |>
+  select(-iread_rate) |>
+  full_join(locale_frame, by = "corp_name") |>
+  na.omit() |>
+  select(corp_id, school_id, leaid)
+```
+
+### Urban-Centric Locale
+
+The National Center for Education Statistics provides a framework for
+recognizing the "locale" of a school corporation, from *city* to *suburb* to
+*town* to *rural.* The framework is the [Urban-Centric Locale
+Categories](https://nces.ed.gov/pubs2007/ruraled/exhibit_a.asp), and the school
+corporation designations are included here for accountability purposes.
+
+```{r read-school-corp-locale, message=FALSE, warning=FALSE}
+#   ____________________________________________________________________________
+#   Process Locale Frame                                                    ####
+#   Processing on the locale frame is completed by adding the IDOE
+#   identifiers on to the frame and ensuring the School ID and School
+#   Corporation ID columns are numeric for consistency.
+locale_frame <- locale_frame |>
+  full_join(crosswalk_frame, by = "leaid") |>
+  select(-leaid) |>
+  set_numeric_ids()
+```
+
+### Demographics
+
+Demographic indicators—specifically the percentage of students who are a part of
+underrepresented racial minority communities and the percentage of students who
+receive free and reduced lunch—are critical components of the School Context
+Opportunity Score. They provide a measure of the potentiality of students who
+are often held back because of existing structural barriers and inequalities.
+
+```{r read-demographics, message = FALSE, warning = FALSE}
+#   ____________________________________________________________________________
+#   Load and Process Demographics File                                      ####
+##  ............................................................................
+##  Load Demographics File                                                  ####
+##  The Demographics File is loaded and any blank or "omitted" ("***")
+##  values are replaced with NA for easier processing.
+read_demographics_frame <-
+  read_csv(here("data", glue("{focus_year}-in-school-demographics.csv")),
+    col_names = TRUE,
+    na = c("", "***")
+  ) |>
+  ##  The Crosswalk Frame is used to only retain the school corporations that
+  ##  are of interest (excluding private, charter, etc., schools) and that
+  ##  consistently report data and are fully accountable to the communities
+  ##  they serve.
+  filter(corp_id %in% crosswalk_frame$corp_id) |>
+  ##  Any NA is then replaced with 0 in the demographics columns.
+  mutate(across(
+    .cols = aina:nhpi,
+    .fns = ~ if_else(is.na(.x) == TRUE, 0, .x)
+  ))
+
+##  ............................................................................
+##  Process Demographics Frame                                              ####
+##  An "underrepresented racial minority" column is created by calculating
+##  the proportion of non-white students in the school. Similarly, a Free
+##  and Reduced Lunch proportion is also calculated.
+process_demographics_frame <- read_demographics_frame |>
+  mutate(
+    urm_percent =
+      (aina +
+        asian +
+        black +
+        latine +
+        multiracial +
+        nhpi) /
+        enrollment
+  ) |>
+  mutate(
+    frl_percent = frl / enrollment
+  )
+
+##  ............................................................................
+##  Finalize Demographics Frame                                             ####
+##  Keep only the necessary columns in the dataframe and convert all ID
+##  columns to numeric for consistency.
+demographics_frame <- process_demographics_frame |>
+  select(
+    corp_id,
+    corp_name,
+    school_id,
+    school_name,
+    urm_percent,
+    frl_percent
+  ) |>
+  prune_frame() |>
+  set_numeric_ids()
+
+##  ............................................................................
+##  Calculate Demographic Means                                             ####
+##  Means for the demographic categories-underrepresented racial minorities and
+##  free and reduced lunch-are calculated for future use in the counterfactual
+##  analysis.
+urm_percent_mean <- round(mean(demographics_frame$urm_percent), 3)
+frl_percent_mean <- round(mean(demographics_frame$frl_percent), 3)
+```
+
+### 3rd Grade IREAD
+
+```{r read-iread, message = FALSE, warning = FALSE}
+
+#   ____________________________________________________________________________
+#   Load and Process IREAD File                                             ####
+##  ............................................................................
+##  Load IREAD File                                                         ####
+## 
+read_iread_frame <- read_csv(
+  here(
+    "data",
+    glue("{focus_year}-in-school-iread3.csv")
+  ),
+  na = c("", "***")
+) |>
+  prune_frame() |>
+  set_numeric_ids()
+
+##  ............................................................................
+##  Calculate IREAD Rates                                                   ####
+iread_frame <- read_iread_frame |>
+  mutate(iread_rate = as.numeric(str_sub(iread_rate, end = -2)) / 100)
+
+##  ............................................................................
+##  Calculate IREAD Mean                                                    ####
+iread_mean <- round(mean(iread_frame$iread_rate), 3)
+```
+
+### 6th Grade ILEARN
+
+```{r read-ilearn, message = FALSE, warning = FALSE}
+
+#   ____________________________________________________________________________
+#   Load and Process ILEARN File                                            ####
+##  ............................................................................
+##  Load ILEARN File                                                        ####
+read_ilearn_frame <- read_csv(
+  here(
+    "data",
+    glue("{focus_year}-in-school-ilearn6.csv")
+  ),
+  na = c("", "***")
+) |>
+  prune_frame() |>
+  set_numeric_ids()
+
+##  ............................................................................
+##  Calculate ILEARN Rates                                                  ####
+ilearn_frame <- read_ilearn_frame |>
+  mutate(ilearn_rate = as.numeric(str_sub(ilearn_rate, end = -2)) / 100)
+
+##  ............................................................................
+##  Calculate ILEARN Mean                                                   ####
+ilearn_mean <- round(mean(ilearn_frame$ilearn_rate), 3)
+```
+
+### Graduation Pathways Completion
+
+```{r read-grad, message = FALSE, warning = FALSE}
+#   ____________________________________________________________________________
+#   Load and Process Graduation Pathways Completion File                    ####
+##  ............................................................................
+##  Load Graduation Pathways Completion File                                ####
+read_grad_frame <- read_csv(
+  here(
+    "data",
+    glue("{focus_year}-in-school-gcr.csv")
+  ),
+  na = c("", "***")
+) |>
+  prune_frame() |>
+  set_numeric_ids()
+
+##  ............................................................................
+##  Process Graduation Completion Rates File                                ####
+grad_frame <- read_grad_frame |>
+  mutate(grad_rate = as.numeric(str_sub(grad_rate, end = -2)) / 100)
+
+##  ............................................................................
+##  Calculate Graduate Pathways Completion Rate Mean                        ####
+grad_mean <- round(mean(grad_frame$grad_rate), 3)
+```
+
+## Calculate SCOscore
+
+```{r calculate-scoscore, message=FALSE, warning=FALSE}
+scoscore_frame <- locale_frame |>
+  full_join(
+    demographics_frame,
+    by = c("corp_id", "school_id"),
+    suffix=c("",".y")) |>
+  full_join(
+    iread_frame,
+    by = c("corp_id", "school_id"),
+    suffix=c("",".y")) |>
+  full_join(
+    ilearn_frame,
+    by = c("corp_id", "school_id"),
+    suffix=c("",".y")) |>
+  full_join(
+    grad_frame,
+    by = c("corp_id", "school_id"),
+    suffix=c("",".y")) |>
+  select(-ends_with(".y")) |>
+  filter(!is.na(corp_name)) |>
+  mutate(iread_rate_adj = as.numeric(if_else(
+    iread_rate < state_3rd_proficiency,
+    (state_3rd_proficiency - iread_rate + 1),
+    0
+  ))) |>
+  mutate(ilearn_rate_adj = as.numeric(if_else(
+    ilearn_rate < state_6th_proficiency,
+    (state_6th_proficiency - ilearn_rate + 1),
+    0
+  ))) |>
+  mutate(grad_rate_adj = as.numeric(if_else(
+    grad_rate < state_gpc,
+    (state_gpc - grad_rate + 1),
+    0
+  ))) |>
+  rowwise() |>
+  mutate(
+    adj_academic = round(
+      mean(
+        c(iread_rate_adj, ilearn_rate_adj, grad_rate_adj),
+        na.rm = TRUE),
+    3)) |>
+  ungroup() |>
+  select(
+    -contains(c(
+      "iread",
+      "ilearn",
+      "grad"))) |>
+  mutate(
+    scoScore = (
+      ((urm_percent * 1.5) + (frl_percent * 1.5) + (adj_academic)) / 3
+    )
+  ) |>
+  mutate(rounded_up = if_else(
+    scoScore < critical_threshold & scoScore >= round_threshold,
+    TRUE,
+    FALSE
+  )) |>
+  mutate(scoScore = if_else(
+    scoScore < critical_threshold & scoScore >= round_threshold,
+    1,
+    scoScore
+  )) |>
+  na.omit() |>
+  mutate(counter_factual = FALSE)
+```
+
+Conduct a counterfactual analysis to ensure fairness for school corporations.
+If a school corporation has an adjusted academic score **above** mean academic
+score + 1 standard deviation then adjust the non-white and free and
+reduced lunch percents to the state average if these are **lower** than the
+state mean. This gives some school corporations a little "bump" so that it
+cannot be said that any group is given an "unfair" advantage. If the newly
+calculated SCOscore is then >=1, then keep that counterfactual score.
+
+```{r counterfactual-analysis, message=FALSE, warning=FALSE}
+
+adj_ac_mean <- round(
+  mean(scoscore_frame$adj_academic),
+  3)
+adj_ac_sd <- round(
+  sd(scoscore_frame$adj_academic),
+  3)
+adj_ac_cutoff <- adj_ac_mean + adj_ac_sd
+
+whatif_frame <- scoscore_frame |>
+  filter(adj_academic >= adj_ac_cutoff) |>
+  filter(scoScore < 1) |>
+  select(-scoScore) |>
+  mutate(urm_percent = ifelse(
+    urm_percent < urm_percent_mean,
+    urm_percent_mean,
+    urm_percent
+  )) |>
+  mutate(frl_percent = ifelse(
+    frl_percent < frl_percent_mean,
+    frl_percent_mean,
+    frl_percent
+  )) |>
+  mutate(
+    scoScore = (
+      ((urm_percent * 1.5) + (frl_percent * 1.5) + (adj_academic)) / 3
+    )
+  ) |>
+    mutate(
+    scoScore = round(scoScore, 3)
+  ) |>
+    mutate(rounded_up = if_else(
+    scoScore < critical_threshold & scoScore >= round_threshold,
+    TRUE,
+    FALSE
+  )) |>
+  mutate(scoScore = if_else(
+    scoScore < 1 & scoScore >= 0.970,
+    1,
+    scoScore
+  )) |>
+     filter(
+    scoScore >= 1
+  ) |>
+  mutate(
+    counter_factual = TRUE
+  ) |>
+  select(
+    corp_id,
+    school_id,
+    scoScore,
+    rounded_up,
+    counter_factual
+  )
+
+scoscore_frame <- scoscore_frame |>
+  left_join(
+    whatif_frame,
+    by = c("corp_id", "school_id")
+    ) |>
+  mutate(counter_factual = if_else(!is.na(counter_factual.y),
+                                   counter_factual.y,
+                                   counter_factual.x)) |>
+  mutate(rounded_up = if_else(!is.na(rounded_up.y),
+                                   rounded_up.y,
+                                   rounded_up.x)) |>
+  mutate(scoScore = if_else(!is.na(scoScore.y),
+                                   scoScore.y,
+                                   scoScore.x)) |>
+  select(-(ends_with(c(".x", ".y"))))
+```
+
+```{r output-file, message=FALSE, warning=FALSE}
+
+scoscore_frame <- scoscore_frame |>
+  select(
+    corp_id,
+    school_id,
+    corp_name,
+    school_name,
+    urban_centric_locale,
+    urm_percent,
+    frl_percent,
+    adj_academic,
+    scoScore,
+    rounded_up,
+    counter_factual
+  ) |>
+  arrange(
+    corp_id,
+    school_id
+  )
+
+write.xlsx(
+  scoscore_frame,
+  here(
+    "output",
+    glue("{focus_year}-in-scoscore-schools.xlsx")
+  ),
+  colNames = TRUE
+)
+```
+
+## Land Acknowledgement {.appendix}
+
+Indiana University Indianapolis acknowledges our location on the traditional and
+ancestral territory of the Miami, Potawatomi and Shawnee people. We honor the
+heritage of Native peoples, what they teach us about the stewardship of the
+earth and their continuing efforts today to protect the planet.
+
+Founded in 1969, Indiana University Indianapolis stands on the historic
+homelands of Native peoples and, more recently, that of a vibrant Black
+community, also displaced. As the present stewards of the land, we honor them
+all as we live, work and study at Indiana University Indianapolis.
+
+## Session Information {.appendix}
+
+Session information is provided for reproducibility purposes.
+
+```{r print-session-info, purl=FALSE}
+sessioninfo::session_info(pkgs = "attached")
+```

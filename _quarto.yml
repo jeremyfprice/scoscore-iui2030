@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "School Context Opportunity Score (IUI 2030)"
+
+
+format:
+  html
+
+
+

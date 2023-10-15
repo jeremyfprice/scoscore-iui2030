@@ -1,0 +1,1341 @@
+﻿corp_id,corp_name,school_id,school_name,iread_rate
+15,Adams Central Community Schools,20,Adams Central Elementary School,89.40%
+25,North Adams Community Schools,37,Bellmont Elementary ,71.60%
+35,South Adams Schools,25,South Adams Elementary School,93.60%
+125,MSD Southwest Allen County Schls,45,Aboite Elementary School,98.80%
+125,MSD Southwest Allen County Schls,46,Whispering Meadow Elementary Sch,87.20%
+125,MSD Southwest Allen County Schls,64,Lafayette Meadow School,91.80%
+125,MSD Southwest Allen County Schls,68,Haverhill Elementary School,92.20%
+125,MSD Southwest Allen County Schls,71,Deer Ridge Elementary,96.80%
+125,MSD Southwest Allen County Schls,72,Covington Elementary School,76.50%
+225,Northwest Allen County Schools,69,Arcola School,94.30%
+225,Northwest Allen County Schools,87,Hickory Center Elementary School,93.00%
+225,Northwest Allen County Schools,89,Huntertown Elementary School,88.20%
+225,Northwest Allen County Schools,92,Perry Hill Elementary School,98.90%
+225,Northwest Allen County Schools,94,Oak View Elementary School,92.00%
+225,Northwest Allen County Schools,95,Cedar Canyon Elementary School,97.10%
+225,Northwest Allen County Schools,96,Eel River Elementary School,86.70%
+225,Northwest Allen County Schools,98,Aspen Meadow Elementary School,92.90%
+235,Fort Wayne Community Schools,118,Jeff H Towles Intermediate School,71.80%
+235,Fort Wayne Community Schools,134,Weisser Park Elementary School,82.60%
+235,Fort Wayne Community Schools,136,Fairfield Elementary School,64.10%
+235,Fort Wayne Community Schools,137,Merle J Abbett Elementary School,46.10%
+235,Fort Wayne Community Schools,141,Adams Elementary School,38.90%
+235,Fort Wayne Community Schools,149,Bloomingdale Elementary School,72.50%
+235,Fort Wayne Community Schools,153,Brentwood Elementary School,71.10%
+235,Fort Wayne Community Schools,154,Fred H Croninger Elementary School,97.80%
+235,Fort Wayne Community Schools,157,Forest Park Elementary School,64.60%
+235,Fort Wayne Community Schools,161,Franke Park Elementary School,75.70%
+235,Fort Wayne Community Schools,162,Glenwood Park Elementary School,71.20%
+235,Fort Wayne Community Schools,164,J Wilbur Haley Elementary School,61.40%
+235,Fort Wayne Community Schools,178,Harrison Hill Elementary School,64.40%
+235,Fort Wayne Community Schools,186,Mabel K Holland Elementary School,90.60%
+235,Fort Wayne Community Schools,189,Indian Village Elementary School,68.20%
+235,Fort Wayne Community Schools,193,John S Irwin Elementary School,84.10%
+235,Fort Wayne Community Schools,197,Lindley Elementary School,76.90%
+235,Fort Wayne Community Schools,205,Maplewood Elementary School,71.80%
+235,Fort Wayne Community Schools,209,Willard Shambaugh Elementary Sch,78.80%
+235,Fort Wayne Community Schools,217,Northcrest Elementary School,58.90%
+235,Fort Wayne Community Schools,221,Francis M Price Elementary School,73.70%
+235,Fort Wayne Community Schools,233,Saint Joseph Central School,66.70%
+235,Fort Wayne Community Schools,239,Robert C Harris Elementary School,83.00%
+235,Fort Wayne Community Schools,248,Fort Wayne Virtual Academy,40.00%
+235,Fort Wayne Community Schools,249,Levan R Scott Academy,50.80%
+235,Fort Wayne Community Schools,253,South Wayne Elementary School,57.90%
+235,Fort Wayne Community Schools,257,Study Elementary School,60.70%
+235,Fort Wayne Community Schools,265,Washington Elementary School,71.00%
+235,Fort Wayne Community Schools,269,Washington Center Elementary Sch,80.70%
+235,Fort Wayne Community Schools,270,Lincoln Elementary School,81.40%
+235,Fort Wayne Community Schools,273,Waynedale Elementary School,81.50%
+235,Fort Wayne Community Schools,275,Arlington Elementary School,69.70%
+255,East Allen County Schools,43,Prince Chapman Academy,59.50%
+255,East Allen County Schools,281,Heritage Elementary School,80.00%
+255,East Allen County Schools,291,Cedarville Elementary School,95.40%
+255,East Allen County Schools,305,New Haven Intermediate School,79.90%
+255,East Allen County Schools,323,Woodlan Elementary School,89.20%
+365,Bartholomew Con School Corp,328,Clifty Creek Elementary School,70.70%
+365,Bartholomew Con School Corp,346,CSA Lincoln Campus,98.00%
+365,Bartholomew Con School Corp,353,Mount Healthy Elementary School,76.70%
+365,Bartholomew Con School Corp,357,Parkside Elementary School,86.50%
+365,Bartholomew Con School Corp,363,W D Richards Elementary School,73.70%
+365,Bartholomew Con School Corp,366,Rockcreek Elementary School,89.40%
+365,Bartholomew Con School Corp,369,Lillian Schmitt Elementary School,81.90%
+365,Bartholomew Con School Corp,371,L F Smith Elementary,74.60%
+365,Bartholomew Con School Corp,375,CSA Fodrea Campus,74.50%
+365,Bartholomew Con School Corp,377,Taylorsville Elementary School,75.30%
+365,Bartholomew Con School Corp,392,Southside Elementary School,84.20%
+370,Flat Rock-Hawcreek School Corp,409,Hope Elementary School,88.90%
+395,Benton Community School Corp,421,Otterbein Elementary School,78.10%
+395,Benton Community School Corp,446,Prairie Crossing Elementary School,88.90%
+515,Blackford County Schools,494,Blackford Intermediate School,72.50%
+615,Western Boone Co Com Sch Dist,521,Granville Wells Elementary School,89.10%
+615,Western Boone Co Com Sch Dist,537,Thorntown Elementary School,90.90%
+630,Zionsville Community Schools,514,Eagle Elementary School,92.10%
+630,Zionsville Community Schools,517,Zionsville Pleasant View Elem Sch,96.40%
+630,Zionsville Community Schools,541,Union Elementary School,94.40%
+630,Zionsville Community Schools,542,Stonegate Elementary,93.80%
+630,Zionsville Community Schools,544,Boone Meadow,92.90%
+630,Zionsville Community Schools,546,Trailside Elementary School,93.40%
+665,Lebanon Community School Corp,534,Perry Worth Elementary School,95.80%
+665,Lebanon Community School Corp,561,Central Elementary School,88.50%
+665,Lebanon Community School Corp,565,Harney Elementary School,77.50%
+665,Lebanon Community School Corp,569,Hattie B Stokes Elementary School,68.90%
+670,Brown County School Corporation,577,Van Buren Elementary School,85.70%
+670,Brown County School Corporation,581,Helmsburg Elementary School,84.60%
+670,Brown County School Corporation,585,Sprunica Elementary School,83.30%
+750,Carroll Consolidated School Corp,629,Carroll Elementary School,91.40%
+755,Delphi Community School Corp,641,Delphi Community Elementary School,85.80%
+775,Pioneer Regional School Corp,649,Pioneer Elementary School,70.40%
+815,Lewis Cass Schools ,695,Lewis Cass Elementary School,83.50%
+875,Logansport Community Sch Corp,705,Franklin Elementary School,65.50%
+875,Logansport Community Sch Corp,709,Fairview Elementary School,68.30%
+875,Logansport Community Sch Corp,711,Landis Elementary School,73.40%
+875,Logansport Community Sch Corp,713,Columbia Elementary School,59.30%
+935,Borden-Henryville School Corporation,767,Henryville Elementary School,85.70%
+935,Borden-Henryville School Corporation,815,William W Borden Elementary School,97.40%
+945,Silver Creek School Corporation,789,Silver Creek Elementary School,80.70%
+1000,Clarksville Community School Corp,845,Clarksville Elementary School,85.90%
+1000,Clarksville Community School Corp,1007,Indiana Gateway Digital Academy,38.10%
+1010,Greater Clark County Schools,755,W E Wilson Elementary,77.30%
+1010,Greater Clark County Schools,761,Thomas Jefferson Elementary School,94.10%
+1010,Greater Clark County Schools,801,Northaven Elementary School,83.20%
+1010,Greater Clark County Schools,805,Utica Elementary School,95.40%
+1010,Greater Clark County Schools,807,New Washington Elementary School,89.40%
+1010,Greater Clark County Schools,825,Jonathan Jennings Elementary Sch,90.30%
+1010,Greater Clark County Schools,871,Riverside Elementary School,84.70%
+1010,Greater Clark County Schools,874,Franklin Square Elementary School,59.00%
+1010,Greater Clark County Schools,879,Parkwood Elementary School,71.40%
+1125,Clay Community Schools,895,Clay City Elementary School,97.70%
+1125,Clay Community Schools,901,Jackson Township Elementary School,95.90%
+1125,Clay Community Schools,907,Staunton Elementary School,95.10%
+1125,Clay Community Schools,923,Van Buren Elementary School,89.80%
+1125,Clay Community Schools,941,East Side Elementary School,100.00%
+1125,Clay Community Schools,942,Forest Park Elementary School,73.10%
+1125,Clay Community Schools,949,Meridian Street Elementary School,91.70%
+1150,Clinton Central School Corporation,961,Clinton Central Elementary School,83.60%
+1160,Clinton Prairie School Corporation,981,Clinton Prairie Elementary School,93.00%
+1170,Community Schools of Frankfort,1015,Green Meadows Intermediate Elem,82.60%
+1170,Community Schools of Frankfort,1020,Suncrest Elementary School,82.70%
+1180,Rossville Con School District,1033,Rossville Elementary School,86.70%
+1300,Crawford County Community Sch Corp,1037,South Crawford Elementary School,82.40%
+1300,Crawford County Community Sch Corp,1045,West Crawford Elementary School,70.30%
+1300,Crawford County Community Sch Corp,1065,East Crawford Elementary School,71.40%
+1315,Barr-Reeve Community Schools Inc,1075,Barr Reeve Elementary School,90.20%
+1375,North Daviess Com Schools,1090,North Daviess Elementary School,91.50%
+1405,Washington Community Schools,1103,Washington Intermediate,74.30%
+1405,Washington Community Schools,1105,Veale Elementary School,93.80%
+1560,Sunman-Dearborn Com Sch Corp,1189,North Dearborn Elementary School,94.30%
+1560,Sunman-Dearborn Com Sch Corp,1193,Bright Elementary School,91.90%
+1560,Sunman-Dearborn Com Sch Corp,7211,Sunman Elementary School,86.60%
+1600,South Dearborn Community Sch Corp,1141,Dillsboro Elementary School,82.90%
+1600,South Dearborn Community Sch Corp,1165,Manchester Elementary School,95.20%
+1600,South Dearborn Community Sch Corp,1197,Aurora Elementary School,90.70%
+1620,Lawrenceburg Community School Corp,1217,Central Elementary School,93.70%
+1655,Decatur County Community Schools,1265,South Decatur Elementary School,84.90%
+1655,Decatur County Community Schools,1266,North Decatur Elementary School,95.60%
+1730,Greensburg Community Schools,1270,Greensburg Elementary,94.20%
+1805,DeKalb Co Eastern Com Sch Dist,1321,Butler Elementary School,87.80%
+1805,DeKalb Co Eastern Com Sch Dist,1335,Riverdale Elementary School,95.70%
+1820,Garrett-Keyser-Butler Com Sch Corp,1329,J E Ober Elementary School,79.00%
+1835,DeKalb Co Ctl United Sch Dist,1341,Waterloo Elementary School,84.20%
+1835,DeKalb Co Ctl United Sch Dist,1351,James R Watson Elementary School,94.20%
+1835,DeKalb Co Ctl United Sch Dist,1357,McKenney-Harrison Elementary Sch,75.00%
+1835,DeKalb Co Ctl United Sch Dist,1359,Country Meadow Elementary School,70.20%
+1875,Delaware Community School Corp,1365,Royerton Elementary School,95.60%
+1875,Delaware Community School Corp,1409,Eaton Elementary School,89.60%
+1875,Delaware Community School Corp,1520,Albany Elementary School,86.80%
+1885,Wes-Del Community Schools,1413,Wes-Del Elementary School,92.30%
+1895,Liberty-Perry Community Sch Corp,1381,Selma Elementary School,91.00%
+1900,Cowan Community School Corp,1385,Cowan Elementary School,83.10%
+1910,Yorktown Community Schools,1393,Yorktown Elementary School,89.90%
+1940,Daleville Community Schools,1405,Daleville Elementary School,92.90%
+1970,Muncie Community Schools,1470,Grissom Elementary School,56.70%
+1970,Muncie Community Schools,1482,South View Elementary School,65.70%
+1970,Muncie Community Schools,1485,Longfellow Elementary School,66.00%
+1970,Muncie Community Schools,1496,North View Elementary School,87.90%
+1970,Muncie Community Schools,1500,Muncie Virtual Academy,***
+1970,Muncie Community Schools,1513,East Washington Academy,68.30%
+1970,Muncie Community Schools,1517,West View Elementary School,81.40%
+2040,Northeast Dubois Co Sch Corp,1549,Northeast Dubois Intermediate School,97.80%
+2100,Southeast Dubois Co Sch Corp,1563,Pine Ridge Elementary School,89.70%
+2100,Southeast Dubois Co Sch Corp,1581,Ferdinand Elementary School,93.30%
+2110,Southwest Dubois Co Sch Corp,1529,Holland Elementary School,88.60%
+2110,Southwest Dubois Co Sch Corp,1590,Huntingburg Elementary School,83.30%
+2120,Greater Jasper Consolidated Schs,1569,Ireland Elementary School,100.00%
+2120,Greater Jasper Consolidated Schs,1601,Jasper Elementary School,86.90%
+2155,Fairfield Community Schools,1621,Millersburg Elementary- Middle Sch,88.70%
+2155,Fairfield Community Schools,1649,New Paris Elementary School,86.20%
+2155,Fairfield Community Schools,1652,Benton Elementary School,91.50%
+2260,Baugo Community Schools,1707,Jimtown Intermediate School,90.80%
+2270,Concord Community Schools,1721,Concord East Side Elementary Sch,76.10%
+2270,Concord Community Schools,1723,Concord Ox Bow Elementary School,82.60%
+2270,Concord Community Schools,1725,Concord South Side Elementary Sch,65.20%
+2270,Concord Community Schools,1729,Concord West Side Elem School,60.90%
+2275,Middlebury Community Schools,1656,Jefferson Elementary School,85.90%
+2275,Middlebury Community Schools,1697,York Elementary School,81.50%
+2275,Middlebury Community Schools,1731,Heritage Intermediate School,***
+2275,Middlebury Community Schools,1732,Middlebury Elementary School,93.20%
+2275,Middlebury Community Schools,1734,Orchard View School,86.80%
+2285,Wa-Nee Community Schools,1735,Wakarusa Elementary School,91.70%
+2285,Wa-Nee Community Schools,1743,Nappanee Elementary School,98.40%
+2285,Wa-Nee Community Schools,1747,Woodview Elementary School,86.80%
+2305,Elkhart Community Schools,1617,Cleveland Elementary School,73.70%
+2305,Elkhart Community Schools,1673,Osolo Elementary School,69.70%
+2305,Elkhart Community Schools,1679,Eastwood Elementary School,78.10%
+2305,Elkhart Community Schools,1681,Mary Feeser Elementary School,70.00%
+2305,Elkhart Community Schools,1693,Bristol Elementary School,61.50%
+2305,Elkhart Community Schools,1752,Elkhart Alternative Education,***
+2305,Elkhart Community Schools,1765,Beardsley Elementary School,38.20%
+2305,Elkhart Community Schools,1769,Mary Beck Elementary School,59.60%
+2305,Elkhart Community Schools,1773,Mary Daly Elementary School,58.80%
+2305,Elkhart Community Schools,1785,Pinewood Elementary School,65.30%
+2305,Elkhart Community Schools,1789,Monger Elementary School,70.50%
+2305,Elkhart Community Schools,1797,Riverview Elementary School,73.80%
+2305,Elkhart Community Schools,1801,Roosevelt STEAM Academy ,59.70%
+2305,Elkhart Community Schools,1817,Woodland Elementary School,66.10%
+2315,Goshen Community Schools,1633,Model Elementary School,73.60%
+2315,Goshen Community Schools,1641,Waterford Elementary School,75.60%
+2315,Goshen Community Schools,1829,Chamberlain Elementary School,84.40%
+2315,Goshen Community Schools,1833,Chandler Elementary School,69.40%
+2315,Goshen Community Schools,1843,Parkside Elementary School,80.60%
+2315,Goshen Community Schools,1847,Prairie View Elementary School,80.60%
+2315,Goshen Community Schools,1849,West Goshen Elementary School,58.10%
+2395,Fayette County School Corporation,1869,Everton Elementary School,75.00%
+2395,Fayette County School Corporation,1897,Eastview Elementary School,74.50%
+2395,Fayette County School Corporation,1909,Frazee Elementary School,75.60%
+2395,Fayette County School Corporation,1913,Grandview Elementary School,82.50%
+2395,Fayette County School Corporation,1921,Fayette Central Elementary,80.40%
+2400,New Albany-Floyd Co Con Sch,1929,Georgetown Elementary School,91.60%
+2400,New Albany-Floyd Co Con Sch,1943,Slate Run Elementary School,78.50%
+2400,New Albany-Floyd Co Con Sch,1949,Fairmont Elementary School,73.80%
+2400,New Albany-Floyd Co Con Sch,1953,Greenville Elementary School,93.30%
+2400,New Albany-Floyd Co Con Sch,1957,Grant Line Elementary School,94.30%
+2400,New Albany-Floyd Co Con Sch,1961,Green Valley Elementary School,80.20%
+2400,New Albany-Floyd Co Con Sch,1966,Floyds Knobs Elementary School,95.10%
+2400,New Albany-Floyd Co Con Sch,1974,Mount Tabor Elementary School,83.80%
+2400,New Albany-Floyd Co Con Sch,1981,S Ellen Jones Elementary School,72.20%
+2435,Attica Consolidated School Corp,2057,Attica Elementary School,87.50%
+2440,Covington Community School Corp,2009,Covington Elementary School,88.60%
+2455,Southeast Fountain School Corp,2021,Southeast Fountain Elementary,91.10%
+2475,Franklin County Community Sch Corp,2082,Laurel School,72.40%
+2475,Franklin County Community Sch Corp,2125,Brookville Elementary School,82.90%
+2475,Franklin County Community Sch Corp,2127,Mount Carmel School,100.00%
+2645,Rochester Community School Corp,2185,George M Riddle Elementary School,93.50%
+2650,Caston School Corporation,2157,Caston Elementary School,83.90%
+2725,East Gibson School Corporation,2189,Wood Memorial Intermediate School,***
+2725,East Gibson School Corporation,2201,Francisco Elementary School,***
+2725,East Gibson School Corporation,2237,Wood Memorial Primary School,80.60%
+2735,North Gibson School Corporation,2223,Princeton Comm Intermediate School,82.80%
+2765,South Gibson School Corporation,2205,Haubstadt Community School,85.70%
+2765,South Gibson School Corporation,2214,Fort Branch Community School,90.90%
+2765,South Gibson School Corporation,2241,Owensville Community School,78.90%
+2815,Eastbrook Community Sch Corp,2263,Eastbrook South Elementary,82.50%
+2815,Eastbrook Community Sch Corp,2264,Eastbrook North Elementary,91.30%
+2825,Madison-Grant United School Corp,2329,Park Elementary School,82.10%
+2825,Madison-Grant United School Corp,2834,Virtual Preparatory Academy of Indiana at Madison-Grant K-5,61.80%
+2855,Mississinewa Community School Corp,2346,Northview Elementary School,82.40%
+2865,Marion Community Schools,2369,Allen Elementary School,72.40%
+2865,Marion Community Schools,2393,John W Kendall Elem School,78.20%
+2865,Marion Community Schools,2405,Riverview Elementary School,73.00%
+2865,Marion Community Schools,2409,Frances Slocum Elem School,74.30%
+2920,Bloomfield School District,2417,Bloomfield Elementary School,87.30%
+2940,Eastern Greene Schools,2433,Eastern Greene Elementary School,81.90%
+2950,Linton-Stockton School Corporation,2441,Linton-Stockton Elementary,97.80%
+2960,MSD Shakamak Schools,2449,Shakamak Elementary School,91.50%
+2980,White River Valley School District,2460,White River Valley Elementary Sch,93.60%
+3005,Hamilton Southeastern Schools,2464,Deer Creek Elementary,95.40%
+3005,Hamilton Southeastern Schools,2466,Brooks School Elementary,92.70%
+3005,Hamilton Southeastern Schools,2468,New Britton Elementary School,85.90%
+3005,Hamilton Southeastern Schools,2469,Fishers Elementary School,85.40%
+3005,Hamilton Southeastern Schools,2470,Cumberland Road Elem School,94.20%
+3005,Hamilton Southeastern Schools,2471,Hoosier Road Elementary School,94.00%
+3005,Hamilton Southeastern Schools,2473,Fall Creek Elementary School,91.30%
+3005,Hamilton Southeastern Schools,2474,Geist Elementary School,96.20%
+3005,Hamilton Southeastern Schools,2475,Lantern Road Elementary School,95.80%
+3005,Hamilton Southeastern Schools,2481,Harrison Parkway Elementary School,94.40%
+3005,Hamilton Southeastern Schools,2482,Sand Creek Elementary,89.30%
+3005,Hamilton Southeastern Schools,2483,Thorpe Creek Elementary,98.10%
+3005,Hamilton Southeastern Schools,2484,Southeastern Elementary School,93.60%
+3025,Hamilton Heights School Corp,2478,Hamilton Heights Elementary School,87.70%
+3030,Westfield-Washington Schools,2492,Shamrock Springs Elementary School,92.20%
+3030,Westfield-Washington Schools,2494,Carey Ridge Elementary School,82.60%
+3030,Westfield-Washington Schools,2495,Washington Woods Elementary School,83.20%
+3030,Westfield-Washington Schools,2496,Oak Trace Elementary School,98.50%
+3030,Westfield-Washington Schools,2498,Monon Trail Elementary School,91.10%
+3030,Westfield-Washington Schools,2504,Maple Glen Elementary,91.50%
+3055,Sheridan Community Schools,2465,Sheridan Elementary School,84.70%
+3060,Carmel Clay Schools,2507,Woodbrook Elementary School,95.80%
+3060,Carmel Clay Schools,2508,Cherry Tree Elementary School,88.20%
+3060,Carmel Clay Schools,2509,Carmel Elementary School,92.00%
+3060,Carmel Clay Schools,2510,College Wood Elementary School,97.30%
+3060,Carmel Clay Schools,2512,Smoky Row Elementary School,98.50%
+3060,Carmel Clay Schools,2515,Prairie Trace Elementary School,96.70%
+3060,Carmel Clay Schools,2516,Mohawk Trails Elementary School,86.30%
+3060,Carmel Clay Schools,2518,Forest Dale Elementary School,91.10%
+3060,Carmel Clay Schools,2522,Towne Meadow Elementary School,94.20%
+3060,Carmel Clay Schools,2526,West Clay Elementary School,92.80%
+3060,Carmel Clay Schools,3071,Clay Center Elementary School,92.60%
+3070,Noblesville Schools,2523,Hinkle Creek Elementary School,89.60%
+3070,Noblesville Schools,2529,North Elementary School,87.80%
+3070,Noblesville Schools,2533,Stony Creek Elementary School,92.40%
+3070,Noblesville Schools,2537,Noble Crossing Elementary School,94.60%
+3070,Noblesville Schools,2538,Hazel Dell Elementary School,92.20%
+3070,Noblesville Schools,2539,Promise Road Elementary,84.30%
+3070,Noblesville Schools,2547,White River Elementary School,84.60%
+3115,Southern Hancock Co Com Sch Corp,2563,Brandywine Elementary School,91.50%
+3115,Southern Hancock Co Com Sch Corp,2564,New Palestine Elementary School,95.20%
+3115,Southern Hancock Co Com Sch Corp,2567,Sugar Creek Elementary Sch,92.10%
+3125,Greenfield-Central Com Schools,2581,Eden Elementary School,97.30%
+3125,Greenfield-Central Com Schools,2588,JB Stephens Elementary School,93.20%
+3125,Greenfield-Central Com Schools,2597,Harris Elementary School,87.10%
+3125,Greenfield-Central Com Schools,2609,Weston Elementary School,87.40%
+3135,Mt Vernon Community School Corp,2558,Fortville Elementary School,95.20%
+3135,Mt Vernon Community School Corp,2561,Mt Comfort Elementary School,92.60%
+3135,Mt Vernon Community School Corp,2570,McCordsville Elementary School,90.10%
+3145,Eastern Hancock Co Com Sch Corp,2586,Eastern Hancock Elementary School,90.40%
+3160,Lanesville Community School Corp,2611,Lanesville Elementary School,98.10%
+3180,North Harrison Com School Corp,2621,Morgan Elementary School,92.10%
+3180,North Harrison Com School Corp,2633,North Harrison Elementary School,87.80%
+3190,South Harrison Com Schools,2645,Corydon Elementary School,81.00%
+3190,South Harrison Com Schools,2649,New Middletown Elementary School,90.90%
+3190,South Harrison Com Schools,2653,Heth-Washington Elementary School,80.00%
+3190,South Harrison Com Schools,2667,South Central Elementary,81.40%
+3295,North West Hendricks Schools,2685,North Salem Elementary School,93.50%
+3295,North West Hendricks Schools,2725,Pittsboro Elementary School,100.00%
+3305,Brownsburg Community School Corp,2706,Brown Elementary School,96.00%
+3305,Brownsburg Community School Corp,2711,Eagle Elementary School,96.80%
+3305,Brownsburg Community School Corp,2714,Reagan Elementary School,98.40%
+3305,Brownsburg Community School Corp,2718,Delaware Trail Elementary School,96.80%
+3305,Brownsburg Community School Corp,2723,White Lick Elementary School,95.10%
+3305,Brownsburg Community School Corp,2727,Cardinal Elementary School,96.80%
+3305,Brownsburg Community School Corp,2744,Lincoln Elementary School,92.00%
+3315,Avon Community School Corp,2726,River Birch Elementary School,93.60%
+3315,Avon Community School Corp,2733,Maple Elementary School,89.50%
+3315,Avon Community School Corp,2735,Sycamore Elementary School,89.50%
+3315,Avon Community School Corp,2738,Cedar Elementary School,90.60%
+3315,Avon Community School Corp,2739,Pine Tree Elementary School,90.50%
+3315,Avon Community School Corp,2740,Hickory Elementary School,84.80%
+3325,Danville Community School Corp,2745,South Elementary School,92.10%
+3330,Plainfield Community School Corp,2748,Clarks Creek Elementary,74.10%
+3330,Plainfield Community School Corp,2751,Central Elementary School,89.40%
+3330,Plainfield Community School Corp,2761,Van Buren Elementary School,89.70%
+3330,Plainfield Community School Corp,2763,Brentwood Elementary School,90.30%
+3330,Plainfield Community School Corp,3338,Guilford Elementary,87.00%
+3335,Mill Creek Community Sch Corp,2675,Mill Creek East Elementary,94.10%
+3335,Mill Creek Community Sch Corp,2677,Mill Creek West Elementary,93.80%
+3405,Blue River Valley Schools,2803,Blue River Valley Elementary Sch,78.40%
+3415,South Henry School Corp,2777,Tri Elementary School,75.00%
+3435,Shenandoah School Corporation,2815,Shenandoah Elementary School,88.90%
+3445,New Castle Community School Corp,2832,Eastwood Elementary School,65.40%
+3445,New Castle Community School Corp,2847,Parker Elementary School,70.00%
+3445,New Castle Community School Corp,2849,James Whitcomb Riley Elem School,94.90%
+3445,New Castle Community School Corp,2853,Sunnyside Elementary School,70.00%
+3445,New Castle Community School Corp,2861,Westwood Elementary School,79.50%
+3445,New Castle Community School Corp,2865,Wilbur Wright Elementary School,84.00%
+3455,C A Beard Memorial School Corp,2887,Knightstown Elementary School,92.70%
+3460,Taylor Community School Corp,2895,Taylor Elementary School,61.60%
+3470,Northwestern School Corp,2904,Northwestern Elementary School,95.70%
+3470,Northwestern School Corp,2905,Howard Elementary School,88.90%
+3480,Eastern Howard School Corporation,2909,Eastern Elementary School,86.10%
+3490,Western School Corporation,2923,Western Intermediate School,95.10%
+3500,Kokomo School Corporation,2943,Sycamore Elementary School,60.30%
+3500,Kokomo School Corporation,2947,Boulevard Elementary School,82.20%
+3500,Kokomo School Corporation,2961,Elwood Haynes Elementary School,49.00%
+3500,Kokomo School Corporation,2969,Lafayette Park Elementary School,80.00%
+3500,Kokomo School Corporation,2993,Pettit Park School,55.20%
+3500,Kokomo School Corporation,3005,Wallace Elementary School,85.90%
+3625,Huntington Co Com Sch Corp,3021,Andrews Elementary School,85.70%
+3625,Huntington Co Com Sch Corp,3029,Roanoke Elementary School,86.80%
+3625,Huntington Co Com Sch Corp,3035,Salamonie Elementary School,94.10%
+3625,Huntington Co Com Sch Corp,3077,Flint Springs Elementary,86.30%
+3625,Huntington Co Com Sch Corp,3081,Lincoln Elementary School,77.80%
+3625,Huntington Co Com Sch Corp,3086,Horace Mann Elementary,72.50%
+3640,Medora Community School Corp,3095,Medora STEM Academy,73.30%
+3675,Seymour Community Schools,3105,Cortland Elementary School,100.00%
+3675,Seymour Community Schools,3135,Margaret R Brown Elementary School,48.20%
+3675,Seymour Community Schools,3141,Emerson Elementary School,75.90%
+3675,Seymour Community Schools,3153,Seymour-Jackson Elementary School,61.00%
+3675,Seymour Community Schools,3157,Seymour-Redding Elementary School,62.30%
+3695,Brownstown Cnt Com Sch Corp,3129,Brownstown Elementary School,83.50%
+3710,Crothersville Community Schools,3122,Crothersville Elementary School,72.40%
+3785,Kankakee Valley School Corp,3184,DeMotte Elementary School,89.80%
+3785,Kankakee Valley School Corp,3197,Wheatfield Elementary School,91.20%
+3815,Rensselaer Central School Corp,3205,Van Rensselaer Elementary School,86.50%
+3945,Jay School Corporation,3241,Bloomfield Elementary School,90.90%
+3945,Jay School Corporation,3247,Redkey Elementary School,88.00%
+3945,Jay School Corporation,3273,East Jay Elementary,77.30%
+3945,Jay School Corporation,3289,West Jay Elementary,84.80%
+3995,Madison Consolidated Schools,3301,Deputy Elementary School,85.70%
+3995,Madison Consolidated Schools,3321,Rykers' Ridge Elementary School,76.20%
+3995,Madison Consolidated Schools,3329,Lydia Middleton Elementary School,86.90%
+3995,Madison Consolidated Schools,3333,Anderson Elementary School,67.60%
+4000,Southwestern-Jefferson Co Con,3341,Southwestern Elementary School,80.80%
+4015,Jennings County School Corporation,3349,Sand Creek Elementary School,55.00%
+4015,Jennings County School Corporation,3357,Scipio Elementary School,78.00%
+4015,Jennings County School Corporation,3361,Graham Creek Elementary School,100.00%
+4015,Jennings County School Corporation,3385,Hayden Elementary School,80.40%
+4015,Jennings County School Corporation,3389,Brush Creek Elementary School,73.30%
+4015,Jennings County School Corporation,3397,North Vernon Elementary School,82.60%
+4145,Clark-Pleasant Community Sch Corp,3401,Clark Elementary School,86.30%
+4145,Clark-Pleasant Community Sch Corp,3422,Grassy Creek Elementary School,81.50%
+4145,Clark-Pleasant Community Sch Corp,3425,Whiteland Elementary School,82.50%
+4145,Clark-Pleasant Community Sch Corp,3429,Break-O-Day Elementary School,91.40%
+4145,Clark-Pleasant Community Sch Corp,3430,Pleasant Crossing Elementary,83.50%
+4145,Clark-Pleasant Community Sch Corp,4172,Ray Crowe Elementary,79.10%
+4205,Center Grove Community School Corp,3434,Sugar Grove Elementary School,90.60%
+4205,Center Grove Community School Corp,3435,Center Grove Elementary School,92.90%
+4205,Center Grove Community School Corp,3438,Walnut Grove Elementary School,86.60%
+4205,Center Grove Community School Corp,3439,Maple Grove Elementary School,90.70%
+4205,Center Grove Community School Corp,3440,North Grove Elementary School,87.10%
+4205,Center Grove Community School Corp,3444,Pleasant Grove Elementary School,95.60%
+4215,Edinburgh Community School Corp,3452,East Side Elementary School,83.10%
+4225,Franklin Community School Corp,3413,Needham Elementary School,92.50%
+4225,Franklin Community School Corp,3433,Union Elementary School,96.70%
+4225,Franklin Community School Corp,3461,Northwood Elementary School,73.70%
+4225,Franklin Community School Corp,3465,Webb Elementary School,81.60%
+4225,Franklin Community School Corp,3467,Creekside Elementary School,81.10%
+4245,Greenwood Community Sch Corp,3477,Greenwood Northeast Elementary Sch,82.70%
+4245,Greenwood Community Sch Corp,3479,Westwood Elementary School,92.20%
+4245,Greenwood Community Sch Corp,3481,V O Isom Central Elem School,82.10%
+4245,Greenwood Community Sch Corp,3483,Southwest Elementary School,90.40%
+4255,Nineveh-Hensley-Jackson United,3411,Indian Creek Intermediate School,94.10%
+4315,North Knox School Corp,3545,North Knox Intermediate,91.10%
+4325,South Knox School Corp,3489,South Knox Elementary School,94.10%
+4335,Vincennes Community School Corp,3509,Benjamin Franklin Elementary Sch,94.90%
+4335,Vincennes Community School Corp,3573,James Whitcomb Riley Elem Sch,88.90%
+4335,Vincennes Community School Corp,3577,Tecumseh-Harrison Elementary Sch,77.30%
+4335,Vincennes Community School Corp,3581,Francis Vigo Elementary School,85.20%
+4345,Wawasee Community School Corp,3625,North Webster Elementary School,95.90%
+4345,Wawasee Community School Corp,3635,Milford Elementary School,74.50%
+4345,Wawasee Community School Corp,3637,Syracuse Elementary School,86.10%
+4415,Warsaw Community Schools,3589,Claypool Elementary School,71.40%
+4415,Warsaw Community Schools,3608,Eisenhower Elementary School,90.60%
+4415,Warsaw Community Schools,3610,Harrison Elementary School,77.60%
+4415,Warsaw Community Schools,3613,Leesburg Elementary School,83.50%
+4415,Warsaw Community Schools,3661,Jefferson Elementary School,74.20%
+4415,Warsaw Community Schools,3665,Lincoln Elementary School,83.80%
+4415,Warsaw Community Schools,3673,Madison Elementary School,82.80%
+4415,Warsaw Community Schools,3677,Washington Elementary School,89.30%
+4445,Tippecanoe Valley School Corp,2139,Akron Elementary School,82.80%
+4445,Tippecanoe Valley School Corp,3603,Mentone Elementary School,85.00%
+4455,Whitko Community School Corp,3642,Pierceton Elementary School,74.00%
+4455,Whitko Community School Corp,9173,South Whitley Elementary School,88.60%
+4515,Prairie Heights Community Sch Corp,3686,Prairie Heights Elementary School,90.70%
+4525,Westview School Corporation,3698,Topeka Elementary School,85.20%
+4525,Westview School Corporation,3704,Meadowview Elementary School,96.70%
+4525,Westview School Corporation,3714,Shipshewana-Scott Elementary Sch,91.70%
+4535,Lakeland School Corporation,3739,Lakeland Intermediate School,69.90%
+4570,NW Indiana Special Education Coop,4287,Eagle Park Community School,***
+4580,Hanover Community School Corp,3780,Red Cedars Elementary,93.20%
+4590,River Forest Community Sch Corp,3797,Henry S Evans Elementary School,83.70%
+4590,River Forest Community Sch Corp,3805,John I Meister Elementary School,80.40%
+4600,Merrillville Community School Corp,3821,Henry P Fieler Elementary School,72.10%
+4600,Merrillville Community School Corp,3822,Homer Iddings Elementary School,76.90%
+4600,Merrillville Community School Corp,3826,Edgar L Miller Elementary School,62.10%
+4600,Merrillville Community School Corp,3827,John Wood Elementary School,70.70%
+4600,Merrillville Community School Corp,3829,Jonas E Salk Elementary School,77.40%
+4615,Lake Central School Corporation,3837,Kolling Elementary School,91.20%
+4615,Lake Central School Corporation,3839,George Bibich Elementary School,96.70%
+4615,Lake Central School Corporation,3840,James H Watson Elementary School,89.10%
+4615,Lake Central School Corporation,3843,Protsman Elementary School,95.70%
+4615,Lake Central School Corporation,4349,Homan Elementary School,90.80%
+4615,Lake Central School Corporation,4351,Peifer Elementary School,90.90%
+4645,Tri-Creek School Corporation,3753,Oak Hill Elementary School,87.20%
+4645,Tri-Creek School Corporation,3845,Lake Prairie Elementary School,100.00%
+4645,Tri-Creek School Corporation,3848,Three Creeks Elem School,97.60%
+4650,Lake Ridge New Tech Schools,3885,Longfellow New Tech Elementary Sch,52.80%
+4660,Crown Point Community School Corp,3769,Douglas MacArthur Elem School,100.00%
+4660,Crown Point Community School Corp,3773,Dwight D Eisenhower Elem School,91.90%
+4660,Crown Point Community School Corp,3903,Lake Street Elementary School,91.00%
+4660,Crown Point Community School Corp,3905,Solon Robinson Elementary School,95.10%
+4660,Crown Point Community School Corp,3907,Jerry Ross Elementary School,90.30%
+4660,Crown Point Community School Corp,3913,Timothy Ball Elementary School,90.30%
+4670,School City of East Chicago,3941,Benjamin Harrison Elementary Sch,63.80%
+4670,School City of East Chicago,3945,Abraham Lincoln Elementary School,35.70%
+4670,School City of East Chicago,3953,William McKinley Elementary School,68.10%
+4670,School City of East Chicago,3961,George Washington Elementary Sch,51.40%
+4680,Lake Station Community Schools,3973,Alexander Hamilton Elementary Sch,91.90%
+4680,Lake Station Community Schools,3975,Virgil I Bailey Elementary School,70.00%
+4690,Gary Community School Corp,4053,Banneker Elementary at Marquette,44.70%
+4690,Gary Community School Corp,4061,Beveridge Elementary School,31.50%
+4690,Gary Community School Corp,4068,Gary Virtual Academy,***
+4690,Gary Community School Corp,4086,Frankie Woods McCullough Academy,55.30%
+4690,Gary Community School Corp,4155,Glen Park Acad for Excel in Lrn,52.40%
+4690,Gary Community School Corp,4169,Daniel Hale Williams Elem Sch,49.40%
+4700,Griffith Public Schools,4171,Beiriger Elementary School,83.70%
+4710,School City of Hammond,4422,Joseph Hess Elementary School,55.40%
+4710,School City of Hammond,4449,Thomas A Edison Elementary School,68.30%
+4710,School City of Hammond,4451,Benjamin Franklin Elementary Sch,51.40%
+4710,School City of Hammond,4453,Warren G Harding Elementary School,54.90%
+4710,School City of Hammond,4455,Washington Irving Elementary Sch,52.60%
+4710,School City of Hammond,4457,Thomas Jefferson Elementary School,68.20%
+4710,School City of Hammond,4459,Kenwood Elementary School,60.00%
+4710,School City of Hammond,4463,Abraham Lincoln Elementary School,56.10%
+4710,School City of Hammond,4465,Annie Burns-Hicks Elementary School,54.80%
+4710,School City of Hammond,4469,Morton Elementary School,61.00%
+4710,School City of Hammond,4479,Lew Wallace Elementary School,54.50%
+4710,School City of Hammond,4484,Frank O'Bannon Elementary School,55.90%
+4720,School Town of Highland,4285,Judith Morton Johnston Elementary,93.00%
+4720,School Town of Highland,4290,Mildred Merkley Elementary School,76.70%
+4720,School Town of Highland,4301,Southridge Elementary School,88.00%
+4720,School Town of Highland,4303,Allen J Warren Elementary School,89.10%
+4730,School City of Hobart,4317,Liberty Elementary School,94.20%
+4730,School City of Hobart,4325,Veterans Elementary School at Mundell,83.20%
+4730,School City of Hobart,4327,Joan Martin Elementary School,77.90%
+4740,School Town of Munster,4337,James B Eads Elementary School,91.40%
+4740,School Town of Munster,4341,Ernest R Elliott Elementary School,96.20%
+4740,School Town of Munster,4343,Frank H Hammond Elementary School,95.20%
+4760,School City of Whiting,4361,Nathan Hale Elementary School,85.20%
+4805,New Prairie United School Corp,4679,Prairie View Elementary School,92.90%
+4805,New Prairie United School Corp,4693,Rolling Prairie Elementary School,95.50%
+4805,New Prairie United School Corp,7349,Olive Township Elementary School,97.50%
+4860,MSD of New Durham Township,4699,Westville Elementary School,87.50%
+4915,Tri-Township Cons School Corp,4696,Tri-Township Elementary School,95.70%
+4925,Michigan City Area Schools,4373,Coolspring Elementary School,65.10%
+4925,Michigan City Area Schools,4713,Springfield Elementary School,78.90%
+4925,Michigan City Area Schools,4805,Edgewood Elementary School,64.70%
+4925,Michigan City Area Schools,4811,Lake Hills Elementary School,68.50%
+4925,Michigan City Area Schools,4821,Joy Elementary School,75.40%
+4925,Michigan City Area Schools,4825,Knapp Elementary School,83.00%
+4925,Michigan City Area Schools,4833,Marsh Elementary School,71.70%
+4925,Michigan City Area Schools,6829,Pine Elementary School,69.20%
+4940,South Central Com School Corp,4734,South Central Elementary School,96.60%
+4945,LaPorte Community School Corp,4707,Indian Trail Elementary School,75.80%
+4945,LaPorte Community School Corp,4721,Kingsford Heights Elementary Sch,88.90%
+4945,LaPorte Community School Corp,4727,Kingsbury Elementary School,94.50%
+4945,LaPorte Community School Corp,4749,Hailmann Elementary School,90.00%
+4945,LaPorte Community School Corp,4753,F Willard Crichfield Elementary,94.90%
+4945,LaPorte Community School Corp,4757,Lincoln Elementary School,76.30%
+4945,LaPorte Community School Corp,4767,Riley Elementary School,86.30%
+4945,LaPorte Community School Corp,4773,Handley Elementary School,85.90%
+5075,North Lawrence Com Schools,4864,Needmore Elementary School,87.50%
+5075,North Lawrence Com Schools,4885,Oolitic School,76.90%
+5075,North Lawrence Com Schools,4889,Shawswick Elementary School,83.80%
+5075,North Lawrence Com Schools,4909,Lincoln Elementary School,92.50%
+5075,North Lawrence Com Schools,4932,Parkview Elementary School,82.20%
+5085,Mitchell Community Schools,4861,Burris Elementary School,84.40%
+5245,Frankton-Lapel Community Schools,5009,Frankton Elementary School,98.80%
+5245,Frankton-Lapel Community Schools,5025,Lapel Elementary School,92.40%
+5255,South Madison Com Sch Corp,4935,East Elementary School,84.80%
+5255,South Madison Com Sch Corp,5061,Pendleton Elementary School,97.30%
+5255,South Madison Com Sch Corp,5064,Maple Ridge Elementary School,97.90%
+5265,Alexandria Community School Corp,5065,Alexandria Monroe Elementary School,85.30%
+5275,Anderson Community School Corp,4953,Edgewood Elementary School,72.20%
+5275,Anderson Community School Corp,4977,Tenth Street Elementary School,63.80%
+5275,Anderson Community School Corp,5033,Valley Grove Elementary School,67.60%
+5275,Anderson Community School Corp,5102,Eastside Elementary School,79.20%
+5275,Anderson Community School Corp,5142,Anderson Elementary School,50.00%
+5275,Anderson Community School Corp,5146,Erskine Elementary School,77.80%
+5280,Elwood Community School Corp,5151,Elwood Intermediate School,67.80%
+5300,MSD Decatur Township,5178,Gold Academy,75.00%
+5300,MSD Decatur Township,5179,Blue Academy,83.30%
+5300,MSD Decatur Township,5185,Stephen Decatur Elementary School,73.40%
+5300,MSD Decatur Township,5187,Valley Mills Elementary School,76.10%
+5300,MSD Decatur Township,5189,West Newton Elementary School,83.90%
+5300,MSD Decatur Township,5192,Lynwood Elementary,63.60%
+5310,Franklin Township Com Sch Corp,5194,South Creek Elementary,86.70%
+5310,Franklin Township Com Sch Corp,5198,Thompson Crossing Elementary Sch,75.00%
+5310,Franklin Township Com Sch Corp,5200,Mary Adams Elementary School,86.40%
+5310,Franklin Township Com Sch Corp,5201,Acton Elementary School,86.80%
+5310,Franklin Township Com Sch Corp,5202,Arlington Elementary School,79.40%
+5310,Franklin Township Com Sch Corp,5205,Bunker Hill Elementary School,79.60%
+5330,MSD Lawrence Township,5281,Brook Park Elementary School,45.00%
+5330,MSD Lawrence Township,5283,Mary Evelyn Castle Elementary Sch,77.00%
+5330,MSD Lawrence Township,5285,Crestview Elementary School,75.00%
+5330,MSD Lawrence Township,5287,Amy Beverland Elementary,86.30%
+5330,MSD Lawrence Township,5289,Harrison Hill Elementary School,56.50%
+5330,MSD Lawrence Township,5293,Indian Creek Elementary School,44.40%
+5330,MSD Lawrence Township,5294,Forest Glen Elementary School,88.20%
+5330,MSD Lawrence Township,5295,Winding Ridge Elementary School,63.40%
+5330,MSD Lawrence Township,5296,Oaklandon Elementary School,69.30%
+5330,MSD Lawrence Township,5298,Skiles Test Elementary School,62.80%
+5330,MSD Lawrence Township,5299,Sunnyside Elementary School,51.80%
+5340,Perry Township Schools,5321,William Henry Burkhart Elementary,73.40%
+5340,Perry Township Schools,5322,Mary Bryan Elementary School,79.50%
+5340,Perry Township Schools,5325,Clinton Young Elementary School,43.80%
+5340,Perry Township Schools,5333,Glenns Valley Elementary School,73.80%
+5340,Perry Township Schools,5337,Abraham Lincoln Elementary School,60.70%
+5340,Perry Township Schools,5338,Douglas MacArthur Elementary Sch,87.10%
+5340,Perry Township Schools,5345,Homecroft Elementary School,72.50%
+5340,Perry Township Schools,5347,Southport Elementary School,64.30%
+5340,Perry Township Schools,5351,Winchester Village Elementary,53.20%
+5340,Perry Township Schools,5366,Jeremiah Gray Elementary School,83.00%
+5340,Perry Township Schools,5372,Rosa Parks Elementary School,82.90%
+5350,MSD Pike Township,5349,Fishback Creek Public Academy,85.50%
+5350,MSD Pike Township,5352,Deer Run Elementary,77.80%
+5350,MSD Pike Township,5354,College Park Elementary School,62.70%
+5350,MSD Pike Township,5357,Central Elementary School,68.40%
+5350,MSD Pike Township,5358,Eagle Creek Elementary School,75.00%
+5350,MSD Pike Township,5359,Eastbrook Elementary School,67.40%
+5350,MSD Pike Township,5360,Guion Creek Elementary School,71.20%
+5350,MSD Pike Township,5363,Snacks Crossing Elementary School,54.10%
+5350,MSD Pike Township,5378,New Augusta Public Academy - South,69.20%
+5360,MSD Warren Township,5369,Eastridge Elementary School,80.20%
+5360,MSD Warren Township,5370,Hawthorne Elementary School,61.60%
+5360,MSD Warren Township,5373,Grassy Creek Elementary School,70.10%
+5360,MSD Warren Township,5375,Lakeside Elementary School,56.10%
+5360,MSD Warren Township,5377,Lowell Elementary School,83.20%
+5360,MSD Warren Township,5379,Warren Online Academy,35.70%
+5360,MSD Warren Township,5386,Pleasant Run Elementary School,60.80%
+5360,MSD Warren Township,5389,Sunny Heights Elementary School,79.00%
+5360,MSD Warren Township,5391,Brookview Elementary School,67.00%
+5360,MSD Warren Township,5397,Liberty Park Elementary School,79.10%
+5370,MSD Washington Township,5403,Allisonville Elementary School,88.10%
+5370,MSD Washington Township,5406,Crooked Creek Elementary School,88.10%
+5370,MSD Washington Township,5407,Clearwater Elementary School,92.00%
+5370,MSD Washington Township,5408,Willow Lake Elementary School,80.20%
+5370,MSD Washington Township,5418,Greenbriar Elementary School,72.10%
+5370,MSD Washington Township,5427,Nora Elementary School,68.20%
+5370,MSD Washington Township,5430,Spring Mill Elementary School,79.40%
+5370,MSD Washington Township,5436,Fox Hill Elementary School,84.90%
+5375,MSD Wayne Township,5223,Maplewood Elementary School,56.50%
+5375,MSD Wayne Township,5227,Chapel Glen Elementary School,64.50%
+5375,MSD Wayne Township,5241,Garden City Elementary School,48.90%
+5375,MSD Wayne Township,5257,McClelland Elementary School,78.30%
+5375,MSD Wayne Township,5261,Rhoades Elementary School,69.10%
+5375,MSD Wayne Township,5265,Robey Elementary School,88.60%
+5375,MSD Wayne Township,5267,North Wayne Elementary School,64.30%
+5375,MSD Wayne Township,5268,Achieve Virtual Elementary,76.50%
+5375,MSD Wayne Township,5270,Stout Field Elementary School,71.90%
+5375,MSD Wayne Township,5271,Sanders School,***
+5375,MSD Wayne Township,5273,Westlake Elementary School,62.00%
+5375,MSD Wayne Township,5274,Chapelwood Elementary School,75.60%
+5375,MSD Wayne Township,5446,Bridgeport Elementary School,72.40%
+5380,Beech Grove City Schools,5457,Central Elementary School,76.20%
+5385,Indianapolis Public Schools,5498,Cold Spring School,46.90%
+5385,Indianapolis Public Schools,5515,Thomas D Gregg School 15,50.00%
+5385,Indianapolis Public Schools,5531,James A Garfield School 31,90.60%
+5385,Indianapolis Public Schools,5534,Eleanor Skillen School 34,52.60%
+5385,Indianapolis Public Schools,5538,Center for Inquiry School 70,82.40%
+5385,Indianapolis Public Schools,5539,William McKinley School 39,74.50%
+5385,Indianapolis Public Schools,5543,James Whitcomb Riley School 43,35.30%
+5385,Indianapolis Public Schools,5546,Daniel Webster School 46,38.20%
+5385,Indianapolis Public Schools,5549,William Penn School 49,67.90%
+5385,Indianapolis Public Schools,5551,James Russell Lowell School 51,48.90%
+5385,Indianapolis Public Schools,5554,Brookside School 54,66.10%
+5385,Indianapolis Public Schools,5555,IPS/Butler Lab at Eliza Blaker 55,76.00%
+5385,Indianapolis Public Schools,5556,Francis W Parker School 56,81.00%
+5385,Indianapolis Public Schools,5557,George W Julian School 57,88.20%
+5385,Indianapolis Public Schools,5558,Ralph Waldo Emerson School 58,45.70%
+5385,Indianapolis Public Schools,5560,IPS/Butler Lab at William Bell 60,75.70%
+5385,Indianapolis Public Schools,5565,Raymond F Brandes School 65,80.00%
+5385,Indianapolis Public Schools,5570,Edison School of the Arts 47,60.40%
+5385,Indianapolis Public Schools,5574,Theodore Potter School 74,75.70%
+5385,Indianapolis Public Schools,5577,Merle Sidener Gifted Academy,100.00%
+5385,Indianapolis Public Schools,5579,Carl Wilde School 79,41.90%
+5385,Indianapolis Public Schools,5582,Christian Park School 82,54.30%
+5385,Indianapolis Public Schools,5583,Floro Torrence School 83,52.40%
+5385,Indianapolis Public Schools,5587,George Washington Carver School 87,72.90%
+5385,Indianapolis Public Schools,5588,Anna Brochhausen School 88,53.50%
+5385,Indianapolis Public Schools,5590,Ernie Pyle School 90,64.10%
+5385,Indianapolis Public Schools,5591,Rousseau McClellan School 91,92.70%
+5385,Indianapolis Public Schools,5596,Meredith Nicholson School 96,55.80%
+5385,Indianapolis Public Schools,5605,Charles Warren Fairbanks Sch 105,22.00%
+5385,Indianapolis Public Schools,5606,Robert Lee Frost School 106,67.60%
+5385,Indianapolis Public Schools,5607,Lew Wallace School 107,36.60%
+5385,Indianapolis Public Schools,5609,Jonathan Jennings School 109,56.60%
+5385,Indianapolis Public Schools,5614,Paul I Miller School 114,64.50%
+5385,Indianapolis Public Schools,5619,George S Buck School 94,27.60%
+5385,Indianapolis Public Schools,5623,Arlington Woods School 99,32.50%
+5385,Indianapolis Public Schools,5635,Center For Inquiry School 2,90.20%
+5385,Indianapolis Public Schools,5659,Center for Inquiry School 84,98.10%
+5385,Indianapolis Public Schools,5662,Clarence Farrington School 61,38.20%
+5385,Indianapolis Public Schools,5668,Center for Inquiry School 27,70.60%
+5385,Indianapolis Public Schools,5674,Frederick Douglass School 19,57.60%
+5390,Southside Sp Srvs Of Marion Co,5320,RISE Learning Center,***
+5400,School Town of Speedway,5893,James A Allison Elementary Sch 3,96.30%
+5400,School Town of Speedway,5897,Carl G Fisher Elementary School 1,100.00%
+5400,School Town of Speedway,5901,Arthur C Newby Elementary School 2,96.80%
+5400,School Town of Speedway,5905,Frank H Wheeler Elementary Sch 4,71.70%
+5455,Culver Community Schools Corp,5928,Culver Elementary School,95.80%
+5470,Argos Community Schools,5936,Argos Community Elementary,88.90%
+5480,Bremen Public Schools,5943,Bremen Elementary/Middle School,76.50%
+5485,Plymouth Community School Corp,5933,Menominee Elementary School,74.60%
+5485,Plymouth Community School Corp,5961,Jefferson Elementary School,88.20%
+5485,Plymouth Community School Corp,5965,Washington Discovery Academy,62.20%
+5485,Plymouth Community School Corp,5969,Webster Elementary School,77.90%
+5495,Triton School Corporation,5922,Triton Elementary School,91.00%
+5520,Shoals Community School Corp,5989,Shoals Community Elementary School,88.20%
+5525,Loogootee Community Sch Corp,5997,Loogootee Elementary School,93.20%
+5615,Maconaquah School Corp,6035,Maconaquah Elementary School,73.50%
+5620,North Miami Community Schools,6051,North Miami Elementary School,91.90%
+5625,Oak Hill United School Corp,6073,Converse Elementary School,***
+5625,Oak Hill United School Corp,6081,Sweetser Elementary School,94.90%
+5635,Peru Community Schools,6093,Blair Pointe Upper Elementary,87.30%
+5705,Richland-Bean Blossom C S C,6153,Edgewood Intermediate School,88.40%
+5740,Monroe County Community Sch Corp,6123,Unionville Elementary School,100.00%
+5740,Monroe County Community Sch Corp,6134,Lakeview Elementary School,90.20%
+5740,Monroe County Community Sch Corp,6157,Grandview Elementary School,76.60%
+5740,Monroe County Community Sch Corp,6162,Highland Park Elementary School,69.70%
+5740,Monroe County Community Sch Corp,6164,Summit Elementary School,77.80%
+5740,Monroe County Community Sch Corp,6173,Binford Elementary School,94.40%
+5740,Monroe County Community Sch Corp,6181,Arlington Heights Elementary Sch,56.60%
+5740,Monroe County Community Sch Corp,6187,Childs Elementary School,95.50%
+5740,Monroe County Community Sch Corp,6189,Clear Creek Elementary School,76.20%
+5740,Monroe County Community Sch Corp,6197,Fairview Elementary School,73.60%
+5740,Monroe County Community Sch Corp,6213,Marlin Elementary School,92.30%
+5740,Monroe County Community Sch Corp,6225,Templeton Elementary School,79.00%
+5740,Monroe County Community Sch Corp,6226,University Elementary School,83.50%
+5835,North Montgomery Com Sch Corp,6240,Pleasant Hill Elementary School,79.60%
+5835,North Montgomery Com Sch Corp,6243,Lester B Sommer Elementary School,89.10%
+5835,North Montgomery Com Sch Corp,6246,Sugar Creek Elementary School,85.40%
+5845,South Montgomery Com Sch Corp,6233,Ladoga Elementary School,100.00%
+5845,South Montgomery Com Sch Corp,6258,Walnut Elementary School,75.00%
+5845,South Montgomery Com Sch Corp,6269,New Market Elementary School,91.00%
+5855,Crawfordsville Community Schools,6301,Meredith Nicholson Elementary Sch,76.10%
+5900,Monroe-Gregg School District,6323,Monrovia Elementary School,87.30%
+5910,Eminence Community School Corp,6327,Eminence Elementary School,95.50%
+5925,MSD Martinsville Schools,6309,Green Township Elementary School,86.70%
+5925,MSD Martinsville Schools,6337,Brooklyn STEM Academy,88.50%
+5925,MSD Martinsville Schools,6341,Centerton Elementary School,93.50%
+5925,MSD Martinsville Schools,6344,South Elementary School of Communications,84.60%
+5925,MSD Martinsville Schools,6349,Charles L Smith Fine Arts Academy,89.40%
+5925,MSD Martinsville Schools,6357,Paragon Elementary School,76.50%
+5925,MSD Martinsville Schools,6361,Poston Road Elementary School,93.80%
+5930,Mooresville Con School Corp,6375,Neil Armstrong Elementary School,75.30%
+5930,Mooresville Con School Corp,6381,Newby Memorial Elementary School,89.40%
+5930,Mooresville Con School Corp,6385,North Madison Elementary School,90.70%
+5930,Mooresville Con School Corp,6387,Northwood Elementary School,87.70%
+5930,Mooresville Con School Corp,6393,Waverly Elementary School,93.90%
+5945,North Newton School Corp,6397,Morocco Elementary School,86.70%
+5945,North Newton School Corp,6405,Lake Village Elementary School,87.00%
+5945,North Newton School Corp,6409,Lincoln Elementary School,93.80%
+5995,South Newton School Corp,6431,South Newton Elementary School,86.40%
+6055,Central Noble Com School Corp,6454,Central Noble Elementary School,77.10%
+6060,East Noble School Corporation,6457,Avilla Elementary School,70.60%
+6060,East Noble School Corporation,6465,Rome City Elementary School,85.20%
+6060,East Noble School Corporation,6477,North Side Elementary School,79.50%
+6060,East Noble School Corporation,6478,South Side Elementary School,57.50%
+6060,East Noble School Corporation,6485,Wayne Center Elem School,78.10%
+6065,West Noble School Corporation,6510,West Noble Elementary School,78.20%
+6080,Rising Sun-Ohio Co Com,6511,Ohio County Elementary School,85.10%
+6145,Orleans Community Schools,6577,Orleans Elementary School,79.10%
+6155,Paoli Community School Corp,6587,Throop Elementary School,89.90%
+6160,Springs Valley Com School Corp,6591,Springs Valley Elementary School,82.50%
+6195,Spencer-Owen Community Schools,6601,Patricksburg Elementary School,95.00%
+6195,Spencer-Owen Community Schools,6605,Gosport Elementary School,100.00%
+6195,Spencer-Owen Community Schools,6617,Spencer Elementary School,80.00%
+6195,Spencer-Owen Community Schools,6619,McCormick's Creek Elementary Sch,93.30%
+6260,Southwest Parke Com Sch Corp,6621,Rosedale Elementary School,90.90%
+6260,Southwest Parke Com Sch Corp,6629,Montezuma Elementary School,85.20%
+6325,Perry Central Com Schools Corp,6705,Perry Central Elementary School,96.60%
+6340,Cannelton City Schools,6733,Cannelton Elementary & High School,63.60%
+6350,Tell City-Troy Twp School Corp,6745,William Tell Elementary School,82.60%
+6375,North Central Parke Comm Schl Corp,6645,Rockville Elementary School,87.00%
+6375,North Central Parke Comm Schl Corp,6647,Turkey Run Elementary School,91.70%
+6445,Pike County School Corp,6808,Winslow Elementary School,90.90%
+6445,Pike County School Corp,6809,Petersburg Elementary School,92.40%
+6455,Porter County Education Services,6811,Porter County Education Services,***
+6460,MSD Boone Township,6815,Hebron Elementary School,94.50%
+6470,Duneland School Corporation,6817,Jackson Elementary School,96.10%
+6470,Duneland School Corporation,6819,Brummitt Elementary School,91.80%
+6470,Duneland School Corporation,6823,Liberty Elementary School,91.70%
+6470,Duneland School Corporation,6926,Trojan Virtual Academy,***
+6470,Duneland School Corporation,6928,Bailly Elementary School,89.20%
+6470,Duneland School Corporation,6941,Newton Yost Elementary School,94.00%
+6510,East Porter County School Corp,6828,Morgan Township Elementary School,94.90%
+6510,East Porter County School Corp,6835,Kouts Elementary School,93.80%
+6510,East Porter County School Corp,6852,Washington Twp Elementary School,83.90%
+6520,Porter Township School Corp,6840,Porter Lakes Elementary School,95.10%
+6530,Union Township School Corp,6845,Union Center Elementary School,97.00%
+6530,Union Township School Corp,6846,John Simatovich Elementary School,97.40%
+6550,Portage Township Schools,6857,Wallace Aylesworth Elementary,81.60%
+6550,Portage Township Schools,6861,Crisman Elementary School,76.90%
+6550,Portage Township Schools,6865,Central Elementary School,63.90%
+6550,Portage Township Schools,6869,Ethel R Jones Elementary School,80.40%
+6550,Portage Township Schools,6874,Rowena Kyle Elementary School,84.70%
+6550,Portage Township Schools,6876,Paul Saylor Elementary School,77.10%
+6550,Portage Township Schools,6877,George L Myers Elementary School,77.80%
+6550,Portage Township Schools,6879,South Haven Elementary School,90.90%
+6560,Valparaiso Community Schools,6888,Thomas Jefferson Elementary School,95.60%
+6560,Valparaiso Community Schools,6891,Central Elementary School,100.00%
+6560,Valparaiso Community Schools,6893,Flint Lake Elementary School,93.80%
+6560,Valparaiso Community Schools,6897,Cooks Corners Elementary School,91.10%
+6560,Valparaiso Community Schools,6903,Heavilin Elementary School,96.60%
+6560,Valparaiso Community Schools,6913,Memorial Elementary School,92.40%
+6560,Valparaiso Community Schools,6917,Northview Elementary School,95.30%
+6560,Valparaiso Community Schools,6921,Parkview Elementary School,96.70%
+6590,MSD Mount Vernon,6961,West Elementary School,89.80%
+6590,MSD Mount Vernon,6965,Farmersville Elementary School,85.70%
+6590,MSD Mount Vernon,6969,Marrs Elementary School,98.10%
+6600,MSD North Posey Co Schools,6985,North Elementary School,89.50%
+6600,MSD North Posey Co Schools,6989,South Terrace Elementary,98.00%
+6620,Eastern Pulaski Community Sch Corp,6994,Eastern Pulaski Elementary School,85.90%
+6630,West Central School Corp,7027,West Central Elementary School,84.80%
+6705,South Putnam Community Schools,7055,Central Elementary School,87.50%
+6705,South Putnam Community Schools,7057,Fillmore Elementary School,86.40%
+6715,North Putnam Community Schools,7041,Bainbridge Elementary School,80.90%
+6715,North Putnam Community Schools,7045,Roachdale Elementary School,94.30%
+6750,Cloverdale Community Schools,7079,Cloverdale Distance Learning Academy,90.10%
+6750,Cloverdale Community Schools,7082,Cloverdale Elementary School,91.20%
+6755,Greencastle Community School Corp,7102,Tzouanakis Intermediate School,82.30%
+6795,Union School Corporation,7117,Union Elementary School,83.30%
+6795,Union School Corporation,7122,Indiana Digital Elementary,57.80%
+6805,Randolph Southern School Corp,7113,Randolph Southern Elementary Sch,85.70%
+6820,Monroe Central School Corp,7152,Monroe Central Elementary School,91.80%
+6825,Randolph Central School Corp,7145,Willard Elementary School,79.70%
+6825,Randolph Central School Corp,7146,Deerfield Elementary School,92.90%
+6835,Randolph Eastern School Corp,7164,North Side Elementary School,77.30%
+6865,South Ripley Com Sch Corp,7178,South Ripley Elementary School,89.90%
+6895,Batesville Community School Corp,7229,Batesville Intermediate School,97.90%
+6900,Jac-Cen-Del Community Sch Corp,7203,Jac-Cen-Del Elementary School,87.30%
+6910,Milan Community Schools,7209,Milan Elementary School,84.10%
+6995,Rush County Schools,7233,Milroy Elementary School,76.50%
+6995,Rush County Schools,7253,Arlington Elementary School,88.90%
+6995,Rush County Schools,7271,Rushville Elementary School,72.10%
+6995,Rush County Schools,7272,Rushville Elementary School West,86.40%
+7150,John Glenn School Corporation,7456,North Liberty School,94.00%
+7150,John Glenn School Corporation,7457,Walkerton Elementary School,94.50%
+7175,Penn-Harris-Madison School Corp,7323,Walt Disney Elementary School,81.50%
+7175,Penn-Harris-Madison School Corp,7324,Prairie Vista Elementary School,95.30%
+7175,Penn-Harris-Madison School Corp,7329,Mary Frank Harris Elementary Sch,91.30%
+7175,Penn-Harris-Madison School Corp,7341,Madison Elementary School,83.30%
+7175,Penn-Harris-Madison School Corp,7361,Elm Road Elementary School,77.90%
+7175,Penn-Harris-Madison School Corp,7365,Elsie Rogers Elementary School,82.70%
+7175,Penn-Harris-Madison School Corp,7377,Moran Elementary School,85.30%
+7175,Penn-Harris-Madison School Corp,7379,Bittersweet Elementary School,90.10%
+7175,Penn-Harris-Madison School Corp,7383,Horizon Elementary School,92.90%
+7175,Penn-Harris-Madison School Corp,7386,Meadow's Edge Elementary School,74.00%
+7175,Penn-Harris-Madison School Corp,7390,Northpoint Elementary School,98.00%
+7200,School City of Mishawaka,7459,Fred J Hums Elementary School,88.10%
+7200,School City of Mishawaka,7469,Battell Elementary School,86.80%
+7200,School City of Mishawaka,7473,Beiger Elementary School,79.50%
+7200,School City of Mishawaka,7478,Liberty Elementary School,56.90%
+7200,School City of Mishawaka,7481,Emmons Elementary School,56.40%
+7200,School City of Mishawaka,7485,Lasalle Elementary School,65.50%
+7200,School City of Mishawaka,7499,Twin Branch Elementary School,87.00%
+7205,South Bend Community School Corp,7248,South Bend Virtual School,***
+7205,South Bend Community School Corp,7417,Warren Elementary School,59.10%
+7205,South Bend Community School Corp,7425,Clay International Academy,60.00%
+7205,South Bend Community School Corp,7435,Darden Elementary School,74.10%
+7205,South Bend Community School Corp,7441,Swanson Traditional School,90.50%
+7205,South Bend Community School Corp,7533,Coquillard Elementary School ,30.60%
+7205,South Bend Community School Corp,7545,Harrison Elementary School,39.40%
+7205,South Bend Community School Corp,7546,Marshall Traditional School,74.10%
+7205,South Bend Community School Corp,7555,Kennedy Academy,89.10%
+7205,South Bend Community School Corp,7561,Lincoln Elementary School,64.40%
+7205,South Bend Community School Corp,7569,McKinley Elementary School,45.20%
+7205,South Bend Community School Corp,7573,Madison S.T.E.A.M. Academy ,52.30%
+7205,South Bend Community School Corp,7577,Marquette Montessori Academy,77.10%
+7205,South Bend Community School Corp,7585,Monroe Elementary School,48.10%
+7205,South Bend Community School Corp,7588,Wilson Elementary School,32.90%
+7205,South Bend Community School Corp,7593,Muessel Elementary School,38.90%
+7205,South Bend Community School Corp,7601,Nuner Fine Arts Academy,60.80%
+7215,Union-North United School Corp,7400,LaVille Elementary School,88.00%
+7230,Scott County School District 1,7630,Austin Elementary School,68.70%
+7255,Scott County School District 2,7633,Johnson Elementary School,97.30%
+7255,Scott County School District 2,7637,Lexington Elementary School,82.10%
+7255,Scott County School District 2,7649,Scottsburg Elem School,85.10%
+7255,Scott County School District 2,7653,Vienna-Finley Elementary School,89.70%
+7285,Shelby Eastern Schools,7663,Morristown Elementary School,86.40%
+7285,Shelby Eastern Schools,7667,Waldron Elementary School,95.70%
+7350,Northwestern Con School Corp,7691,Triton Central Elementary School,92.00%
+7360,Southwestern Con Sch Shelby Co,7703,Southwestern Elementary School,83.30%
+7365,Shelbyville Central Schools,7725,Coulston Elementary School,75.00%
+7365,Shelbyville Central Schools,7729,Thomas A Hendricks Elementary Sch,75.90%
+7365,Shelbyville Central Schools,7733,William F Loper Elementary School,85.80%
+7385,North Spencer County Sch Corp,7751,Chrisney Elementary School,95.20%
+7385,North Spencer County Sch Corp,7753,David Turnham Education Center,91.70%
+7385,North Spencer County Sch Corp,7755,Nancy Hanks Elementary School,93.30%
+7385,North Spencer County Sch Corp,7767,Lincoln Trail Elementary School,100.00%
+7445,South Spencer County Sch Corp,7789,Luce Elementary School,93.50%
+7445,South Spencer County Sch Corp,7803,Rockport-Ohio Elementary School,94.00%
+7495,Oregon-Davis School Corp,7818,Oregon-Davis Elementary School,89.70%
+7515,North Judson-San Pierre Sch Corp,7851,North Judson-San Pierre Elem Sch,77.40%
+7525,Knox Community School Corp,7845,Knox Community Elementary School,82.50%
+7605,Fremont Community Schools,7881,Fremont Elementary School,88.20%
+7610,Hamilton Community Schools,7889,Hamilton Community Elementary Sch,95.80%
+7615,MSD Steuben County,7897,Carlin Park Elementary School,71.70%
+7615,MSD Steuben County,7899,Ryan Park Elementary School,79.70%
+7615,MSD Steuben County,7901,Hendry Park Elementary School,85.70%
+7615,MSD Steuben County,7905,Pleasant Lake Elementary School,86.40%
+7645,Northeast School Corp,7921,Northeast North Elementary School,86.70%
+7645,Northeast School Corp,7941,Northeast East Elementary School,75.00%
+7715,Southwest School Corporation,7953,Carlisle Elementary School,93.50%
+7715,Southwest School Corporation,7965,Sullivan Elementary School,79.60%
+7775,Switzerland County School Corp,7985,Jefferson-Craig Elementary School,89.80%
+7775,Switzerland County School Corp,7994,Switzerland Co Elementary School,83.60%
+7855,Lafayette School Corporation,8089,Edgelea Elementary School,92.90%
+7855,Lafayette School Corporation,8091,Glen Acres Elementary School,91.50%
+7855,Lafayette School Corporation,8103,Miami Elementary School,73.50%
+7855,Lafayette School Corporation,8104,Thomas Miller Elementary School,89.40%
+7855,Lafayette School Corporation,8105,Murdock Elementary School,83.00%
+7855,Lafayette School Corporation,8108,Oakland Elementary School,85.00%
+7855,Lafayette School Corporation,8117,Vinton Elementary School,83.70%
+7855,Lafayette School Corporation,8119,Amelia Earhart Elementary School,98.70%
+7865,Tippecanoe School Corp,8005,Mayflower Mill Elementary School,80.00%
+7865,Tippecanoe School Corp,8006,Wyandotte Elementary,86.50%
+7865,Tippecanoe School Corp,8007,Hershey Elementary School,91.10%
+7865,Tippecanoe School Corp,8009,Mintonye Elementary School,88.40%
+7865,Tippecanoe School Corp,8017,Dayton Elementary School,96.80%
+7865,Tippecanoe School Corp,8019,Burnett Creek Elementary School,91.50%
+7865,Tippecanoe School Corp,8021,Wea Ridge Elementary School,86.40%
+7865,Tippecanoe School Corp,8024,Battle Ground Elementary School,88.10%
+7865,Tippecanoe School Corp,8035,James Cole Elementary School,95.60%
+7865,Tippecanoe School Corp,8042,Klondike Elementary School,81.00%
+7865,Tippecanoe School Corp,8111,Woodland Elementary School,83.30%
+7875,West Lafayette Com School Corp,8138,West Lafayette Elementary School,92.40%
+7935,Tri-Central Community Schools,8154,Tri Central Elementary,86.20%
+7945,Tipton Community School Corp,8163,Tipton Elementary School,83.00%
+7950,Union Co/Clg Corner Joint Sch Dist,8209,Liberty Elementary School,89.30%
+7950,Union Co/Clg Corner Joint Sch Dist,8213,College Corner Union Elem School,90.20%
+7995,Evansville Vanderburgh School Corp,8207,EVSC Virtual Academy,***
+7995,Evansville Vanderburgh School Corp,8225,Cynthia Heights Elementary School,92.80%
+7995,Evansville Vanderburgh School Corp,8229,Scott Elementary School,90.80%
+7995,Evansville Vanderburgh School Corp,8231,Oak Hill Elementary,91.60%
+7995,Evansville Vanderburgh School Corp,8242,McCutchanville Elementary School,94.50%
+7995,Evansville Vanderburgh School Corp,8251,Lincoln School,45.50%
+7995,Evansville Vanderburgh School Corp,8261,Caze Elementary School,60.90%
+7995,Evansville Vanderburgh School Corp,8265,Cedar Hall Community School,72.10%
+7995,Evansville Vanderburgh School Corp,8270,Academy for Innovative Studies,***
+7995,Evansville Vanderburgh School Corp,8285,Delaware Elementary School,76.20%
+7995,Evansville Vanderburgh School Corp,8289,Dexter Elementary School,56.70%
+7995,Evansville Vanderburgh School Corp,8293,Fairlawn Elementary School,41.40%
+7995,Evansville Vanderburgh School Corp,8301,Glenwood Leadership Academy,28.60%
+7995,Evansville Vanderburgh School Corp,8309,Harper Elementary School,58.70%
+7995,Evansville Vanderburgh School Corp,8317,Hebron Elementary School,72.00%
+7995,Evansville Vanderburgh School Corp,8321,Stockwell Elementary School,80.50%
+7995,Evansville Vanderburgh School Corp,8325,Highland Elementary School,85.40%
+7995,Evansville Vanderburgh School Corp,8329,Lodge Community School,65.90%
+7995,Evansville Vanderburgh School Corp,8353,Evans School,47.40%
+7995,Evansville Vanderburgh School Corp,8357,Stringtown Elementary School,77.60%
+7995,Evansville Vanderburgh School Corp,8361,Tekoppel Elementary School,63.50%
+7995,Evansville Vanderburgh School Corp,8365,Vogel Elementary School,87.20%
+7995,Evansville Vanderburgh School Corp,8376,Daniel Wertz Elementary School,68.80%
+7995,Evansville Vanderburgh School Corp,8381,West Terrace Elementary School,94.90%
+8010,North Vermillion Com Sch Corp,8403,North Vermillion Elementary School,82.90%
+8020,South Vermillion Com Sch Corp,8409,Central Elementary School,89.40%
+8020,South Vermillion Com Sch Corp,8431,Ernie Pyle Elementary School,91.20%
+8020,South Vermillion Com Sch Corp,8435,Van Duyn Elementary School,90.90%
+8030,Vigo County School Corp,8483,Vigo Virtual School Academy,***
+8030,Vigo County School Corp,8497,Sugar Creek Consolidated Elem Sch,78.90%
+8030,Vigo County School Corp,8505,Davis Park Elementary School,79.20%
+8030,Vigo County School Corp,8510,Adelaide De Vaney Elementary Sch,90.30%
+8030,Vigo County School Corp,8511,Dixie Bee Elementary School,86.80%
+8030,Vigo County School Corp,8517,Farrington Grove Elementary School,66.70%
+8030,Vigo County School Corp,8521,Fayette Elementary School,91.30%
+8030,Vigo County School Corp,8525,Rio Grande Elementary School,89.50%
+8030,Vigo County School Corp,8533,Benjamin Franklin Elem School,73.70%
+8030,Vigo County School Corp,8537,Blanche E Fuqua Elementary School,75.40%
+8030,Vigo County School Corp,8543,Hoosier Prairie Elementary School,84.40%
+8030,Vigo County School Corp,8549,Lost Creek Elementary School,90.70%
+8030,Vigo County School Corp,8575,Ouabache Elementary School,86.80%
+8030,Vigo County School Corp,8593,Riley Elementary School,90.30%
+8030,Vigo County School Corp,8605,Sugar Grove Elementary School,82.80%
+8030,Vigo County School Corp,8607,Terre Town Elementary School,82.70%
+8045,Manchester Community Schools,8633,Manchester Elementary School,93.10%
+8050,MSD Wabash County Schools,8656,Southwood Elementary School,84.10%
+8050,MSD Wabash County Schools,8657,Sharp Creek Elementary School,90.10%
+8060,Wabash City Schools,8706,O J Neighbours Elementary School,80.80%
+8115,MSD Warren County,8729,Williamsport Elementary School,61.30%
+8115,MSD Warren County,8733,Pine Village Elementary School,96.60%
+8115,MSD Warren County,8744,Warren Central Elementary School,80.00%
+8130,Warrick County School Corp,8761,Yankeetown Elementary School,96.30%
+8130,Warrick County School Corp,8764,John H Castle Elementary School,97.40%
+8130,Warrick County School Corp,8769,Elberfeld Elementary School,100.00%
+8130,Warrick County School Corp,8773,Lynnville Elementary School,100.00%
+8130,Warrick County School Corp,8777,Loge Elementary School,94.10%
+8130,Warrick County School Corp,8785,Tennyson Elementary School,100.00%
+8130,Warrick County School Corp,8801,Oakdale Elementary School,83.80%
+8130,Warrick County School Corp,8813,Chandler Elementary School,96.60%
+8130,Warrick County School Corp,8817,Newburgh Elementary School,90.90%
+8130,Warrick County School Corp,8819,Sharon Elementary School,91.80%
+8205,Salem Community Schools,8864,Bradie Shrum Elementary,74.60%
+8215,East Washington School Corp,8904,East Washington Elementary School,84.00%
+8220,West Washington School Corp,8894,West Washington Elementary School,92.20%
+8305,Nettle Creek School Corporation,8989,Hagerstown Elementary School,91.50%
+8355,Western Wayne Schools,8971,Western Wayne Elementary School,87.20%
+8360,Centerville-Abington Com Schs,8983,Centerville-Abington Elem School,89.60%
+8375,Northeastern Wayne Schools,8928,Northeastern Elementary School,81.40%
+8385,Richmond Community Schools,8997,Test Intermediate School,100.00%
+8385,Richmond Community Schools,9013,Charles Elementary School,79.60%
+8385,Richmond Community Schools,9014,Crestdale Elementary School,78.40%
+8385,Richmond Community Schools,9017,Fairview Elementary School,56.70%
+8385,Richmond Community Schools,9038,Starr Elementary School,62.20%
+8385,Richmond Community Schools,9045,Vaile Elementary School,60.00%
+8385,Richmond Community Schools,9053,Westview Elementary School,77.40%
+8385,Richmond Community Schools,9056,Community Youth Services,***
+8425,Southern Wells Com Schools,9057,Southern Wells Elementary School,89.90%
+8435,Norwell Community Schools,9081,Ossian Elementary,89.90%
+8435,Norwell Community Schools,9085,Lancaster Central School,83.70%
+8445,MSD Bluffton-Harrison,9098,Bluffton-Harrison Elementary Sch,82.70%
+8515,North White School Corp,9119,North White Elementary School,64.30%
+8525,Frontier School Corporation,9113,Frontier Elementary,93.80%
+8535,Tri-County School Corporation,9143,Tri-County Intermediate School,87.90%
+8565,Twin Lakes School Corp,9129,Eastlawn Elementary School,90.90%
+8565,Twin Lakes School Corp,9157,Oaklawn Elementary School,85.20%
+8565,Twin Lakes School Corp,9163,Meadowlawn Elementary School,82.60%
+8625,Smith-Green Community Schools,9197,Churubusco Elementary School,89.70%
+8665,Whitley County Con Schools,9178,Little Turtle Elementary School,86.40%
+8665,Whitley County Con Schools,9179,Coesse School,91.30%
+8665,Whitley County Con Schools,9186,Northern Heights Elementary School,87.00%
+8665,Whitley County Con Schools,9196,Mary Raber Elementary School,73.30%
+8675,Invent Learning Hub,9532,Invent Learning Hub,58.30%
+8685,PLA at George H Fisher School 93,5593,PLA at George H Fisher School 93,65.40%
+8690,Dynamic Minds Academy,8692,Dynamic Minds Academy,***
+8950,Phalen Leadership Academy at Francis Scott Key School 103,5603,Phalen at Francis Scott Key 103,44.80%
+8980,The PATH School,9971,The PATH School,35.80%
+9000,Phalen Virtual Leadership Academy,9992,Phalen Virtual Leadership Academy,65.20%
+9030,Otwell Miller Academy,2019,Otwell Miller Academy,85.00%
+9054,The Genius School,9924,The Genius School,72.70%
+9060,Paramount Cottage Home,139,Paramount Cottage Home,89.20%
+9065,Allegiant Preparatory Academy,1002,Allegiant Preparatory Academy,64.70%
+9085,pilotED Schools,1006,Bethel Park Elementary | pilotED Schools,61.30%
+9090,Matchbook Learning  ,1041,Matchbook Learning,42.90%
+9095,Urban ACT Academy,9094,Urban ACT Academy,64.90%
+9130,Adelante Schools,9993,Emma Donnan Elementary and Middle,57.50%
+9150,Circle City Prep Charter School,1126,Circle City Preparatory Elementary School,73.90%
+9310,Charter School of the Dunes,1535,Charter School of the Dunes,48.60%
+9320,Community Montessori Inc,1536,Community Montessori,63.90%
+9330,Irvington Community School,1537,Irvington Community School,83.10%
+9350,Timothy L Johnson Academy,1539,Timothy L Johnson Academy,64.10%
+9365,Enlace Academy,5667,Enlace Academy,38.70%
+9380,Christel House Academy South,5874,Christel House Academy South,87.00%
+9395,Christel House Academy West,5871,Christel House Academy West,65.30%
+9410,KIPP Indy Unite Elementary,5741,KIPP Indy Unite Elementary,43.80%
+9425,Tindley Genesis Academy,5621,Tindley Genesis Academy,59.70%
+9430,Tindley Summit Academy,5629,Tindley Summit Academy,64.70%
+9460,Thea Bowman Leadership Academy,4022,Thea Bowman Leadership Academy,89.10%
+9465,Rural Community Schools Inc,7951,Rural Community Academy,***
+9485,SE Neighborhood Sch of Excellence,5868,SE Neighborhood Sch of Excellence,59.70%
+9495,Joshua Academy,8203,Joshua Academy,63.60%
+9531,Paramount Online Academy,9701,Paramount Online Academy,100.00%
+9533,Promise Prep,9703,PLA@Promise Prep,***
+9534,Indy Steam Academy,9704,Indy Steam Academy,57.70%
+9535,Gary Lighthouse Charter School,4130,Gary Lighthouse Charter School,47.10%
+9536,Lawrence County Independent Schools,9706,Lawrence County Independent Schools,79.20%
+9537,The Nature School of Central Indiana,9707,The Nature School of Central Indiana,80.00%
+9538,Herron Preparatory Academy,9702,Herron Preparatory Academy,96.40%
+9545,21st Century Charter Sch of Gary,4164,21st Century Charter Sch of Gary,60.80%
+9555,East Chicago Urban Enterprise Academy,3935,East Chicago Urban Enterprise Academy,79.10%
+9575,Victory College Prep,5523,Victory College Prep,76.40%
+9595,East Chicago Lighthouse Charter,3971,East Chicago Lighthouse,43.40%
+9605,IN Sch for the Blind & Vis Imprd,C460,IN Sch for the Blind & Vis Imprd,***
+9610,Indiana School For The Deaf,C695,Indiana School For The Deaf,16.70%
+9615,Andrew J Brown Academy,5488,Andrew J Brown Academy,46.80%
+9620,Burris Laboratory School,1441,Burris Laboratory School,95.70%
+9645,Avondale Meadows Academy,5716,Avondale Meadows Academy,56.80%
+9665,Geist Montessori Academy,2572,Geist Montessori Academy,75.00%
+9680,Paramount Brookside ,5508,Paramount Brookside ,88.00%
+9685,Aspire Charter Academy,4043,Aspire Charter Academy,76.70%
+9690,Renaissance Academy Charter School,4711,Renaissance Academy Charter School,91.20%
+9722,Springville Community Academy,9107,Springville Community Academy,76.90%
+9725,Canaan Community Academy,3312,Canaan Community Academy,32.40%
+9735,Inspire Academy - A Sch of Inquiry,1518,Inspire Academy - A Sch of Inquiry,33.30%
+9737,Liberty Grove Schools,9002,Liberty Grove Schools,29.30%
+9785,IN Math & Science Academy,5837,IN Math & Science Academy,77.60%
+9790,Anderson Preparatory Academy,5092,Anderson Preparatory Academy,74.50%
+9835,The Bloomington Project School,6215,The Bloomington Project School,89.20%
+9870,Discovery Charter School,6824,Discovery Charter School,86.30%
+9875,Rock Creek Community Academy,771,Rock Creek Community Academy,89.30%
+9895,IN Math & Science Academy - North,5444,IN Math & Science Academy - North,41.30%
+9905,Indiana Connections Academy,7944,Indiana Connections Academy,66.90%
+9920,Damar Charter Academy,5191,Damar Charter Academy,***
+9925,Phalen Leadership Academy - IN Inc,5496,Phalen Leadership Academy - IN Inc,67.60%
+9935,Vision Academy,5899,Vision Academy,54.30%
+9950,Dugger Union Community School Corp,7952,Dugger Union Community School Corp,62.20%
+9954,Phalen Leadership Academy at Louis B Russell School 48,5548,Louis B Russell Jr School 48,67.40%
+9955,Mays Community Academy,7231,Mays Community Academy,100.00%
+9960,Success Academy Primary School,7562,Success Academy Primary School,63.00%
+9970,ACE Preparatory Academy,1111,ACE Preparatory Academy,76.30%
+9975,Global Preparatory Academy,1112,Global Preparatory Academy,52.20%
+9980,Steel City Academy,1113,Steel City Academy,65.00%
+9985,Seven Oaks Classical School,1114,Seven Oaks Classical School,100.00%
+9990,Higher Institute of Arts & Tech,1116,Higher Institute of Arts & Tech,47.40%
+-999,Independent Non-Public Schools,A004,Hagia Sophia Classical Academy,***
+-999,Independent Non-Public Schools,A102,Maple Creek Adventist Academy,***
+-999,Independent Non-Public Schools,A119,Dana Christian School Corporation,***
+-999,Independent Non-Public Schools,A121,Evansville Adventist Academy,***
+-999,Independent Non-Public Schools,A126,Edinburgh Christian School,***
+-999,Independent Non-Public Schools,A149,Apogee School For The Gifted ,***
+-999,Independent Non-Public Schools,A172,Blackhawk Christian Elementary Sch,100.00%
+-999,Independent Non-Public Schools,A236,Cornerstone College Prep Sch,***
+-999,Independent Non-Public Schools,A249,Central Christian School,100.00%
+-999,Independent Non-Public Schools,A260,Aboite Christian School,***
+-999,Independent Non-Public Schools,A275,Crossroad Child & Family Services,***
+-999,Independent Non-Public Schools,A303,FaithPrep Indiana,***
+-999,Independent Non-Public Schools,A304,GEO Focus Academy,***
+-999,Independent Non-Public Schools,A308,Islamic Academy of Kendallville,***
+-999,Independent Non-Public Schools,A311,Saint Thomas More Academy,100.00%
+-999,Independent Non-Public Schools,A450,Columbus Christian School Inc,81.60%
+-999,Independent Non-Public Schools,A724,Good Shepherd Christian Academy,***
+-999,Independent Non-Public Schools,A740,Lakewood Park Christian School,92.60%
+-999,Independent Non-Public Schools,A746,Heritage Hall Christian School,100.00%
+-999,Independent Non-Public Schools,A875,Clinton Christian School,81.80%
+-999,Independent Non-Public Schools,A990,Elkhart Christian Academy,100.00%
+-999,Independent Non-Public Schools,B015,Bethany Christian School,94.10%
+-999,Independent Non-Public Schools,B045,Christian Academy of Indiana,94.90%
+-999,Independent Non-Public Schools,B085,Covington Christian School,90.90%
+-999,Independent Non-Public Schools,B129,Life Christian STEAM Academy,***
+-999,Independent Non-Public Schools,B136,The King's Academy,***
+-999,Independent Non-Public Schools,B145,Lakeview Christian School Inc,100.00%
+-999,Independent Non-Public Schools,B160,Eman Schools,100.00%
+-999,Independent Non-Public Schools,B161,Fishers Christian Academy,***
+-999,Independent Non-Public Schools,B195,Cicero Adventist School,***
+-999,Independent Non-Public Schools,B205,Union Bible College & Academy,***
+-999,Independent Non-Public Schools,B248,Legacy Christian School,100.00%
+-999,Independent Non-Public Schools,B251,Indy West Christian School,***
+-999,Independent Non-Public Schools,B290,Bethesda Christian School,92.10%
+-999,Independent Non-Public Schools,B295,Indianapolis Christian School,97.80%
+-999,Independent Non-Public Schools,B299,Legacy Learning Center,94.40%
+-999,Independent Non-Public Schools,B302,Universal School of Plainfield,***
+-999,Independent Non-Public Schools,B455,Sandy Creek Christian Academy ,***
+-999,Independent Non-Public Schools,B470,DeMotte Christian School,91.70%
+-999,Independent Non-Public Schools,B483,Jay County Christian Academy,31.60%
+-999,Independent Non-Public Schools,B493,Christian Academy of Madison,92.90%
+-999,Independent Non-Public Schools,B549,Greenwood Christian School,100.00%
+-999,Independent Non-Public Schools,B595,Lakeland Christian Academy,85.00%
+-999,Independent Non-Public Schools,B771,Crown Point Christian School,96.80%
+-999,Independent Non-Public Schools,B806,Ambassador Christian Academy,78.90%
+-999,Independent Non-Public Schools,B815,Calumet Christian School,71.40%
+-999,Independent Non-Public Schools,B821,Indiana Horizon Academy,***
+-999,Independent Non-Public Schools,B951,Morning Star Academy,***
+-999,Independent Non-Public Schools,C020,Highland Christian School,93.80%
+-999,Independent Non-Public Schools,C130,Saint Paul Lutheran School,***
+-999,Independent Non-Public Schools,C175,Indiana Christian Academy,100.00%
+-999,Independent Non-Public Schools,C215,Cross Street Christian School,***
+-999,Independent Non-Public Schools,C226,Liberty Christian Elementary,96.60%
+-999,Independent Non-Public Schools,C250,Anderson Christian School,***
+-999,Independent Non-Public Schools,C257,Damar Academy,***
+-999,Independent Non-Public Schools,C271,Curtis Wilson Primary School,90.00%
+-999,Independent Non-Public Schools,C275,Heritage Christian School,98.00%
+-999,Independent Non-Public Schools,C281,Cornerstone Baptist Academy,***
+-999,Independent Non-Public Schools,C282,Horizon Christian School,100.00%
+-999,Independent Non-Public Schools,C325,Suburban Christian School,87.10%
+-999,Independent Non-Public Schools,C349,Southport Presbyterian Chrst Sch,90.00%
+-999,Independent Non-Public Schools,C375,Traders Point Christian Schools,97.40%
+-999,Independent Non-Public Schools,C396,Burge Terrace Christian School,90.50%
+-999,Independent Non-Public Schools,C455,Indianapolis Junior Academy,***
+-999,Independent Non-Public Schools,C475,Hasten Hebrew Acad of Indianapolis,***
+-999,Independent Non-Public Schools,C495,Colonial Christian School,100.00%
+-999,Independent Non-Public Schools,C513,Islamic Academy of Indianapolis,100.00%
+-999,Independent Non-Public Schools,C514,Crosspointe Christian Academy,88.20%
+-999,Independent Non-Public Schools,C519,Chapel Hill Christian School,***
+-999,Independent Non-Public Schools,C561,Trinity Christian School,60.00%
+-999,Independent Non-Public Schools,C563,Shepherd Community Academy ,87.00%
+-999,Independent Non-Public Schools,C575,Central Christian Academy,86.70%
+-999,Independent Non-Public Schools,C580,Calvary Christian School,100.00%
+-999,Independent Non-Public Schools,C628,MTI School of Knowledge,70.60%
+-999,Independent Non-Public Schools,C679,Indianapolis Southside Christian ,***
+-999,Independent Non-Public Schools,C690,Capitol City SDA Church School,***
+-999,Independent Non-Public Schools,C699,TP Schools,92.00%
+-999,Independent Non-Public Schools,C791,School for Community Learning,***
+-999,Independent Non-Public Schools,C905,Adventist Christian Elementary,***
+-999,Independent Non-Public Schools,C910,Covenant Christian School,***
+-999,Independent Non-Public Schools,C927,Lighthouse Christian Academy,95.50%
+-999,Independent Non-Public Schools,C933,Clear Creek Christian School,100.00%
+-999,Independent Non-Public Schools,C940,Tabernacle Christian School,74.20%
+-999,Independent Non-Public Schools,C965,Mooresville Christian Academy,97.30%
+-999,Independent Non-Public Schools,C966,Greenwood Christian Academy,91.30%
+-999,Independent Non-Public Schools,D063,Emmanuel Baptist Academy,***
+-999,Independent Non-Public Schools,D073,Victory Christian Academy,100.00%
+-999,Independent Non-Public Schools,D080,Portage Christian School,82.60%
+-999,Independent Non-Public Schools,D158,North Liberty Christian School,***
+-999,Independent Non-Public Schools,D189,Covenant Christian School,100.00%
+-999,Independent Non-Public Schools,D195,South Bend Hebrew Day School,90.00%
+-999,Independent Non-Public Schools,D300,South Bend Jr Academy School,***
+-999,Independent Non-Public Schools,D305,Community Baptist Christian School,95.00%
+-999,Independent Non-Public Schools,D310,Granger Christian School,100.00%
+-999,Independent Non-Public Schools,D315,"Michiana Christian Academy, Inc.",***
+-999,Independent Non-Public Schools,D329,Grace Christian Academy Inc,100.00%
+-999,Independent Non-Public Schools,D440,Lafayette Christian School,93.30%
+-999,Independent Non-Public Schools,D452,Faith Christian School,100.00%
+-999,Independent Non-Public Schools,D489,Evansville Christian Sch Newburgh,100.00%
+-999,Independent Non-Public Schools,D525,Evansville Day School,100.00%
+-999,Independent Non-Public Schools,D725,Holy Cross School,***
+-999,Independent Non-Public Schools,D845,Richmond Adventist Elementary School,***
+-999,Independent Non-Public Schools,D862,Community Christian School,***
+-999,Independent Non-Public Schools,D875,Kingdom Academy of Bluffton Inc,***
+-999,Independent Non-Public Schools,D912,Al Haqq Foundation Academy ,***
+-999,Independent Non-Public Schools,D913,Israel School of Excellence ,76.90%
+-999,Independent Non-Public Schools,D914,International Leadership Schools,88.90%
+-999,Independent Non-Public Schools,D918,Alyssum Montessori School,***
+9200,Archdiocese of Indianapolis,A425,St Bartholomew School,90.50%
+9200,Archdiocese of Indianapolis,A550,St John Paul II Catholic School,100.00%
+9200,Archdiocese of Indianapolis,A560,Saint Anthony of Padua ,96.30%
+9200,Archdiocese of Indianapolis,A570,Sacred Heart School,100.00%
+9200,Archdiocese of Indianapolis,A680,Saint Nicholas School,94.10%
+9200,Archdiocese of Indianapolis,A700,Saint Lawrence School,95.70%
+9200,Archdiocese of Indianapolis,A730,Saint Mary's School,100.00%
+9200,Archdiocese of Indianapolis,B035,Saint Gabriel Catholic School,100.00%
+9200,Archdiocese of Indianapolis,B050,Holy Family School,95.20%
+9200,Archdiocese of Indianapolis,B060,Our Lady Of Perpetual Help School,97.50%
+9200,Archdiocese of Indianapolis,B067,St Mary of-the-Knobs Catholic Sch,100.00%
+9200,Archdiocese of Indianapolis,B095,Saint Michael School,95.50%
+9200,Archdiocese of Indianapolis,B265,Saint Michael School,100.00%
+9200,Archdiocese of Indianapolis,B280,Saint Joseph School,100.00%
+9200,Archdiocese of Indianapolis,B285,Saint Malachy School,96.20%
+9200,Archdiocese of Indianapolis,B300,Saint Susanna School,93.80%
+9200,Archdiocese of Indianapolis,B440,Saint Ambrose School,83.30%
+9200,Archdiocese of Indianapolis,B510,Pope John XXIII Elementary School,100.00%
+9200,Archdiocese of Indianapolis,B515,Saint Mary's School,94.40%
+9200,Archdiocese of Indianapolis,B518,St Rose of Lima School,100.00%
+9200,Archdiocese of Indianapolis,B535,Our Lady of the Greenwood School,90.60%
+9200,Archdiocese of Indianapolis,B540,SS Francis and Clare Catholic Sch,100.00%
+9200,Archdiocese of Indianapolis,C160,Saint Vincent DePaul School,100.00%
+9200,Archdiocese of Indianapolis,C265,Nativity Catholic School,93.30%
+9200,Archdiocese of Indianapolis,C280,Saint Lawrence School,55.00%
+9200,Archdiocese of Indianapolis,C295,Saint Barnabas School,97.90%
+9200,Archdiocese of Indianapolis,C300,Saint Jude Elementary School,100.00%
+9200,Archdiocese of Indianapolis,C305,Saint Mark School,88.20%
+9200,Archdiocese of Indianapolis,C310,Saint Roch School,100.00%
+9200,Archdiocese of Indianapolis,C390,Holy Spirit School,87.90%
+9200,Archdiocese of Indianapolis,C435,Saint Luke School,100.00%
+9200,Archdiocese of Indianapolis,C440,Saint Matthew School,100.00%
+9200,Archdiocese of Indianapolis,C445,Saint Monica School,84.80%
+9200,Archdiocese of Indianapolis,C450,Saint Pius X School,97.80%
+9200,Archdiocese of Indianapolis,C545,Holy Name Catholic School,72.00%
+9200,Archdiocese of Indianapolis,C585,Christ The King School,100.00%
+9200,Archdiocese of Indianapolis,C590,Holy Angels Catholic School,63.60%
+9200,Archdiocese of Indianapolis,C595,Holy Cross Central School,33.30%
+9200,Archdiocese of Indianapolis,C600,Immaculate Heart of Mary School,100.00%
+9200,Archdiocese of Indianapolis,C605,Our Lady Of Lourdes School,92.90%
+9200,Archdiocese of Indianapolis,C615,St Anthony Catholic School,31.80%
+9200,Archdiocese of Indianapolis,C625,Central Catholic School,60.70%
+9200,Archdiocese of Indianapolis,C645,Saint Joan Of Arc School,94.70%
+9200,Archdiocese of Indianapolis,C650,St Michael St Gabriel Archangels School,60.90%
+9200,Archdiocese of Indianapolis,C655,Saint Philip Neri School,64.30%
+9200,Archdiocese of Indianapolis,C665,Saint Simon The Apostle School,100.00%
+9200,Archdiocese of Indianapolis,C670,St Therese Little Flower School,71.00%
+9200,Archdiocese of Indianapolis,C675,Saint Thomas Aquinas School,100.00%
+9200,Archdiocese of Indianapolis,C795,Saint Christopher School,100.00%
+9200,Archdiocese of Indianapolis,C900,Saint Charles Borromeo School,92.90%
+9200,Archdiocese of Indianapolis,D130,Saint Louis School,100.00%
+9200,Archdiocese of Indianapolis,D140,Saint Mary Elementary School,100.00%
+9200,Archdiocese of Indianapolis,D335,Saint Joseph School,100.00%
+9200,Archdiocese of Indianapolis,D720,Saint Patrick School,92.90%
+9200,Archdiocese of Indianapolis,D840,Seton Catholic Elementary,94.70%
+9205,Diocese of Gary,B755,Aquinas School at St Andrew's,85.00%
+9205,Diocese of Gary,B775,Saint Michael School,94.40%
+9205,Diocese of Gary,B780,Saint John Evangelist School,100.00%
+9205,Diocese of Gary,B835,Saint Mary Catholic Comm School,100.00%
+9205,Diocese of Gary,B865,St Stanislaus School,82.40%
+9205,Diocese of Gary,B930,Saint Mary School,100.00%
+9205,Diocese of Gary,B950,Saint Casimir School,100.00%
+9205,Diocese of Gary,B960,Saint John Bosco School,89.50%
+9205,Diocese of Gary,B965,Saint John The Baptist School,96.80%
+9205,Diocese of Gary,C025,Our Lady Of Grace School,93.80%
+9205,Diocese of Gary,C060,Saint Thomas More School,100.00%
+9205,Diocese of Gary,C105,Notre Dame Catholic School,100.00%
+9205,Diocese of Gary,C110,Queen Of All Saints School,92.90%
+9205,Diocese of Gary,C120,Saint Stanislaus Kostka School,***
+9205,Diocese of Gary,D050,Saint Patrick School,79.30%
+9205,Diocese of Gary,D065,Nativity of Our Savior School,93.30%
+9205,Diocese of Gary,D085,Saint Paul Catholic School,100.00%
+9210,Diocese of Lafayette Catholic Sch,A470,Sacred Heart School,100.00%
+9210,Diocese of Lafayette Catholic Sch,A795,St. Michael Catholic School,90.50%
+9210,Diocese of Lafayette Catholic Sch,B155,Saint Paul Parish School,94.70%
+9210,Diocese of Lafayette Catholic Sch,B215,Our Lady Of Mt Carmel School,100.00%
+9210,Diocese of Lafayette Catholic Sch,B216,Saint Maria Goretti School,100.00%
+9210,Diocese of Lafayette Catholic Sch,B227,Saint Louis de Montfort School,100.00%
+9210,Diocese of Lafayette Catholic Sch,B246,Our Lady of Grace School,100.00%
+9210,Diocese of Lafayette Catholic Sch,B395,Sts Joan of Arc & Patrick School,92.00%
+9210,Diocese of Lafayette Catholic Sch,B475,Saint Augustine School,***
+9210,Diocese of Lafayette Catholic Sch,C190,Saint Mary School,100.00%
+9210,Diocese of Lafayette Catholic Sch,C211,Holy Cross School,91.70%
+9210,Diocese of Lafayette Catholic Sch,D425,Saint Lawrence Elementary School,100.00%
+9210,Diocese of Lafayette Catholic Sch,D430,Saint Mary Cathedral School,100.00%
+9215,Diocese of Evansville,A665,Washington Catholic Elementary Sch,83.30%
+9215,Diocese of Evansville,A871,Holy Trinity Catholic School,100.00%
+9215,Diocese of Evansville,B105,St Joseph School,90.90%
+9215,Diocese of Evansville,B115,Holy Cross School,100.00%
+9215,Diocese of Evansville,B120,Saint James School,83.30%
+9215,Diocese of Evansville,B125,Saints Peter & Paul School,100.00%
+9215,Diocese of Evansville,B565,Flaget Elementary School,96.70%
+9215,Diocese of Evansville,D095,St Matthew School,***
+9215,Diocese of Evansville,D100,St Philip School,100.00%
+9215,Diocese of Evansville,D105,Saint Wendel School,100.00%
+9215,Diocese of Evansville,D370,St Bernard Catholic School,100.00%
+9215,Diocese of Evansville,D545,Annuc Cthlc Sch @ Christ the King,92.90%
+9215,Diocese of Evansville,D550,Corpus Christi School,93.30%
+9215,Diocese of Evansville,D555,Good Shepherd School,100.00%
+9215,Diocese of Evansville,D560,Holy Redeemer School,91.70%
+9215,Diocese of Evansville,D565,Holy Rosary School,97.40%
+9215,Diocese of Evansville,D570,Annunciation Cthlc at Holy Spirit,59.10%
+9215,Diocese of Evansville,D580,Westside Catholic School,90.90%
+9215,Diocese of Evansville,D590,St Benedict Cathedral School,100.00%
+9215,Diocese of Evansville,D605,Saint Joseph School,100.00%
+9215,Diocese of Evansville,D610,Resurrection School,100.00%
+9215,Diocese of Evansville,D815,Saint John The Baptist School,97.10%
+9220,Diocese of Fort Wayne - South Bend,A035,Saint Joseph School,95.50%
+9220,Diocese of Fort Wayne - South Bend,A104,Saint Elizabeth Ann Seton Catholic Sch,94.10%
+9220,Diocese of Fort Wayne - South Bend,A106,Our Lady School,93.80%
+9220,Diocese of Fort Wayne - South Bend,A130,Most Precious Blood School,85.00%
+9220,Diocese of Fort Wayne - South Bend,A135,Queen Of Angels School,88.20%
+9220,Diocese of Fort Wayne - South Bend,A145,Saint Charles Borromeo School,94.80%
+9220,Diocese of Fort Wayne - South Bend,A150,Saint John The Baptist School,93.90%
+9220,Diocese of Fort Wayne - South Bend,A155,Saint Joseph Catholic School,53.80%
+9220,Diocese of Fort Wayne - South Bend,A160,Saint Jude Elementary School,97.10%
+9220,Diocese of Fort Wayne - South Bend,A175,Saint Therese School,90.00%
+9220,Diocese of Fort Wayne - South Bend,A180,Saint Vincent DePaul School,97.80%
+9220,Diocese of Fort Wayne - South Bend,A270,Saint Aloysius Catholic School,***
+9220,Diocese of Fort Wayne - South Bend,A340,Saint Rose of Lima School,100.00%
+9220,Diocese of Fort Wayne - South Bend,A350,St Joseph Hessen Cassel Cath Sch,95.80%
+9220,Diocese of Fort Wayne - South Bend,A355,Saint John The Baptist Catholic ,100.00%
+9220,Diocese of Fort Wayne - South Bend,A360,Saint Louis Besancon Catholic Sch,80.00%
+9220,Diocese of Fort Wayne - South Bend,A735,Saint Joseph School,92.30%
+9220,Diocese of Fort Wayne - South Bend,A975,St Thomas The Apostle School,100.00%
+9220,Diocese of Fort Wayne - South Bend,A980,St Vincent de Paul School,69.60%
+9220,Diocese of Fort Wayne - South Bend,B020,St John Evangelist School,100.00%
+9220,Diocese of Fort Wayne - South Bend,B418,Huntington Catholic School,90.50%
+9220,Diocese of Fort Wayne - South Bend,B605,Sacred Heart School,96.30%
+9220,Diocese of Fort Wayne - South Bend,C855,Saint Michael School,92.90%
+9220,Diocese of Fort Wayne - South Bend,C980,Saint Mary Elementary School,100.00%
+9220,Diocese of Fort Wayne - South Bend,D164,St Pius X Catholic School,95.90%
+9220,Diocese of Fort Wayne - South Bend,D177,Mishawaka Catholic School,100.00%
+9220,Diocese of Fort Wayne - South Bend,D198,Queen of Peace School,***
+9220,Diocese of Fort Wayne - South Bend,D230,Christ The King School,97.90%
+9220,Diocese of Fort Wayne - South Bend,D235,Corpus Christi School,92.90%
+9220,Diocese of Fort Wayne - South Bend,D240,Holy Cross School,89.40%
+9220,Diocese of Fort Wayne - South Bend,D245,Holy Family School,80.00%
+9220,Diocese of Fort Wayne - South Bend,D250,Our Lady Of Hungary School,87.50%
+9220,Diocese of Fort Wayne - South Bend,D255,Saint Adalbert School,60.00%
+9220,Diocese of Fort Wayne - South Bend,D260,Saint Anthony De Padua School,96.90%
+9220,Diocese of Fort Wayne - South Bend,D265,Saint John The Baptist School,66.70%
+9220,Diocese of Fort Wayne - South Bend,D270,Saint Joseph School,94.10%
+9220,Diocese of Fort Wayne - South Bend,D275,Saint Jude Catholic School,88.90%
+9220,Diocese of Fort Wayne - South Bend,D285,Saint Matthew Cathedral School,92.90%
+9220,Diocese of Fort Wayne - South Bend,D805,Saint Bernard Elementary School,90.00%
+9230,Lutheran Schools of Indiana,A040,St Peter Immanuel Lutheran School,***
+9230,Lutheran Schools of Indiana,A045,Wyneken Memorial Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,A200,Suburban Bethlehem Lutheran School,95.20%
+9230,Lutheran Schools of Indiana,A205,Concordia Lutheran School,97.30%
+9230,Lutheran Schools of Indiana,A215,Emmanuel St Michael Lutheran Sch,95.00%
+9230,Lutheran Schools of Indiana,A220,Emmaus Lutheran School,86.40%
+9230,Lutheran Schools of Indiana,A225,Holy Cross Lutheran School,94.70%
+9230,Lutheran Schools of Indiana,A235,Lutheran South Unity School,76.50%
+9230,Lutheran Schools of Indiana,A245,Saint Paul Lutheran School,94.70%
+9230,Lutheran Schools of Indiana,A248,Ascension Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,A250,Saint Peter's Lutheran School,95.00%
+9230,Lutheran Schools of Indiana,A365,St John-Emmanuel Lutheran School,***
+9230,Lutheran Schools of Indiana,A370,Central Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,A375,Woodburn Lutheran School,***
+9230,Lutheran Schools of Indiana,A430,White Creek Lutheran School,***
+9230,Lutheran Schools of Indiana,A435,Saint Peters Lutheran School,82.20%
+9230,Lutheran Schools of Indiana,A695,Saint John Ev Lutheran School,***
+9230,Lutheran Schools of Indiana,A985,Trinity Lutheran School,53.40%
+9230,Lutheran Schools of Indiana,B260,Zion Lutheran School,87.50%
+9230,Lutheran Schools of Indiana,B275,Saint John Lutheran School,***
+9230,Lutheran Schools of Indiana,B367,Redeemer Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,B445,Immanuel Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,B450,Saint John Lutheran School,***
+9230,Lutheran Schools of Indiana,B465,Lutheran Central School,100.00%
+9230,Lutheran Schools of Indiana,B850,Trinity Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,B892,Ascension Lutheran Christian Schl,***
+9230,Lutheran Schools of Indiana,C050,Trinity Lutheran School,***
+9230,Lutheran Schools of Indiana,C065,St Paul's Lutheran School,94.70%
+9230,Lutheran Schools of Indiana,C150,Saint John Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,C267,Holy Cross Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,C315,Calvary Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,C395,Trinity Lutheran School,90.00%
+9230,Lutheran Schools of Indiana,C400,Saint John Ev Lutheran School,90.00%
+9230,Lutheran Schools of Indiana,C512,Our Shepherd Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,C680,Emmaus Lutheran School,***
+9230,Lutheran Schools of Indiana,C985,St John Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,D090,Immanuel Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,D317,Resurrection Lutheran Academy,***
+9230,Lutheran Schools of Indiana,D375,Saint Peter Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,D435,Saint James Lutheran School,100.00%
+9230,Lutheran Schools of Indiana,D625,Evansville Lutheran School,100.00%
+9240,The Oaks Academy,B297,The Oaks Academy - Brookside,98.00%
+9240,The Oaks Academy,C773,The Oaks Academy - Fall Creek,98.20%

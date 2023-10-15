@@ -1,0 +1,426 @@
+﻿corp_id,corp_name,school_id,school_name,grad_rate
+15,Adams Central Community Schools,21,Adams Central High School,100.00%
+25,North Adams Community Schools,29,Bellmont Senior High School,90.96%
+35,South Adams Schools,23,South Adams High School,86.46%
+125,MSD Southwest Allen County Schls,47,Homestead High School,94.67%
+125,MSD Southwest Allen County Schls,188,eSACS Virtual School,58.82%
+225,Northwest Allen County Schools,91,Carroll High School,94.84%
+235,Fort Wayne Community Schools,101,North Side High School,85.54%
+235,Fort Wayne Community Schools,102,R Nelson Snider High School,95.83%
+235,Fort Wayne Community Schools,105,South Side High School,86.04%
+235,Fort Wayne Community Schools,177,Wayne High School,90.44%
+235,Fort Wayne Community Schools,219,Northrop High School,86.31%
+235,Fort Wayne Community Schools,248,Fort Wayne Virtual Academy,80.00%
+255,East Allen County Schools,49,Leo Junior/Senior High School,93.52%
+255,East Allen County Schools,81,Heritage Jr/Sr High School,83.02%
+255,East Allen County Schools,285,Woodlan Jr/Sr High School,89.13%
+255,East Allen County Schools,297,New Haven Jr/Sr High School,82.11%
+255,East Allen County Schools,394,East Allen University,97.40%
+365,Bartholomew Con School Corp,397,Columbus North High School,83.22%
+365,Bartholomew Con School Corp,399,Columbus East High School,78.16%
+370,Flat Rock-Hawcreek School Corp,410,Hauser Jr-Sr High School,76.40%
+395,Benton Community School Corp,445,Benton Central Jr-Sr High School,92.91%
+515,Blackford County Schools,489,Blackford Jr-Sr High School,93.81%
+615,Western Boone Co Com Sch Dist,539,Western Boone Jr-Sr High School,91.20%
+630,Zionsville Community Schools,512,Zionsville Community High School,98.38%
+665,Lebanon Community School Corp,553,Lebanon Senior High School,93.56%
+670,Brown County School Corporation,573,Brown County High School,88.72%
+750,Carroll Consolidated School Corp,621,Carroll Senior High School,94.03%
+755,Delphi Community School Corp,637,Delphi Community High School,90.65%
+775,Pioneer Regional School Corp,645,Pioneer Jr-Sr High School,97.37%
+815,Lewis Cass Schools ,689,Lewis Cass High School,96.59%
+875,Logansport Community Sch Corp,701,Logansport Community High School,89.30%
+935,Borden-Henryville School Corporation,765,Henryville Jr & Sr High School,81.01%
+935,Borden-Henryville School Corporation,813,William W Borden High School,97.73%
+945,Silver Creek School Corporation,777,Silver Creek High School,85.85%
+1000,Clarksville Community School Corp,833,Clarksville Senior High School,94.06%
+1000,Clarksville Community School Corp,1007,Indiana Gateway Digital Academy,42.72%
+1010,Greater Clark County Schools,809,New Washington Middle/High School,91.84%
+1010,Greater Clark County Schools,821,Charlestown Senior High School,94.34%
+1010,Greater Clark County Schools,849,Jeffersonville High School,93.72%
+1125,Clay Community Schools,897,Clay City Jr-Sr High School,86.67%
+1125,Clay Community Schools,933,Northview High School,79.57%
+1150,Clinton Central School Corporation,957,Clinton Central Junior-Senior HS,87.50%
+1160,Clinton Prairie School Corporation,977,Clinton Prairie Jr-Sr High School,92.22%
+1170,Community Schools of Frankfort,997,Frankfort High School,87.03%
+1180,Rossville Con School District,1021,Rossville Middle/Senior High Sch,94.74%
+1300,Crawford County Community Sch Corp,1059,Crawford County High School,80.41%
+1315,Barr-Reeve Community Schools Inc,1069,Barr Reeve Middle/High School,100.00%
+1375,North Daviess Com Schools,1121,North Daviess Jr-Sr High School,96.55%
+1405,Washington Community Schools,1125,Washington High School,91.72%
+1560,Sunman-Dearborn Com Sch Corp,7213,East Central High School,96.35%
+1600,South Dearborn Community Sch Corp,1179,South Dearborn High School,73.06%
+1620,Lawrenceburg Community School Corp,1177,Lawrenceburg High School,94.12%
+1655,Decatur County Community Schools,1263,South Decatur Jr-Sr High School,81.71%
+1655,Decatur County Community Schools,1267,North Decatur Jr-Sr High School,98.53%
+1730,Greensburg Community Schools,1268,Greensburg Community High School,97.66%
+1805,DeKalb Co Eastern Com Sch Dist,1317,Eastside Junior-Senior High School,97.73%
+1820,Garrett-Keyser-Butler Com Sch Corp,1325,Garrett High School,92.55%
+1835,DeKalb Co Ctl United Sch Dist,1345,DeKalb High School,87.45%
+1875,Delaware Community School Corp,1369,Delta High School,95.54%
+1885,Wes-Del Community Schools,1372,Wes-Del Middle/Senior High School,93.98%
+1895,Liberty-Perry Community Sch Corp,1375,Wapahani High School,97.59%
+1900,Cowan Community School Corp,1386,Cowan High School,98.31%
+1910,Yorktown Community Schools,1389,Yorktown High School,94.05%
+1940,Daleville Community Schools,1401,Daleville Jr-Sr High School,95.00%
+1970,Muncie Community Schools,1421,Muncie Central High School,81.97%
+1970,Muncie Community Schools,1524,Youth Opportunity Center,0.00%
+2040,Northeast Dubois Co Sch Corp,1545,Northeast Dubois Jr/Sr High School,88.46%
+2100,Southeast Dubois Co Sch Corp,1583,Forest Park Jr-Sr High School,97.09%
+2110,Southwest Dubois Co Sch Corp,1588,Southridge High School,82.20%
+2120,Greater Jasper Consolidated Schs,1593,Jasper High School,93.07%
+2155,Fairfield Community Schools,1613,Fairfield Jr-Sr High School,93.55%
+2260,Baugo Community Schools,1701,Jimtown High School,90.00%
+2270,Concord Community Schools,1715,Concord Community High School,87.77%
+2275,Middlebury Community Schools,1733,Northridge High School,85.11%
+2285,Wa-Nee Community Schools,1737,North Wood High School,91.51%
+2305,Elkhart Community Schools,1754,Elkhart High School,93.79%
+2315,Goshen Community Schools,1821,Goshen High School,92.33%
+2395,Fayette County School Corporation,1889,Connersville Sr High School,90.72%
+2400,New Albany-Floyd Co Con Sch,1925,New Albany Senior High School,93.53%
+2400,New Albany-Floyd Co Con Sch,1930,Floyd Central High School,94.23%
+2400,New Albany-Floyd Co Con Sch,2408,NAFC Virtual Academy,68.00%
+2435,Attica Consolidated School Corp,2053,Attica High School,100.00%
+2440,Covington Community School Corp,2005,Covington Community High School,96.10%
+2455,Southeast Fountain School Corp,2022,Fountain Central High School,93.33%
+2455,Southeast Fountain School Corp,2458,Southeast Fountain Virtual Academy,***
+2475,Franklin County Community Sch Corp,2083,Franklin County High,94.92%
+2645,Rochester Community School Corp,2173,Rochester Community High School,85.34%
+2650,Caston School Corporation,2159,Caston Jr-Sr High School,94.64%
+2725,East Gibson School Corporation,2233,Waldo J Wood Memorial High,84.75%
+2735,North Gibson School Corporation,2249,Princeton Community High School,81.16%
+2765,South Gibson School Corporation,2211,Gibson Southern High School,98.25%
+2815,Eastbrook Community Sch Corp,2293,Eastbrook High School,94.57%
+2825,Madison-Grant United School Corp,2321,Madison-Grant Jr./Sr. High School,90.11%
+2855,Mississinewa Community School Corp,2333,Mississinewa High School,96.62%
+2865,Marion Community Schools,2351,Marion High School,84.15%
+2920,Bloomfield School District,2419,Bloomfield High School,91.38%
+2940,Eastern Greene Schools,2435,Eastern Greene High School,77.38%
+2950,Linton-Stockton School Corporation,2437,Linton-Stockton High School,96.15%
+2960,MSD Shakamak Schools,2445,Shakamak Jr-Sr High School,96.55%
+2980,White River Valley School District,2429,White River Valley High School,94.29%
+3005,Hamilton Southeastern Schools,2487,Fishers High School,97.90%
+3005,Hamilton Southeastern Schools,2499,Hamilton Southeastern HS,98.02%
+3025,Hamilton Heights School Corp,2477,Hamilton Heights High School,95.60%
+3030,Westfield-Washington Schools,2493,Westfield High School,97.21%
+3055,Sheridan Community Schools,2463,Sheridan High School,93.83%
+3060,Carmel Clay Schools,2505,Carmel High School,96.36%
+3070,Noblesville Schools,2517,Noblesville High School,97.64%
+3115,Southern Hancock Co Com Sch Corp,2565,New Palestine High School,95.79%
+3125,Greenfield-Central Com Schools,2595,Greenfield-Central High School,89.76%
+3135,Mt Vernon Community School Corp,2569,Mt Vernon High School,93.52%
+3145,Eastern Hancock Co Com Sch Corp,2585,Eastern Hancock High School,89.52%
+3160,Lanesville Community School Corp,2613,Lanesville Jr-Sr HS,95.16%
+3180,North Harrison Com School Corp,2629,North Harrison High School,97.89%
+3190,South Harrison Com Schools,2640,Corydon Central High School,92.86%
+3190,South Harrison Com Schools,2670,South Central Jr & Sr High School,88.46%
+3295,North West Hendricks Schools,2731,Tri-West Senior High School,90.32%
+3305,Brownsburg Community School Corp,2709,Brownsburg High School,98.16%
+3315,Avon Community School Corp,2737,Avon High School,97.38%
+3325,Danville Community School Corp,2741,Danville Community High School,91.71%
+3330,Plainfield Community School Corp,2749,Plainfield High School,92.83%
+3335,Mill Creek Community Sch Corp,2692,Cascade Senior High School,98.35%
+3405,Blue River Valley Schools,2801,Blue River Valley Jr-Sr High Sch,74.47%
+3415,South Henry School Corp,2773,Tri Junior-Senior High School,98.18%
+3435,Shenandoah School Corporation,2817,Shenandoah High School,94.90%
+3445,New Castle Community School Corp,2825,New Castle High School,91.96%
+3455,C A Beard Memorial School Corp,2869,Knightstown High School,88.31%
+3460,Taylor Community School Corp,2894,Taylor High School,78.48%
+3470,Northwestern School Corp,2897,Northwestern Senior High School,98.59%
+3480,Eastern Howard School Corporation,2919,Eastern High School,96.15%
+3490,Western School Corporation,2921,Western High School,94.09%
+3500,Kokomo School Corporation,3013,Kokomo High School,93.20%
+3625,Huntington Co Com Sch Corp,3065,Huntington North High School,89.31%
+3640,Medora Community School Corp,3093,Medora Jr & Sr High School,80.00%
+3675,Seymour Community Schools,3133,Seymour Senior High School,85.84%
+3695,Brownstown Cnt Com Sch Corp,3126,Brownstown Central High School,83.56%
+3710,Crothersville Community Schools,3121,Crothersville Jr-Sr High School,68.97%
+3785,Kankakee Valley School Corp,3181,Kankakee Valley High School,92.28%
+3815,Rensselaer Central School Corp,3201,Rensselaer Central High School,93.22%
+3945,Jay School Corporation,3239,Jay County Jr/Sr High School,83.70%
+3995,Madison Consolidated Schools,3309,Madison Consolidated High School,85.31%
+3995,Madison Consolidated Schools,3358,E.O. Muncie Jr/Sr High School,23.08%
+4000,Southwestern-Jefferson Co Con,3337,Southwestern High School,89.47%
+4015,Jennings County School Corporation,3345,Jennings County High School,79.08%
+4145,Clark-Pleasant Community Sch Corp,3421,Whiteland Community High School,90.06%
+4205,Center Grove Community School Corp,3437,Center Grove High School,96.39%
+4215,Edinburgh Community School Corp,3447,Edinburgh Community High School,91.84%
+4225,Franklin Community School Corp,3445,Franklin Community High School,88.66%
+4245,Greenwood Community Sch Corp,3473,Greenwood Community High Sch,89.15%
+4255,Nineveh-Hensley-Jackson United,3419,Indian Creek Sr High School,91.10%
+4315,North Knox School Corp,3537,North Knox Jr-Sr High School,95.29%
+4325,South Knox School Corp,3490,South Knox Middle-High School,97.56%
+4335,Vincennes Community School Corp,3553,Lincoln High School,97.97%
+4335,Vincennes Community School Corp,4319,Washington Learning Academy,40.00%
+4345,Wawasee Community School Corp,3639,Wawasee High School,83.04%
+4415,Warsaw Community Schools,3647,Warsaw Community High School,95.74%
+4445,Tippecanoe Valley School Corp,3602,Tippecanoe Valley High School,93.84%
+4455,Whitko Community School Corp,9191,Whitko Jr/Sr High School,88.24%
+4515,Prairie Heights Community Sch Corp,3690,Prairie Heights Sr High School,94.95%
+4525,Westview School Corporation,3697,Westview Jr-Sr High School,93.10%
+4535,Lakeland School Corporation,3730,Lakeland Jr/Sr High School,80.50%
+4580,Hanover Community School Corp,3785,Hanover Central High School,90.80%
+4590,River Forest Community Sch Corp,3791,River Forest High School,86.36%
+4600,Merrillville Community School Corp,3809,Merrillville High School,93.01%
+4615,Lake Central School Corporation,3833,Lake Central High School,95.57%
+4645,Tri-Creek School Corporation,3865,Lowell Senior High School,96.79%
+4650,Lake Ridge New Tech Schools,3869,Calumet New Tech High School,85.31%
+4660,Crown Point Community School Corp,3901,Crown Point High School,97.59%
+4670,School City of East Chicago,3924,East Chicago Central High School,66.00%
+4680,Lake Station Community Schools,3965,Thomas A Edison Jr-Sr HS,92.63%
+4690,Gary Community School Corp,4068,Gary Virtual Academy,0.00%
+4690,Gary Community School Corp,4163,West Side Leadership Academy,79.38%
+4700,Griffith Public Schools,4173,Griffth Jr/Sr High School,84.62%
+4710,School City of Hammond,4411,George Rogers Clark Md/HS,9.52%
+4710,School City of Hammond,4413,Donald E Gavit Middle/High School,44.74%
+4710,School City of Hammond,4415,Hammond Central High School,75.78%
+4710,School City of Hammond,4417,Morton Senior High School,60.48%
+4720,School Town of Highland,4281,Highland High School,93.89%
+4730,School City of Hobart,4305,Hobart High School,91.13%
+4740,School Town of Munster,4332,Munster High School,96.73%
+4760,School City of Whiting,4353,Whiting High School,78.74%
+4805,New Prairie United School Corp,4689,New Prairie High School,97.15%
+4860,MSD of New Durham Township,4701,Westville High School,93.06%
+4915,Tri-Township Cons School Corp,4692,Tri-Township Jr.-Sr. High School,96.55%
+4925,Michigan City Area Schools,4795,Michigan City High School,83.69%
+4940,South Central Com School Corp,4737,South Central Jr-Sr High School,98.77%
+4945,LaPorte Community School Corp,4741,LaPorte High School,84.21%
+5075,North Lawrence Com Schools,4911,Bedford-North Lawrence High School,85.32%
+5085,Mitchell Community Schools,4925,Mitchell High School,78.57%
+5245,Frankton-Lapel Community Schools,5005,Frankton Jr-Sr High School,91.73%
+5245,Frankton-Lapel Community Schools,5011,Lapel Sr High School,93.75%
+5255,South Madison Com Sch Corp,5053,Pendleton Heights High School,94.96%
+5265,Alexandria Community School Corp,5041,Alexandria-Monroe High School,94.12%
+5275,Anderson Community School Corp,4945,Anderson High School,81.38%
+5280,Elwood Community School Corp,5149,Elwood Jr-Sr High School,92.59%
+5300,MSD Decatur Township,5177,Decatur Central High School,91.87%
+5310,Franklin Township Com Sch Corp,5193,Franklin Central High School,97.18%
+5330,MSD Lawrence Township,5275,Lawrence Central High School,91.86%
+5330,MSD Lawrence Township,5276,Lawrence North High School,93.18%
+5340,Perry Township Schools,5307,Perry Meridian High School,95.44%
+5340,Perry Township Schools,5309,Southport High School,89.95%
+5350,MSD Pike Township,5353,Pike High School,87.91%
+5360,MSD Warren Township,5361,Warren Central High School,82.92%
+5370,MSD Washington Township,5451,North Central High School,90.40%
+5375,MSD Wayne Township,5213,Ben Davis High School,84.94%
+5375,MSD Wayne Township,5288,Achieve Virtual Education Academy,43.93%
+5375,MSD Wayne Township,5447,Ben Davis University High School,100.00%
+5380,Beech Grove City Schools,5449,Beech Grove Sr High School,80.35%
+5385,Indianapolis Public Schools,108,Impact Academy 1,0.00%
+5385,Indianapolis Public Schools,112,Impact Academy 2,***
+5385,Indianapolis Public Schools,113,Impact Academy 3,***
+5385,Indianapolis Public Schools,5462,Arsenal Technical High School,80.21%
+5385,Indianapolis Public Schools,5474,Crispus Attucks High School,83.11%
+5385,Indianapolis Public Schools,5482,Emmerich Manual High School,78.63%
+5385,Indianapolis Public Schools,5492,Shortridge High School,82.82%
+5385,Indianapolis Public Schools,5644,George Washington High School,72.73%
+5400,School Town of Speedway,5891,Speedway Senior High School,99.18%
+5455,Culver Community Schools Corp,5245,Culver Community Middle/High Sch,86.15%
+5470,Argos Community Schools,5937,Argos Comm Jr-Sr High School,86.89%
+5480,Bremen Public Schools,5941,Bremen Senior High School,93.15%
+5485,Plymouth Community School Corp,5945,Plymouth High School,85.22%
+5495,Triton School Corporation,5923,Triton Jr-Sr High School,87.10%
+5520,Shoals Community School Corp,5985,Shoals Community High School,94.44%
+5525,Loogootee Community Sch Corp,6003,Loogootee High School,95.52%
+5615,Maconaquah School Corp,6032,Maconaquah High School,89.84%
+5620,North Miami Community Schools,6049,North Miami Middle/High School,90.00%
+5625,Oak Hill United School Corp,6069,Oak Hill High School,92.97%
+5635,Peru Community Schools,6085,Peru Jr/Sr High School,86.21%
+5705,Richland-Bean Blossom C S C,6146,Edgewood High School,89.45%
+5740,Monroe County Community Sch Corp,6166,Bloomington High School South,97.47%
+5740,Monroe County Community Sch Corp,6168,Bloomington High School North,92.82%
+5740,Monroe County Community Sch Corp,6202,The Acad of Sci & Entrepreneurship,96.77%
+5740,Monroe County Community Sch Corp,6220,Bloomington Graduation School,40.54%
+5835,North Montgomery Com Sch Corp,6271,North Montgomery High School,92.21%
+5845,South Montgomery Com Sch Corp,6257,Southmont Sr High School,95.96%
+5855,Crawfordsville Community Schools,6277,Crawfordsville Sr High School,87.91%
+5900,Monroe-Gregg School District,6321,Monrovia High School,78.23%
+5910,Eminence Community School Corp,6325,Eminence Jr-Sr High School,92.86%
+5925,MSD Martinsville Schools,6329,Martinsville High School,87.29%
+5930,Mooresville Con School Corp,6369,Mooresville High School,95.28%
+5945,North Newton School Corp,6411,North Newton Jr-Sr High School,88.89%
+5995,South Newton School Corp,6417,South Newton Senior High School,79.66%
+6055,Central Noble Com School Corp,6453,Central Noble Junior Senior HS,89.91%
+6060,East Noble School Corporation,6458,East Noble High School,90.00%
+6065,West Noble School Corporation,6489,West Noble High School,90.06%
+6080,Rising Sun-Ohio Co Com,6513,Rising Sun High School,93.33%
+6145,Orleans Community Schools,6573,Orleans Jr-Sr High School,75.51%
+6155,Paoli Community School Corp,6581,Paoli Jr & Sr High School,93.40%
+6160,Springs Valley Com School Corp,6589,Springs Valley Comm High School,96.15%
+6195,Spencer-Owen Community Schools,6613,Owen Valley Community High School,83.89%
+6260,Southwest Parke Com Sch Corp,6627,Riverton Parke Jr-Sr High School,85.56%
+6325,Perry Central Com Schools Corp,6708,Perry Central Jr-Sr High School,95.24%
+6340,Cannelton City Schools,6733,Cannelton Elementary & High School,74.19%
+6350,Tell City-Troy Twp School Corp,6741,Tell City Jr-Sr High School,90.00%
+6375,North Central Parke Comm Schl Corp,6654,Parke Heritage High School,94.52%
+6445,Pike County School Corp,6763,Pike Central High School,89.29%
+6460,MSD Boone Township,6813,Hebron High School,96.25%
+6470,Duneland School Corporation,6925,Chesterton Senior High School,95.19%
+6470,Duneland School Corporation,6926,Trojan Virtual Academy,***
+6510,East Porter County School Corp,6825,Morgan Township Middle/High School,98.39%
+6510,East Porter County School Corp,6833,Kouts Middle/High School,100.00%
+6510,East Porter County School Corp,6849,Washington Twp Middle/High School,96.88%
+6520,Porter Township School Corp,6838,Boone Grove High School,93.43%
+6530,Union Township School Corp,6841,Wheeler High School,96.83%
+6550,Portage Township Schools,6853,Portage High School,94.49%
+6560,Valparaiso Community Schools,6881,Valparaiso High School,98.53%
+6590,MSD Mount Vernon,6949,Mount Vernon High School,97.53%
+6600,MSD North Posey Co Schools,6975,North Posey High School,94.44%
+6620,Eastern Pulaski Community Sch Corp,6997,Winamac Community High School,97.98%
+6630,West Central School Corp,7025,West Central Senior High School,88.68%
+6705,South Putnam Community Schools,7071,South Putnam High School,94.67%
+6715,North Putnam Community Schools,7061,North Putnam Sr High School,96.00%
+6750,Cloverdale Community Schools,7077,Cloverdale High School,95.00%
+6755,Greencastle Community School Corp,7089,Greencastle High School,88.79%
+6795,Union School Corporation,7119,Union Junior & High School,100.00%
+6795,Union School Corporation,7131,Indiana Digital JR and High School,94.54%
+6795,Union School Corporation,7142,Indiana Digital Alternative School,67.41%
+6805,Randolph Southern School Corp,7121,Randolph Southern Jr-Sr High Sch,97.44%
+6820,Monroe Central School Corp,7151,Monroe Central Jr-Sr High School,95.96%
+6825,Randolph Central School Corp,7125,Winchester Community High School,91.40%
+6835,Randolph Eastern School Corp,7161,Union City Community Jr/Sr High ,92.96%
+6865,South Ripley Com Sch Corp,7182,South Ripley High School,89.90%
+6895,Batesville Community School Corp,7217,Batesville High School,96.57%
+6900,Jac-Cen-Del Community Sch Corp,7193,Jac-Cen-Del MS/HS,94.52%
+6910,Milan Community Schools,7205,Milan High School,91.80%
+6995,Rush County Schools,7285,Rushville Consolidated High School,96.60%
+7150,John Glenn School Corporation,7453,John Glenn High School,100.00%
+7175,Penn-Harris-Madison School Corp,7353,Penn High School,96.39%
+7200,School City of Mishawaka,7461,Mishawaka High School,78.86%
+7200,School City of Mishawaka,7467,Oaklawn Campus Program,***
+7205,South Bend Community School Corp,7248,South Bend Virtual School,67.44%
+7205,South Bend Community School Corp,7421,Clay High School,66.00%
+7205,South Bend Community School Corp,7505,Adams High School,88.62%
+7205,South Bend Community School Corp,7513,Riley High School,83.63%
+7205,South Bend Community School Corp,7517,Washington High School,74.63%
+7205,South Bend Community School Corp,7534,Rise Up Academy at Eggleston,43.75%
+7205,South Bend Community School Corp,7617,Studebaker Center,***
+7215,Union-North United School Corp,7399,LaVille Jr-Sr High School,88.17%
+7230,Scott County School District 1,7629,Austin High School,60.64%
+7255,Scott County School District 2,7641,Scottsburg Senior High School,81.03%
+7285,Shelby Eastern Schools,7661,Morristown Jr-Sr High School,96.67%
+7285,Shelby Eastern Schools,7665,Waldron Jr-Sr High School,96.88%
+7350,Northwestern Con School Corp,7689,Triton Central High School,94.02%
+7360,Southwestern Con Sch Shelby Co,7701,Southwestern High School,94.74%
+7365,Shelbyville Central Schools,7717,Shelbyville Sr High School,86.80%
+7385,North Spencer County Sch Corp,7759,Heritage Hills High School,99.30%
+7445,South Spencer County Sch Corp,7795,South Spencer High School,90.22%
+7495,Oregon-Davis School Corp,7831,Oregon-Davis Jr-Sr High School,91.89%
+7515,North Judson-San Pierre Sch Corp,7849,N Judson-San Pierre Jr Sr High Sch,85.00%
+7525,Knox Community School Corp,7833,Knox Community High School,91.10%
+7605,Fremont Community Schools,7877,Fremont High School,93.15%
+7610,Hamilton Community Schools,7885,Hamilton Community High School,83.33%
+7615,MSD Steuben County,7893,Angola High School,85.79%
+7645,Northeast School Corp,7917,North Central Jr/Sr High School,89.83%
+7715,Southwest School Corporation,7957,Sullivan High School,84.30%
+7775,Switzerland County School Corp,7993,Switzerland Co Senior High School,87.04%
+7855,Lafayette School Corporation,8069,Jefferson High School,78.94%
+7865,Tippecanoe School Corp,8003,McCutcheon High School,90.46%
+7865,Tippecanoe School Corp,8029,William Henry Harrison High School,95.33%
+7875,West Lafayette Com School Corp,8129,West Lafayette Jr/Sr High School,96.34%
+7935,Tri-Central Community Schools,8155,Tri Central Middle-High School,94.55%
+7945,Tipton Community School Corp,8177,Tipton High School,95.61%
+7950,Union Co/Clg Corner Joint Sch Dist,8193,Union County High School,87.10%
+7995,Evansville Vanderburgh School Corp,8237,Benjamin Bosse High School,85.38%
+7995,Evansville Vanderburgh School Corp,8241,Central High School,92.17%
+7995,Evansville Vanderburgh School Corp,8245,Francis Joseph Reitz High School,95.09%
+7995,Evansville Vanderburgh School Corp,8253,North High School,94.37%
+7995,Evansville Vanderburgh School Corp,8270,Academy for Innovative Studies,42.17%
+7995,Evansville Vanderburgh School Corp,8271,Harwood Career Prep High School,0.2857
+7995,Evansville Vanderburgh School Corp,8311,William Henry Harrison High School,93.45%
+7995,Evansville Vanderburgh School Corp,8326,New Tech Institute,95.74%
+8010,North Vermillion Com Sch Corp,8394,North Vermillion High School,81.97%
+8020,South Vermillion Com Sch Corp,8432,South Vermillion High School,90.58%
+8030,Vigo County School Corp,8441,Terre Haute North Vigo High School,78.79%
+8030,Vigo County School Corp,8453,West Vigo High School,89.55%
+8030,Vigo County School Corp,8457,Terre Haute South Vigo High School,81.30%
+8030,Vigo County School Corp,8483,Vigo Virtual School Academy,62.89%
+8030,Vigo County School Corp,8611,Booker T Washington Alt Sch,52.78%
+8045,Manchester Community Schools,8625,Manchester Jr-Sr High School,88.00%
+8050,MSD Wabash County Schools,8651,Northfield Jr-Sr High School,92.31%
+8050,MSD Wabash County Schools,8655,Southwood Jr-Sr High School,98.00%
+8050,MSD Wabash County Schools,8673,White's Jr-Sr High School,59.71%
+8060,Wabash City Schools,8693,Wabash High School,90.82%
+8115,MSD Warren County,8737,Seeger Memorial Jr-Sr High School,94.79%
+8130,Warrick County School Corp,8772,Tecumseh High School,100.00%
+8130,Warrick County School Corp,8789,Boonville High School,87.50%
+8130,Warrick County School Corp,8809,Castle High School,93.49%
+8205,Salem Community Schools,8857,Salem High School,87.42%
+8215,East Washington School Corp,8905,Eastern High School,86.54%
+8220,West Washington School Corp,8869,West Washington Jr-Sr High School,85.96%
+8305,Nettle Creek School Corporation,8985,Hagerstown Jr-Sr High School,98.68%
+8355,Western Wayne Schools,8961,Lincoln Sr High School,98.48%
+8360,Centerville-Abington Com Schs,8981,Centerville Sr High School,93.07%
+8375,Northeastern Wayne Schools,8927,Northeastern High School,94.62%
+8385,Richmond Community Schools,8993,Richmond High School,95.86%
+8385,Richmond Community Schools,9056,Community Youth Services,***
+8425,Southern Wells Com Schools,9058,Southern Wells Jr-Sr High School,93.51%
+8435,Northern Wells Community Schools,9087,Norwell High School,92.78%
+8445,MSD Bluffton-Harrison,9089,Bluffton High School,98.25%
+8515,North White School Corp,9135,North White High School,98.31%
+8525,Frontier School Corporation,9137,Frontier Jr-Sr High School,88.68%
+8535,Tri-County School Corporation,9141,Tri-County Jr/Sr High School ,85.71%
+8565,Twin Lakes School Corp,9149,Twin Lakes Senior High School,85.71%
+8625,Smith-Green Community Schools,9193,Churubusco Jr-Sr High School,92.86%
+8635,Purdue Polytechnic High Sch North,7782,Purdue Polytechnic High Sch North,83.33%
+8655,Excel Center - Bloomington,4209,Excel Center - Bloomington,3.23%
+8665,Whitley County Con Schools,9187,Columbia City High School,93.18%
+8690,Dynamic Minds Academy,8692,Dynamic Minds Academy,7.14%
+8940,James and Rosemary Phalen Leadership Academy High School,9961,James and Rosemary Phalen Leadership Academy High School,64.81%
+8960,Purdue Polytechnic High School South Bend,9963,Purdue Polytechnic High School South Bend,***
+8970,GEO Next Generation Academy,9966,GEO Next Generation Academy,85.71%
+9000,Phalen Virtual Leadership Academy,9992,Phalen Virtual Leadership Academy,56.00%
+9015,Purdue Polytechnic High School Ind,4271,Purdue Polytechnic High School Ind,86.46%
+9035,Indiana Connections Career Academy,7947,Indiana Connections Career Academy,75.66%
+9045,James & Rosemary Phalen Leadership Academy Middle School,4894,James & Rosemary Phalen Leadership Academy Middle School,***
+9050,Excel Center - Clarksville,2006,Excel Center - Clarksville,14.86%
+9055,Excel Center - Hammond,2018,Excel Center - Hammond,5.56%
+9120,Hoosier College and Career Academy,2528,Hoosier College and Career Academy,42.00%
+9135,KIPP Indy Legacy High,9138,KIPP Indy Legacy High,***
+9140,BELIEVE Circle City High School,9994,BELIEVE Circle City High School,***
+9145,Riverside High School,1122,Riverside High School,81.31%
+9160,Excel Center - Muncie,1016,Excel Center - Muncie ,14.43%
+9190,Excel Center - Gary ,1024,Excel Center - Gary ,19.35%
+9305,Excel Center - Richmond,9012,Excel Center - Richmond,15.91%
+9315,Signature School Inc,8295,Signature School Inc,100.00%
+9320,Community Montessori Inc,1536,Community Montessori,97.50%
+9325,Options Charter Schools,2524,Options Westfield,60.00%
+9325,Options Charter Schools,2551,Options Noblesville,42.86%
+9325,Options Charter Schools,9329,Options Indiana,20.00%
+9330,Irvington Community School,1537,Irvington Community School,62.67%
+9335,Excel Center - Lafayette Square,5912,Excel Center - Lafayette Square,3.74%
+9345,Excel Center - Lafayette,8094,Excel Center - Lafayette,21.58%
+9355,Excel Center - Kokomo,2976,Excel Center - Kokomo,22.07%
+9380,Christel House Academy South,9709,Christel House Watanabe Manual High School,97.44%
+9385,Christel House DORS,5532,Christel House DORS,20.28%
+9445,Charles A Tindley Accelerated Sch,6208,Charles A Tindley Accelerated Sch,91.30%
+9460,Thea Bowman Leadership Academy,4022,Thea Bowman Leadership Academy,69.23%
+9505,Indiana Agriculture and Technology,5472,Indiana Agriculture and Technology,54.17%
+9535,Gary Lighthouse Charter School,4130,Gary Lighthouse Charter School,79.65%
+9539,Excel Center - Elkhart,9708,Excel Center - Elkhart,5.17%
+9545,21st Century Charter Sch of Gary,4164,21st Century Charter Sch of Gary,94.51%
+9575,Victory College Prep Academy,5523,Victory College Prep Academy,96.23%
+9620,Burris Laboratory School,1441,Burris Laboratory School,95.56%
+9625,Indiana Academy for Sci Math Hmn ,1443,Indiana Academy for Sci Math Hmn ,97.00%
+9650,Herron Charter,5724,Herron High School,92.00%
+9651,"The Hope Academy, Inc.",5304,"The Hope Academy, Inc.",***
+9670,Indianapolis Metropolitan High Sch,5664,Indianapolis Metropolitan High Sch,41.25%
+9705,Hammond Academy of Science & Tech,4486,Hammond Academy of Science & Tech,94.92%
+9730,Neighbors' New Vistas High School,6864,Neighbors' New Vistas High School,50.00%
+9750,Excel Center - Anderson,4904,Excel Center - Anderson,9.82%
+9760,Smith Academy for Excellence,242,Smith Academy for Excellence,***
+9790,Anderson Preparatory Academy,5092,Anderson Preparatory Academy,78.72%
+9840,Excel Center - University Heights,5749,Excel Center - University Heights,2.13%
+9855,Excel Center - Noblesville,5748,Excel Center - Noblesville,17.28%
+9875,Rock Creek Community Academy,771,Rock Creek Community Academy,96.88%
+9880,Career Academy High School,7567,Career Academy High School,94.19%
+9885,Gary Middle College,4027,Gary Middle College,4.60%
+9895,IN Math & Science Academy - North,5444,IN Math & Science Academy - North,74.42%
+9900,Excel Center - South Bend,7566,Excel Center - South Bend,8.00%
+9905,Indiana Connections Academy,7944,Indiana Connections Academy,66.94%
+9910,Excel Center for Adult Learners,5669,Excel Center For Adult Learners,6.03%
+9920,Damar Charter Academy,5191,Damar Charter Academy,0.00%
+9950,Dugger Union Community School Corp,7952,Dugger Union Community School Corp,90.70%
+9980,Steel City Academy,1113,Steel City Academy,56.14%
+9985,Seven Oaks Classical School,1114,Seven Oaks Classical School,68.75%
+9995,Excel Center - Shelbyville,1117,Excel Center - Shelbyville,16.67%
