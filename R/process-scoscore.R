@@ -1,3 +1,4 @@
+## ----load-libraries, message = FALSE, warning = FALSE----------------------------------
 library(readr)
 library(here)
 library(openxlsx)
@@ -5,15 +6,23 @@ library(glue)
 library(tidyr)
 library(dplyr)
 library(stringr)
+library(curl)
 library(showtext)
+library(DT)
 
 
 
+
+## ----set-constants, message=FALSE, warning=FALSE---------------------------------------
+critical_threshold <- 1.000
 focus_year <- 2023
-state_3rd_proficiency <- .816
-state_6th_proficiency <- .341
-state_gpc <- .864
+round_threshold <- 0.970
+state_3rd_proficiency <- 0.816
+state_6th_proficiency <- 0.341
+state_gpc <- 0.864
 
+
+## ----function-prune-frame, message=FALSE, warning=FALSE--------------------------------
 prune_frame <- function(working_frame) {
   working_frame |>
     # Remove NA's
@@ -22,6 +31,8 @@ prune_frame <- function(working_frame) {
     filter(corp_id %in% crosswalk_frame$corp_id)
 }
 
+
+## ----function-set-numeric-ids, message=FALSE, warning=FALSE----------------------------
 set_numeric_ids <- function(working_frame) {
   working_frame |>
     # Set the School Corporation ID column to numeric
@@ -34,9 +45,10 @@ set_numeric_ids <- function(working_frame) {
     )
 }
 
+
+## ----federal-idoe-crosswalk, message=FALSE, warning=FALSE------------------------------
 #   ____________________________________________________________________________
 #   Create Federal-IDOE Crosswalk                                           ####
-
 ##  ............................................................................
 ##  Load Locale File                                                        ####
 ##  The Locale File is directly from a Federal DOE database and includes
@@ -72,6 +84,8 @@ crosswalk_frame <- iread_frame |>
   na.omit() |>
   select(corp_id, school_id, leaid)
 
+
+## ----read-school-corp-locale, message=FALSE, warning=FALSE-----------------------------
 #   ____________________________________________________________________________
 #   Process Locale Frame                                                    ####
 #   Processing on the locale frame is completed by adding the IDOE
@@ -82,9 +96,10 @@ locale_frame <- locale_frame |>
   select(-leaid) |>
   set_numeric_ids()
 
+
+## ----read-demographics, message = FALSE, warning = FALSE-------------------------------
 #   ____________________________________________________________________________
 #   Load and Process Demographics File                                      ####
-
 ##  ............................................................................
 ##  Load Demographics File                                                  ####
 ##  The Demographics File is loaded and any blank or "omitted" ("***")
@@ -150,9 +165,10 @@ urm_percent_mean <- round(mean(demographics_frame$urm_percent), 3)
 frl_percent_mean <- round(mean(demographics_frame$frl_percent), 3)
 
 
+## ----read-iread, message = FALSE, warning = FALSE--------------------------------------
+
 #   ____________________________________________________________________________
 #   Load and Process IREAD File                                             ####
-
 ##  ............................................................................
 ##  Load IREAD File                                                         ####
 ## 
@@ -166,7 +182,6 @@ read_iread_frame <- read_csv(
   prune_frame() |>
   set_numeric_ids()
 
-
 ##  ............................................................................
 ##  Calculate IREAD Rates                                                   ####
 iread_frame <- read_iread_frame |>
@@ -177,9 +192,10 @@ iread_frame <- read_iread_frame |>
 iread_mean <- round(mean(iread_frame$iread_rate), 3)
 
 
+## ----read-ilearn, message = FALSE, warning = FALSE-------------------------------------
+
 #   ____________________________________________________________________________
 #   Load and Process ILEARN File                                            ####
-
 ##  ............................................................................
 ##  Load ILEARN File                                                        ####
 read_ilearn_frame <- read_csv(
@@ -201,6 +217,12 @@ ilearn_frame <- read_ilearn_frame |>
 ##  Calculate ILEARN Mean                                                   ####
 ilearn_mean <- round(mean(ilearn_frame$ilearn_rate), 3)
 
+
+## ----read-grad, message = FALSE, warning = FALSE---------------------------------------
+#   ____________________________________________________________________________
+#   Load and Process Graduation Pathways Completion File                    ####
+##  ............................................................................
+##  Load Graduation Pathways Completion File                                ####
 read_grad_frame <- read_csv(
   here(
     "data",
@@ -211,30 +233,69 @@ read_grad_frame <- read_csv(
   prune_frame() |>
   set_numeric_ids()
 
+##  ............................................................................
+##  Process Graduation Completion Rates File                                ####
 grad_frame <- read_grad_frame |>
   mutate(grad_rate = as.numeric(str_sub(grad_rate, end = -2)) / 100)
 
+##  ............................................................................
+##  Calculate Graduate Pathways Completion Rate Mean                        ####
 grad_mean <- round(mean(grad_frame$grad_rate), 3)
 
-scoscore_frame <- locale_frame |>
+
+## ----calculate-scoscore, message=FALSE, warning=FALSE----------------------------------
+scoscore_demographics <- locale_frame |>
   full_join(
     demographics_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
+  select(-ends_with(".y"))
+
+scoscore_iread <- scoscore_demographics |>
   full_join(
     iread_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
+  select(-ends_with(".y"))
+
+scoscore_ilearn <- scoscore_iread |>
   full_join(
     ilearn_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
+  mutate(corp_name = if_else(
+    is.na(corp_name),
+    corp_name.y,
+    corp_name
+  )) |>
+  mutate(school_name = if_else(
+    is.na(school_name),
+    school_name.y,
+    school_name
+  )) |>
+  select(-ends_with(".y"))
+
+scoscore_grad <- scoscore_ilearn |>
   full_join(
     grad_frame,
     by = c("corp_id", "school_id"),
     suffix=c("",".y")) |>
-  select(-ends_with(".y")) |>
+  mutate(corp_name = if_else(
+    is.na(corp_name),
+    corp_name.y,
+    corp_name
+  )) |>
+  mutate(school_name = if_else(
+    is.na(school_name),
+    school_name.y,
+    school_name
+  )) |>
+  select(-ends_with(".y"))
+
+scoscore_frame <- scoscore_grad |>
   filter(!is.na(corp_name)) |>
+  filter(!is.na(urm_percent)) |>
+  filter(!is.na(frl_percent)) |>
   mutate(iread_rate_adj = as.numeric(if_else(
     iread_rate < state_3rd_proficiency,
     (state_3rd_proficiency - iread_rate + 1),
@@ -269,18 +330,19 @@ scoscore_frame <- locale_frame |>
     )
   ) |>
   mutate(rounded_up = if_else(
-    scoScore < 1 & scoScore >= 0.970,
+    scoScore < critical_threshold & scoScore >= round_threshold,
     TRUE,
     FALSE
   )) |>
   mutate(scoScore = if_else(
-    scoScore < 1 & scoScore >= 0.970,
+    scoScore < critical_threshold & scoScore >= round_threshold,
     1,
     scoScore
   )) |>
-  na.omit() |>
   mutate(counter_factual = FALSE)
 
+
+## ----counterfactual-analysis, message=FALSE, warning=FALSE-----------------------------
 
 adj_ac_mean <- round(
   mean(scoscore_frame$adj_academic),
@@ -313,7 +375,7 @@ whatif_frame <- scoscore_frame |>
     scoScore = round(scoScore, 3)
   ) |>
     mutate(rounded_up = if_else(
-    scoScore < 1 & scoScore >= 0.970,
+    scoScore < critical_threshold & scoScore >= round_threshold,
     TRUE,
     FALSE
   )) |>
@@ -353,6 +415,8 @@ scoscore_frame <- scoscore_frame |>
   select(-(ends_with(c(".x", ".y"))))
 
 
+## ----output-file, message=FALSE, warning=FALSE-----------------------------------------
+
 scoscore_frame <- scoscore_frame |>
   select(
     corp_id,
@@ -380,3 +444,4 @@ write.xlsx(
   ),
   colNames = TRUE
 )
+
