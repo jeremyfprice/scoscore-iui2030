@@ -1,5 +1,5 @@
 ---
-title: "School Context Opportuntity Score"
+title: "School Context Opportunity Score"
 subtitle: "Documentation for the Indiana University Indianapolis 2030 Strategic Planning Process"
 author:
   - name: Jeremy Price
